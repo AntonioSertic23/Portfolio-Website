@@ -1,0 +1,234 @@
+/* * */
+@font-face {
+  font-family: Montserrat;
+  src: url(./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+* {
+  font-family: Montserrat;
+}
+.container {
+  display: grid;
+  background: linear-gradient(#dde5b6, #f0ead2);
+  padding-right: 20%;
+  padding-left: 20%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* NAVBAR */
+
+nav {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #dde5b6;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 25px;
+}
+nav ul li a.active {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #a98467;
+}
+footer ul {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .copywright-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6c584c;
+  height: 60px;
+  color: white;
+}
+
+/* INDEX.HTML */
+
+.hero-section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.aboutus-min-section,
+.projects-min-section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: row;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.hero-section .column {
+  width: 50%;
+}
+.column-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.column-left .paragraph1 {
+  font-size: 39.06px;
+  margin-bottom: 1rem;
+}
+.column-left .paragraph2 {
+  font-size: 61.04px;
+  margin-bottom: 1.5rem;
+}
+.column-left .paragraph3 {
+  font-size: 31.25px;
+  margin-bottom: 2rem;
+}
+.buttons-div {
+  display: flex;
+}
+.buttons-div a {
+  padding: 1.5rem 2rem;
+  font-size: 25px;
+  border: none;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px grey;
+}
+.buttons-div a:hover {
+  cursor: pointer;
+  background-color: #adc178;
+}
+.buttons-div .main-button {
+  background-color: #adc178;
+  margin-right: 1rem;
+}
+.buttons-div .main-button:hover {
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.column-right {
+  display: flex;
+  justify-content: end;
+}
+.hero-section .background-image {
+  position: absolute;
+}
+.hero-section .profile-picture {
+  height: 300px;
+  border-radius: 20px;
+}
+
+.aboutus-min-section {
+  text-align: center;
+  font-size: 25px;
+  line-height: 1.5;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.aboutus-min-section p {
+  margin-bottom: 2rem;
+}
+.aboutus-min-section a {
+  padding: 1rem 1.5rem;
+  font-size: 25px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px grey;
+  background-color: #adc178;
+}
+.aboutus-min-section a:hover {
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.projects-min-section {
+  text-align: center;
+}
+.projects-min-section .section-heading {
+  font-size: 39.06px;
+  margin-bottom: 2rem;
+}
+.projects-min-section .card-section {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+.projects-min-section .card-section .column {
+  width: 50%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.projects-min-section .card-section .card p {
+  font-size: 25px;
+}
+.projects-min-section .card-image-div {
+  border-radius: 15px;
+  height: 300px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+.projects-min-section .card-image-div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.projects-min-section a {
+  padding: 1rem 1.5rem;
+  font-size: 25px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px grey;
+  background-color: #adc178;
+}
+.projects-min-section a:hover {
+  cursor: pointer;
+  background-color: #fff;
+}
+
+/* ABOUTUS.HTML */
+
+.education-section,
+.experience-section,
+.knowlage-section,
+.interests-section,
+.aboutme-text-section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* PROJECTS.HTML */
+
+/* COLORS
+#F0EAD2 - pozadina gradient
+#DDE5B6 - pozadina gradient & navbar 
+#ADC178 - sections background 
+#A98467 - footer
+#6C584C - footer copywright
+*/
+
+/* FONT SIZES 
+61.04px
+3.052rem/48.83px
+2.441rem/39.06px
+1.953rem/31.25px
+1.563rem/25.00px - navbar links
+1.25rem/20.00px
+1rem/16.00px
+*/

@@ -7,7 +7,8 @@
     <meta name="author" content="John Doe" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Website</title>
-    <style></style>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <nav>
@@ -26,23 +27,26 @@
 
     <div class="container">
       <section class="hero-section">
-        <div>
-          <p>Pozdrav, ja sam</p>
-          <p>Antonio Sertić</p>
-          <p>strastveni i kreativni frontend web developer</p>
-          <div>
-            <button class="main-button">Projekti</button>
-            <button>Životopis</button>
+        <div class="column column-left">
+          <p class="paragraph1">Pozdrav, ja sam</p>
+          <p class="paragraph2">Antonio Sertić</p>
+          <p class="paragraph3">
+            strastveni i kreativni frontend web developer
+          </p>
+          <div class="buttons-div">
+            <a class="main-button" href="projects.html">Projekti</a>
+            <a>Životopis</a>
           </div>
         </div>
 
-        <div>
+        <div class="column column-right">
           <div class="backgorund-image-div">
-            <img src="#" alt="background image" />
+            <img class="background-image" src="#" alt="background image" />
           </div>
           <img
+            class="profile-picture"
             src="./assets/images/profile-picture.jfif"
-            alt="profile-picture"
+            alt="profile picture"
           />
         </div>
       </section>
@@ -51,32 +55,43 @@
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
           voluptatum corrupti? Corporis, corrupti itaque. Lorem ipsum dolor sit
-          amet consectetur adipisicing elit. Facere, voluptatum corrupti?
+          amet consectetur adipisicing elit. Facere, voluptatum corrupti? <br />
+          <br />
           Corporis, corrupti itaque. Blanditiis magnam, aliquam maiores quasi,
           quibusdam iusto sint eligendi sunt non expedita animi labore deserunt
           recusandae!
         </p>
-        <button>Više o meni</button>
+        <a href="aboutme.html">Više o meni</a>
       </section>
 
       <section class="projects-min-section">
         <p class="section-heading">Najnoviji projekti</p>
-        <div>
-          <div class="card">
-            <div class="card-image-div">
-              <img src="#" alt="project thumbnail image" />
+        <div class="card-section">
+          <div class="column">
+            <div class="card">
+              <div class="card-image-div">
+                <img
+                  src="./assets/images/dummy-project-image.png"
+                  alt="project thumbnail image"
+                />
+              </div>
+              <p>Naziv projekta</p>
             </div>
-            <p>Naziv projekta</p>
           </div>
 
-          <div class="card">
-            <div class="card-image-div">
-              <img src="#" alt="project thumbnail image" />
+          <div class="column">
+            <div class="card">
+              <div class="card-image-div">
+                <img
+                  src="./assets/images/dummy-project-image.png"
+                  alt="project thumbnail image"
+                />
+              </div>
+              <p>Naziv projekta</p>
             </div>
-            <p>Naziv projekta</p>
           </div>
         </div>
-        <button>Svi projekti</button>
+        <a href="projects.html">Svi projekti</a>
       </section>
     </div>
 

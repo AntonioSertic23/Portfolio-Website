@@ -302,7 +302,7 @@ footer .copywright-div {
 .single-project-section .project-description b {
   font-weight: 600;
 }
-.single-project-section .style-guide-btn {
+.single-project-section .open-btn {
   padding: 1rem 1.5rem;
   font-size: 25px;
   border: none;
@@ -310,7 +310,7 @@ footer .copywright-div {
   box-shadow: 2px 2px 5px grey;
   background-color: #adc178;
 }
-.single-project-section .style-guide-btn:hover {
+.single-project-section .open-btn:hover {
   cursor: pointer;
   background-color: #fff;
 }

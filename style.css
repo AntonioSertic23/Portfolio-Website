@@ -273,6 +273,7 @@ footer .copywright-div {
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
+  margin-top: 3rem;
 }
 .single-project-section .image-gallery .card {
   width: 500px;

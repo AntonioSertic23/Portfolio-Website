@@ -371,7 +371,7 @@ footer .copywright-div {
 }
 .single-project-section .project-description {
   font-size: 25px;
-  text-align: center;
+  /* text-align: center; */
   line-height: 1.4;
   padding-left: 25%;
   padding-right: 25%;
@@ -391,6 +391,10 @@ footer .copywright-div {
 .single-project-section .open-btn:hover {
   cursor: pointer;
   background-color: #fff;
+}
+.three-view-list {
+  list-style-type: decimal;
+  margin-left: 2rem;
 }
 
 /* COLORS

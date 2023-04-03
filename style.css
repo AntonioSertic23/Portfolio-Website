@@ -303,7 +303,7 @@ footer .copywright-div {
   flex-flow: row wrap;
   justify-content: center;
   row-gap: 2rem;
-  column-gap: 3rem;
+  column-gap: 5rem;
 }
 .projects-section .card-section .card {
   width: 500px;
@@ -341,7 +341,7 @@ footer .copywright-div {
   padding-right: 0;
 }
 .single-project-section .section-heading {
-  font-size: 39.06px;
+  font-size: 48.83px;
   margin-bottom: 3rem;
   text-align: center;
 }
@@ -350,7 +350,7 @@ footer .copywright-div {
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 .single-project-section .image-gallery .card {
   width: 500px;
@@ -395,6 +395,12 @@ footer .copywright-div {
 .three-view-list {
   list-style-type: decimal;
   margin-left: 2rem;
+}
+.image-gallery-subheading {
+  font-size: 39.06px;
+  text-align: center;
+  margin-top: 3rem;
+  font-weight: 500;
 }
 
 /* COLORS

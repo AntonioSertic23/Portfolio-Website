@@ -392,8 +392,12 @@ footer .copywright-div {
   cursor: pointer;
   background-color: #fff;
 }
-.three-view-list {
+.three-view-list-ol {
   list-style-type: decimal;
+  margin-left: 2rem;
+}
+.three-view-list-ul {
+  list-style-type: disc;
   margin-left: 2rem;
 }
 .image-gallery-subheading {

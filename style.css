@@ -9,7 +9,7 @@
 }
 .container {
   display: grid;
-  background: linear-gradient(#dde5b6, #f0ead2);
+  background: #fff;
   padding-right: 20%;
   padding-left: 20%;
   padding-top: 3rem;
@@ -23,7 +23,7 @@
 nav {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: #dde5b6;
+  background-color: #fff;
 }
 nav ul {
   display: flex;
@@ -42,7 +42,11 @@ nav ul li a.active {
 /* FOOTER */
 
 footer {
-  background-color: #a98467;
+  background-color: #666;
+  color: #fff;
+}
+footer a {
+  color: #fff;
 }
 footer ul {
   padding-top: 3rem;
@@ -55,9 +59,8 @@ footer .copywright-div {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #6c584c;
+  background-color: #222;
   height: 60px;
-  color: white;
 }
 
 /* MODAL */
@@ -188,10 +191,10 @@ footer .copywright-div {
 }
 .buttons-div a:hover {
   cursor: pointer;
-  background-color: #adc178;
+  background-color: palegreen;
 }
 .buttons-div .main-button {
-  background-color: #adc178;
+  background-color: palegreen;
   margin-right: 1rem;
 }
 .buttons-div .main-button:hover {
@@ -228,7 +231,7 @@ footer .copywright-div {
   border: none;
   border-radius: 15px;
   box-shadow: 2px 2px 5px grey;
-  background-color: #adc178;
+  background-color: palegreen;
 }
 .aboutus-min-section a:hover {
   cursor: pointer;
@@ -272,14 +275,14 @@ footer .copywright-div {
   border: none;
   border-radius: 15px;
   box-shadow: 2px 2px 5px grey;
-  background-color: #adc178;
+  background-color: palegreen;
 }
 .projects-min-section a:hover {
   cursor: pointer;
   background-color: #fff;
 }
 
-/* ABOUTUS.HTML */
+/* ABOUTME.HTML */
 
 .education-section,
 .experience-section,
@@ -288,6 +291,20 @@ footer .copywright-div {
 .aboutme-text-section {
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.education-section,
+.experience-section,
+.knowlage-section,
+.interests-section,
+.aboutme-text-section {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.experience-section,
+.interests-section {
+  background-color: #eee;
 }
 
 /* PROJECTS.HTML */
@@ -386,7 +403,7 @@ footer .copywright-div {
   border: none;
   border-radius: 15px;
   box-shadow: 2px 2px 5px grey;
-  background-color: #adc178;
+  background-color: palegreen;
 }
 .single-project-section .open-btn:hover {
   cursor: pointer;
@@ -410,7 +427,7 @@ footer .copywright-div {
 /* COLORS
 #F0EAD2 - pozadina gradient
 #DDE5B6 - pozadina gradient & navbar 
-#ADC178 - sections background 
+palegreen - sections background 
 #A98467 - footer
 #6C584C - footer copywright
 */

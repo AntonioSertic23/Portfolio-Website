@@ -9,7 +9,7 @@
 }
 .container {
   display: grid;
-  background: #fff;
+  background-color: #eee;
   padding-right: 20%;
   padding-left: 20%;
   padding-top: 3rem;
@@ -23,7 +23,7 @@
 nav {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: #fff;
+  background-color: #eee;
 }
 nav ul {
   display: flex;
@@ -302,9 +302,10 @@ footer .copywright-div {
   line-height: 1.5;
 }
 
-.experience-section,
-.interests-section {
-  background-color: #eee;
+.aboutme-subheading {
+  font-weight: 700;
+  color: #444;
+  font-size: 25px;
 }
 
 /* PROJECTS.HTML */

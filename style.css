@@ -287,8 +287,7 @@ footer .copywright-div {
 .education-section,
 .experience-section,
 .knowlage-section,
-.interests-section,
-.aboutme-text-section {
+.interests-section {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
@@ -296,8 +295,7 @@ footer .copywright-div {
 .education-section,
 .experience-section,
 .knowlage-section,
-.interests-section,
-.aboutme-text-section {
+.interests-section {
   font-size: 20px;
   line-height: 1.5;
 }
@@ -306,6 +304,13 @@ footer .copywright-div {
   font-weight: 700;
   color: #444;
   font-size: 25px;
+}
+
+p a {
+  color: blue;
+}
+p a:hover {
+  font-weight: 500;
 }
 
 /* PROJECTS.HTML */

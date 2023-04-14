@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="description" content="Free Web tutorials" />
+    <meta name="author" content="John Doe" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="../index.html">Početna</a>
+        </li>
+        <li>
+          <a href="../aboutme.html">O meni</a>
+        </li>
+        <li>
+          <a href="../projects.html">Projekti</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container single-project-container">
+      <section class="single-project-section">
+        <p class="section-heading">Achilles Gym</p>
+
+        <div class="project-description">
+          <p>
+            Stranica Tasty Trap je nastala na faksu kao projekt za
+            konstrukcijske vježbe za predmet
+            <b>CMS sustavi</b>.
+          </p>
+          <br />
+          <p>
+            Stranica je rađena u <b>Wordpress</b> tehnologiji te prikazuje sva
+            naučena znanja o ... (tu navedem sve iz vježbi što smo koristili...)
+            <b>custom tema</b>
+          </p>
+          <br />
+          <p>
+            hrana i pića, meniji sačinjeni od te hrane i pića, brojanje
+            kalorija, prikaz lokacija na mapi...
+          </p>
+          <br />
+          <p>
+            kako pokrenit Achilles Gym... skine se wordpress sa wordpress.org i
+            zaljepi u htdocs od xamppa i promjeni mu se ime u "achilles_gym",
+            potom u phpmyadmin se kreira baza koja se isto zove "achilles_gym",
+            pokrene se instalacija odlaskom na "localhost/achilles_gym" i nakon
+            instalacije obiše se baza i kreira nova sa istim nazivom i importa
+            se baza iz priloga, user se ažurira sa novom lozinkom i metne se da
+            je MD5 kriptiranje, kopira se TrpimirToimasic tema u teme i woilaa
+          </p>
+          <br />
+          <p>
+            za tasty trap ide ime mape "TastyTrap", a od teme "AntonioSertic"
+          </p>
+          <br />
+          <p>za slike treba kopirati iste u "uploads" mapu u wp-content...</p>
+          <br />
+          <br />
+          <a
+            href="https://github.com/AntonioSertic23/achilles-gym"
+            target="_blank"
+            class="open-btn"
+            >Open in Github</a
+          >
+        </div>
+
+        <div class="image-gallery">
+          <div class="card">
+            <img
+              class="modal-target"
+              src="../assets/projects/achilles-gym/1.png"
+              alt=""
+            />
+          </div>
+          <div class="card">
+            <img
+              class="modal-target"
+              src="../assets/projects/achilles-gym/2.png"
+              alt=""
+            />
+          </div>
+          <div class="card">
+            <img
+              class="modal-target"
+              src="../assets/projects/achilles-gym/3.png"
+              alt=""
+            />
+          </div>
+          <div class="card">
+            <img
+              class="modal-target"
+              src="../assets/projects/achilles-gym/4.png"
+              alt=""
+            />
+          </div>
+          <div class="card">
+            <img
+              class="modal-target"
+              src="../assets/projects/achilles-gym/5.png"
+              alt=""
+            />
+          </div>
+          <div class="card">
+            <img
+              class="modal-target"
+              src="../assets/projects/achilles-gym/6.png"
+              alt=""
+            />
+          </div>
+          <div class="card">
+            <img
+              class="modal-target"
+              src="../assets/projects/achilles-gym/7.png"
+              alt=""
+            />
+          </div>
+          <div class="card">
+            <img
+              class="modal-target"
+              src="../assets/projects/achilles-gym/8.png"
+              alt=""
+            />
+          </div>
+          <div class="card">
+            <img
+              class="modal-target"
+              src="../assets/projects/achilles-gym/9.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <ul>
+        <li>
+          <a href="#">Gmail</a>
+          <a href="#">Github</a>
+        </li>
+      </ul>
+      <div class="copywright-div">
+        <p>&copy; Personal Portfolio Website. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- The Modal -->
+    <div id="modal" class="modal">
+      <span id="modal-close" class="modal-close">&times;</span>
+      <img id="modal-content" class="modal-content" />
+      <div id="modal-caption" class="modal-caption"></div>
+    </div>
+
+    <script src="../modal.js"></script>
+  </body>
+</html>

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <nav>
+    <!--     <nav>
       <ul>
         <li>
           <a class="active" href="index.html">Početna</a>
@@ -23,86 +23,308 @@
           <a href="projects.html">Projekti</a>
         </li>
       </ul>
+      <button>Životopis</button>
+    </nav> -->
+
+    <nav id="navbar">
+      <ul>
+        <li>
+          <a href="#aboutme-section">O Meni</a>
+        </li>
+        <li>
+          <a href="#jobs-section">Iskustvo</a>
+        </li>
+        <li>
+          <a href="#projects-section">Projekti</a>
+        </li>
+        <li>
+          <a href="#contact-section">Kontakt</a>
+        </li>
+      </ul>
+      <button>Životopis</button>
     </nav>
 
     <div class="container">
       <section class="hero-section">
-        <div class="column column-left">
-          <p class="paragraph1">Pozdrav, ja sam</p>
-          <p class="paragraph2">Antonio Sertić</p>
-          <p class="paragraph3">strastveni i kreativni web developer</p>
-          <div class="buttons-div">
-            <a class="main-button" href="projects.html">Projekti</a>
-            <a>Životopis</a>
-          </div>
-        </div>
-
-        <div class="column column-right">
-          <div class="backgorund-image-div">
-            <img class="background-image" src="#" alt="background image" />
-          </div>
-          <img
-            class="profile-picture"
-            src="./assets/images/profile-picture.jfif"
-            alt="profile picture"
-          />
-        </div>
-      </section>
-
-      <section class="aboutus-min-section">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
-          voluptatum corrupti? Corporis, corrupti itaque. Lorem ipsum dolor sit
-          amet consectetur adipisicing elit. Facere, voluptatum corrupti? <br />
-          <br />
-          Corporis, corrupti itaque. Blanditiis magnam, aliquam maiores quasi,
-          quibusdam iusto sint eligendi sunt non expedita animi labore deserunt
-          recusandae!
+        <p class="paragraph1">Pozdrav, zovem se</p>
+        <p class="heading1">Antonio Sertić</p>
+        <p class="heading2">Kreativni frontend web developer.</p>
+        <p class="paragraph2">
+          Ja sam strastveni i kreativni softverski inženjer specijaliziran za
+          izgradnju (i povremeno dizajniranje) frontend web aplikacija.
+          Trenutačno sam usredotočen na izradu internih aplikacija u Fini.
         </p>
-        <a href="aboutme.html">Više o meni</a>
+        <a class="button">Životopis</a>
       </section>
 
-      <section class="projects-min-section">
-        <p class="section-heading">Najnoviji projekti</p>
-        <div class="card-section">
-          <div class="column">
-            <div class="card">
-              <div class="card-image-div">
-                <img
-                  src="./assets/images/dummy-project-image.png"
-                  alt="project thumbnail image"
-                />
-              </div>
-              <p>Naziv projekta</p>
-            </div>
+      <section class="aboutme-section" id="aboutme-section">
+        <p class="heading">O meni</p>
+        <div class="box">
+          <div class="left-side">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              dolore accusantium maiores alias eveniet delectus labore dolor
+              itaque perspiciatis minus vel consectetur, magnam quos nostrum
+              neque doloremque, ducimus, similique adipisci.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              dolore accusantium maiores alias eveniet delectus labore dolor
+              itaque perspiciatis minus vel consectetur, magnam quos nostrum
+              neque doloremque, ducimus, similique adipisci.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              dolore accusantium maiores alias eveniet delectus labore dolor
+              itaque perspiciatis minus vel consectetur, magnam quos nostrum
+              neque doloremque, ducimus, similique adipisci.
+            </p>
           </div>
-
-          <div class="column">
-            <div class="card">
-              <div class="card-image-div">
-                <img
-                  src="./assets/images/dummy-project-image.png"
-                  alt="project thumbnail image"
-                />
-              </div>
-              <p>Naziv projekta</p>
+          <div class="right-side">
+            <div class="image-box">
+              <img
+                class="profile-picture"
+                src="./assets/images/profile-picture.jfif"
+                alt="profile picture"
+              />
             </div>
           </div>
         </div>
-        <a href="projects.html">Svi projekti</a>
+      </section>
+
+      <section class="jobs-section" id="jobs-section">
+        <p class="heading">Radno iskustvo</p>
+        <div class="box"></div>
+      </section>
+
+      <section class="projects-section" id="projects-section">
+        <p class="heading">Moji projekti</p>
+        <div class="box">
+          <div class="project">
+            <div class="left-side">
+              <div class="image-box">
+                <a href="single-projects/svastaonica-za-bebe.html">
+                  <img
+                    src="./assets/projects/svastaonica-za-bebe/mockup1.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="right-side">
+              <p class="name">Svaštaonica Za Bebe</p>
+              <p class="year">2023</p>
+              <p class="description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Labore, dolore cum similique distinctio beatae tenetur
+                blanditiis necessitatibus nulla repudiandae.
+              </p>
+              <ul>
+                <li>nesto</li>
+                <li>nesto</li>
+                <li>nesto</li>
+                <li>nesto</li>
+              </ul>
+              <div class="links">
+                <a
+                  class="read-more"
+                  href="single-projects/svastaonica-za-bebe.html"
+                  >Više..</a
+                >
+
+                <div class="right">
+                  <a class="link"
+                    ><img src="./assets/images/github.png" alt=""
+                  /></a>
+
+                  <a class="link"
+                    ><img src="./assets/images/link.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="left-side">
+              <div class="image-box">
+                <a
+                  href="single-projects/fast-food-pink-panther-crikvenica.html"
+                >
+                  <img
+                    src="./assets/projects/fast-food-pink-panther-crikvenica/mockup1.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="right-side">
+              <p class="name">Fast Food Pink Panther Crikvenica</p>
+              <p class="year">2022</p>
+              <p class="description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Labore, dolore cum similique distinctio.
+              </p>
+              <ul>
+                <li>nesto</li>
+                <li>nesto</li>
+                <li>nesto</li>
+              </ul>
+              <div class="links">
+                <a
+                  class="read-more"
+                  href="single-projects/fast-food-pink-panther-crikvenica.html"
+                  >Više..</a
+                >
+
+                <div class="right">
+                  <a class="link"
+                    ><img src="./assets/images/github.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="left-side">
+              <div class="image-box">
+                <a href="single-projects/smart-villages.html">
+                  <img
+                    src="./assets/projects/smart-villages/mockup1.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="right-side">
+              <p class="name">Smart Villages</p>
+              <p class="year">2021</p>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consectetur, et. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Dicta, error sequi. Mollitia quod amet velit.
+              </p>
+              <ul>
+                <li>nesto</li>
+                <li>nesto</li>
+                <li>nesto</li>
+                <li>nesto</li>
+                <li>nesto</li>
+              </ul>
+              <div class="links">
+                <a class="read-more" href="single-projects/smart-villages.html"
+                  >Više..</a
+                >
+
+                <div class="right">
+                  <a class="link"
+                    ><img src="./assets/images/github.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="left-side">
+              <div class="image-box">
+                <a href="single-projects/seriium.html">
+                  <img src="./assets/projects/seriium/mockup1.jpg" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="right-side">
+              <p class="name">Seriium</p>
+              <p class="year">2020</p>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consectetur, et. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Dicta, error sequi. Mollitia quod amet velit.
+              </p>
+              <ul>
+                <li>nesto</li>
+                <li>nesto</li>
+                <li>nesto</li>
+                <li>nesto</li>
+                <li>nesto</li>
+              </ul>
+              <div class="links">
+                <a class="read-more" href="single-projects/seriium.html"
+                  >Više..</a
+                >
+
+                <div class="right">
+                  <a class="link"
+                    ><img src="./assets/images/github.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="more-projects-section">
+        <p class="heading">Ostali projekti vrijedni pažnje</p>
+        <div class="heading-box">
+          <p class="subheading">pogledaj arhivu</p>
+        </div>
+        <div class="box">
+          <div class="project">
+            <div class="inner">Gastrotop 2022</div>
+          </div>
+          <div class="project">
+            <div class="inner">Cinema Mon Amour 2020</div>
+          </div>
+          <div class="project">
+            <div class="inner">Tasty Trap 2020</div>
+          </div>
+          <div class="project">
+            <div class="inner">Achillies Gym 2020</div>
+          </div>
+          <div class="project">
+            <div class="inner">Moviium 2020</div>
+          </div>
+          <div class="project">
+            <div class="inner">Digipedia 2020</div>
+          </div>
+          <div class="project">
+            <div class="inner">Zadaci 2020</div>
+          </div>
+          <div class="project">
+            <div class="inner">Filmovi 2019</div>
+          </div>
+          <div class="project">
+            <div class="inner">Hoteli 2019</div>
+          </div>
+        </div>
+        <div class="links">
+          <a class="show-more" href="#">Prikaži više..</a>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact-section">
+        <p class="heading">Kontakt</p>
+        <div class="box">
+          <p class="big-heading">Budimo u kontaktu</p>
+          <p class="text">
+            Otvoren za nove prilike i izazove, moj inbox je uvijek otvoren. Bilo
+            da imate pitanje ili samo želite pozdraviti, potrudit ću se da vam
+            odgovorim!
+          </p>
+          <a class="sayhello" href="#">Javi se</a>
+        </div>
       </section>
     </div>
 
     <footer>
-      <ul>
-        <li>
-          <a href="#">Gmail</a>
-          <a href="#">Github</a>
-        </li>
-      </ul>
+      <p>Dizajnirao i izgradio Antonio Sertić</p>
       <div class="copywright-div">
         <p>&copy; Personal Portfolio Website. All rights reserved.</p>
       </div>
     </footer>
+
+    <script src="../navbar.js"></script>
   </body>
 </html>

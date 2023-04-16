@@ -69,18 +69,17 @@ nav button {
 /* FOOTER */
 
 footer {
-  background-color: #666;
-  color: #fff;
+  background-color: #89b0ae;
+  color: #faf9f9;
   padding-top: 2rem;
-}
-footer p {
+  font-weight: 500;
   text-align: center;
 }
 footer .copywright-div {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #222;
+  background-color: #555b6e;
   height: 60px;
   margin-top: 2rem;
 }
@@ -489,13 +488,12 @@ footer .copywright-div {
   list-style: none;
   padding: 0px;
   padding-top: 50px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-right: 3px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 25px;
   position: relative;
-  height: 350px;
+  height: 398px; /*visina .project + 3px za shadow*/
   overflow: hidden;
   transition: height 0.5s ease-in-out;
 }
@@ -507,14 +505,29 @@ footer .copywright-div {
   box-shadow: 2px 2px 3px gray;
   transition: 0.5s;
   color: #555b6e;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .more-projects-section .box .project:hover {
   background-color: #9bd4c8;
   transform: translateY(-10px);
 }
+.more-projects-section .box .project:hover .folder {
+  background: no-repeat url(./assets/images/folder-hover.png) 0px 0px / 50px
+    50px !important;
+}
 
 .more-projects-section .box .project .inner {
   padding: 2rem 1.75rem;
+}
+
+.more-projects-section .box .project .tech {
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+  padding: 0 1.75rem;
+  padding-bottom: 2rem;
 }
 
 .more-projects-section .box .project .header {
@@ -527,11 +540,14 @@ footer .copywright-div {
   margin-bottom: 10px;
   font-size: 25px;
   font-weight: 600;
+  max-width: 210px;
 }
 
 .more-projects-section .box .project .header .folder {
   width: 50px;
   height: 50px;
+  background: no-repeat url(./assets/images/folder.png) 0px 0px / 50px 50px;
+  transition: background-image 0.2s linear;
 }
 
 .more-projects-section .box .project .header .links img {
@@ -542,13 +558,6 @@ footer .copywright-div {
   line-height: 1.5;
   font-size: 16px;
   font-weight: 500;
-}
-
-.more-projects-section .box .project .body .tech {
-  display: flex;
-  flex-direction: row;
-  column-gap: 15px;
-  margin-top: 20px;
 }
 
 .more-projects-section .show-more {

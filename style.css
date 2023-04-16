@@ -15,6 +15,21 @@
   padding-bottom: 100px;
 }
 
+.action-button-link {
+  padding: 1rem 1.25rem;
+  background-color: #ffd6ba;
+  border: 1px solid #ffd6ba;
+  font-size: 16px;
+  transition: 0.5s;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px gray;
+}
+.action-button-link:hover {
+  border-color: black;
+  cursor: pointer;
+  background-color: #bee3db;
+}
+
 /* NAVBAR */
 
 nav {
@@ -48,18 +63,6 @@ nav ul li a:hover {
 }
 nav button {
   margin-right: 50px;
-  padding: 1rem 1.25rem;
-  background-color: #ffd6ba;
-  border: 1px solid #ffd6ba;
-  font-size: 16px;
-  transition: 0.5s;
-  border-radius: 5px;
-  box-shadow: 0px 0px 5px gray;
-}
-nav button:hover {
-  border-color: black;
-  cursor: pointer;
-  background-color: #bee3db;
 }
 
 /* FOOTER */
@@ -204,20 +207,23 @@ footer .copywright-div {
   font-size: 20px;
 }
 
-.hero-section .button {
-  background-color: #ffd6ba;
-  padding: 1.25rem 1.75rem;
-  font-size: 16px;
+.hero-section .links {
   margin-top: 50px;
-  border: 1px solid #ffd6ba;
-  transition: 0.5s;
-  border-radius: 5px;
-  box-shadow: 0px 0px 5px gray;
+  display: flex;
+  column-gap: 20px;
 }
-.hero-section .button:hover {
+
+.hero-section .action-button-link {
+  padding: 1.25rem 1.75rem;
+}
+
+.hero-section .main {
+  background-color: #ffb685;
+  border-color: #ffb685;
+}
+.hero-section .main:hover {
+  background-color: #9bd4c8;
   border-color: black;
-  cursor: pointer;
-  background-color: #bee3db;
 }
 
 /* ABOUT ME */
@@ -265,7 +271,7 @@ footer .copywright-div {
 /* JOBS */
 
 .jobs-section {
-  max-width: 1000px;
+  max-width: 700px;
   margin: 0px auto;
   padding: 100px 0px;
 }
@@ -279,6 +285,44 @@ footer .copywright-div {
   white-space: nowrap;
   font-weight: 600;
   color: #555b6e;
+}
+
+.jobs-section .job p {
+  font-size: 20px;
+  line-height: 1.3;
+  margin-bottom: 15px;
+  color: #89b0ae;
+}
+
+.jobs-section .job .position {
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: 600;
+  color: #89b0ae;
+}
+
+.jobs-section .job .year {
+  margin-bottom: 25px;
+  font-size: 20px;
+  color: #555b6e;
+}
+
+.jobs-section .job .company {
+  color: #ffb685;
+}
+
+.jobs-section .job ul {
+  padding-left: 40px;
+  position: relative;
+}
+
+.jobs-section .job ul li:before {
+  position: absolute;
+  left: 0;
+  content: "▹";
+  width: 2rem;
+  color: #555b6e;
+  font-size: 25px;
 }
 
 /* PROJECTS */
@@ -374,19 +418,8 @@ footer .copywright-div {
   justify-content: space-between;
 }
 
-.projects-section .box .project .right-side .links .read-more {
-  background-color: #ffd6ba;
+.projects-section .box .project .right-side .links .action-button-link {
   padding: 1rem 2rem;
-  font-size: 16px;
-  border: 1px solid #ffd6ba;
-  transition: 0.5s;
-  border-radius: 5px;
-  box-shadow: 0px 0px 5px gray;
-}
-.projects-section .box .project .right-side .links .read-more:hover {
-  border-color: black;
-  cursor: pointer;
-  background-color: #bee3db;
 }
 
 .projects-section .box .project .right-side .links .right {
@@ -472,20 +505,8 @@ footer .copywright-div {
   justify-content: center;
 }
 
-.more-projects-section .show-more {
-  background-color: #ffd6ba;
+.more-projects-section .action-button-link {
   padding: 1rem 2rem;
-  font-size: 20px;
-  border: 1px solid #ffd6ba;
-  transition: 0.5s;
-  border-radius: 5px;
-  box-shadow: 0px 0px 5px gray;
-}
-.more-projects-section .show-more:hover {
-  border-color: black;
-  cursor: pointer;
-  transition: 0.5s;
-  background-color: #bee3db;
 }
 
 /* CONTACT */
@@ -530,20 +551,8 @@ footer .copywright-div {
   color: #89b0ae;
 }
 
-.contact-section .sayhello {
-  background-color: #ffd6ba;
+.contact-section .action-button-link {
   padding: 1rem 2rem;
-  font-size: 20px;
-  border: 1px solid #ffd6ba;
-  transition: 0.5s;
-  border-radius: 5px;
-  box-shadow: 0px 0px 5px gray;
-}
-.contact-section .sayhello:hover {
-  border-color: black;
-  cursor: pointer;
-  transition: 0.5s;
-  background-color: #bee3db;
 }
 
 /**************************************************************************************************************************************/
@@ -667,11 +676,13 @@ footer .copywright-div {
 }
 
 /* COLORS
-#F0EAD2 - pozadina gradient
-#DDE5B6 - pozadina gradient & navbar 
-palegreen - sections background 
-#A98467 - footer
-#6C584C - footer copywright
+#555B6E - tamni tekst
+#89B0AE - tekst
+#BEE3DB - buttons hover & kartice na ostali projekti
+#9bd4c8 - buttons hover za tamniji button
+#FAF9F9 - pozadina
+#FFD6BA - buttons
+#ffb685 - tamniji buttons
 */
 
 /* FONT SIZES 

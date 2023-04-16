@@ -41,7 +41,7 @@
           <a href="#contact-section">Kontakt</a>
         </li>
       </ul>
-      <button>Životopis</button>
+      <button class="action-button-link">Životopis</button>
     </nav>
 
     <div class="container">
@@ -54,7 +54,10 @@
           izgradnju (i povremeno dizajniranje) frontend web aplikacija.
           Trenutačno sam usredotočen na izradu internih aplikacija u Fini.
         </p>
-        <a class="button">Životopis</a>
+        <div class="links">
+          <a class="action-button-link main">Github</a>
+          <a class="action-button-link">Životopis</a>
+        </div>
       </section>
 
       <section class="aboutme-section" id="aboutme-section">
@@ -94,7 +97,53 @@
 
       <section class="jobs-section" id="jobs-section">
         <p class="heading">Radno iskustvo</p>
-        <div class="box"></div>
+        <div class="box">
+          <div class="job">
+            <p class="position">
+              Frontend Developer - Specijalist
+              <span class="company">@ Fina</span>
+            </p>
+            <p class="year">Listopad 2020 - Danas</p>
+            <ul>
+              <li>
+                <p>
+                  Od listopada 2020 do listopada 2021 sam radio kao student na
+                  ozbiljnim internim projektima za tvrtku.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Usvojio sam znanja kako provesti projekt od početka do kraja.
+                  Od planiranja, skiciranja i osmišljavanja arhitekture
+                  aplikacije i baze podataka, izrade i potencijalnih izmjena do
+                  uspješno završenog projekta.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Kada sam se zaposlio položio sam SCRUM tečaj u Algebri 2022 i
+                  sudjelovao u prelazu na agilne metode rada. Stekao iskustva u
+                  radu sa agilnim alatima (Jira) i alatima za komunikaciju sa
+                  dizajnerima (Figma).
+                </p>
+              </li>
+              <li>
+                <p>
+                  Ručno testirao web stranice u različitim preglednicima i
+                  mobilnim uređajima kako bi se osigurala kompatibilnost i
+                  responzivnost.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Pisao sam moderan, učinkovit i održiv kod u različitim
+                  jezicima, platformama i okvirima kao što su ASP.NET, C#,
+                  Blazor, Razor Pages, JavaScript, SQL..
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
 
       <section class="projects-section" id="projects-section">
@@ -115,29 +164,32 @@
               <p class="name">Svaštaonica Za Bebe</p>
               <p class="year">2023</p>
               <p class="description">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Labore, dolore cum similique distinctio beatae tenetur
-                blanditiis necessitatibus nulla repudiandae.
+                Mali strasteveni projekt preko kojega sam proširio znanje
+                Vue.js-a i pokazao svoju kreativnost. Kreirana je za potrebe
+                klijenta kao mala ogledna stranica za prikaza svih proizvoda iz
+                ponude.
               </p>
               <ul>
-                <li>nesto</li>
-                <li>nesto</li>
-                <li>nesto</li>
-                <li>nesto</li>
+                <li>Vue</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+                <li>Netlify</li>
               </ul>
               <div class="links">
                 <a
-                  class="read-more"
+                  class="action-button-link"
                   href="single-projects/svastaonica-za-bebe.html"
                   >Više..</a
                 >
 
                 <div class="right">
-                  <a class="link"
+                  <a
+                    class="link"
+                    href="https://github.com/AntonioSertic23/Svastaonica-Za-Bebe"
                     ><img src="./assets/images/github.png" alt=""
                   /></a>
 
-                  <a class="link"
+                  <a class="link" href="https://svastaonicazabebe.netlify.app"
                     ><img src="./assets/images/link.png" alt=""
                   /></a>
                 </div>
@@ -162,23 +214,26 @@
               <p class="name">Fast Food Pink Panther Crikvenica</p>
               <p class="year">2022</p>
               <p class="description">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Labore, dolore cum similique distinctio.
+                Srednje-velik, strasteveni projekt preko kojega sam započeo
+                izučavanje Vue.js-a i pokazao svoju kreativnost. Kreirana je iz
+                potrebe klijenta za redizajnom postojeće stranice.
               </p>
               <ul>
-                <li>nesto</li>
-                <li>nesto</li>
-                <li>nesto</li>
+                <li>Vue</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
               </ul>
               <div class="links">
                 <a
-                  class="read-more"
+                  class="action-button-link"
                   href="single-projects/fast-food-pink-panther-crikvenica.html"
                   >Više..</a
                 >
 
                 <div class="right">
-                  <a class="link"
+                  <a
+                    class="link"
+                    href="https://github.com/AntonioSertic23/Fast-Food-Pink-Panther-Crikvenica"
                     ><img src="./assets/images/github.png" alt=""
                   /></a>
                 </div>
@@ -201,24 +256,27 @@
               <p class="name">Smart Villages</p>
               <p class="year">2021</p>
               <p class="description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consectetur, et. Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Dicta, error sequi. Mollitia quod amet velit.
+                Veći projekt koji je rađen upotpunosti samostalno za završni
+                rad.
               </p>
               <ul>
-                <li>nesto</li>
-                <li>nesto</li>
-                <li>nesto</li>
-                <li>nesto</li>
-                <li>nesto</li>
+                <li>Blazor</li>
+                <li>EF Core</li>
+                <li>SignalR</li>
+                <li>MudBlazor</li>
+                <li>MS SQL Server</li>
               </ul>
               <div class="links">
-                <a class="read-more" href="single-projects/smart-villages.html"
+                <a
+                  class="action-button-link"
+                  href="single-projects/smart-villages.html"
                   >Više..</a
                 >
 
                 <div class="right">
-                  <a class="link"
+                  <a
+                    class="link"
+                    href="https://github.com/AntonioSertic23/Smart-Villages"
                     ><img src="./assets/images/github.png" alt=""
                   /></a>
                 </div>
@@ -238,24 +296,26 @@
               <p class="name">Seriium</p>
               <p class="year">2020</p>
               <p class="description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consectetur, et. Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Dicta, error sequi. Mollitia quod amet velit.
+                Mobilna aplikacija nastala na faksu kao projekt za
+                konstrukcijske vježbe za predmet Programiranje mobilnih
+                aplikacija.
               </p>
               <ul>
-                <li>nesto</li>
-                <li>nesto</li>
-                <li>nesto</li>
-                <li>nesto</li>
-                <li>nesto</li>
+                <li>Android Studio</li>
+                <li>Java</li>
+                <li>Firebase</li>
               </ul>
               <div class="links">
-                <a class="read-more" href="single-projects/seriium.html"
+                <a
+                  class="action-button-link"
+                  href="single-projects/seriium.html"
                   >Više..</a
                 >
 
                 <div class="right">
-                  <a class="link"
+                  <a
+                    class="link"
+                    href="https://github.com/AntonioSertic23/Seriium"
                     ><img src="./assets/images/github.png" alt=""
                   /></a>
                 </div>
@@ -300,7 +360,7 @@
           </div>
         </div>
         <div class="links">
-          <a class="show-more" href="#">Prikaži više..</a>
+          <a class="action-button-link" href="#">Prikaži više..</a>
         </div>
       </section>
 
@@ -313,7 +373,7 @@
             da imate pitanje ili samo želite pozdraviti, potrudit ću se da vam
             odgovorim!
           </p>
-          <a class="sayhello" href="#">Javi se</a>
+          <a class="action-button-link" href="#">Javi se</a>
         </div>
       </section>
     </div>

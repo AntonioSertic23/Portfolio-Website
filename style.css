@@ -41,6 +41,7 @@ nav {
   display: flex;
   justify-content: end;
   transition: top 0.5s;
+  z-index: 1;
 }
 nav ul {
   display: flex;
@@ -180,7 +181,6 @@ footer .copywright-div {
   color: #89b0ae;
   font-size: 25px;
   font-weight: 500;
-  line-height: 1.1;
 }
 
 .hero-section .heading1,
@@ -228,10 +228,16 @@ footer .copywright-div {
 
 /* ABOUT ME */
 
+#aboutme-section {
+  position: absolute;
+  bottom: 130px;
+}
+
 .aboutme-section {
   max-width: 1000px;
   margin: 0px auto;
   padding: 100px 0px;
+  position: relative;
 }
 
 .aboutme-section .heading {
@@ -269,6 +275,11 @@ footer .copywright-div {
 }
 
 /* JOBS */
+
+#jobs-section {
+  position: absolute;
+  bottom: 80px;
+}
 
 .jobs-section {
   max-width: 700px;
@@ -477,28 +488,70 @@ footer .copywright-div {
 .more-projects-section .box {
   list-style: none;
   padding: 0px;
-  margin: 50px 0px 0px;
+  padding-top: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 25px;
   position: relative;
+  height: 350px;
+  overflow: hidden;
+  transition: height 0.5s ease-in-out;
 }
 
 .more-projects-section .box .project {
   background-color: #bee3db;
+  height: 100%;
   border-radius: 5px;
-  box-shadow: 0px 0px 5px gray;
+  box-shadow: 2px 2px 3px gray;
+  transition: 0.5s;
+  color: #555b6e;
+}
+.more-projects-section .box .project:hover {
+  background-color: #9bd4c8;
+  transform: translateY(-10px);
 }
 
 .more-projects-section .box .project .inner {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  height: 100%;
   padding: 2rem 1.75rem;
 }
 
-.more-projects-section .links {
+.more-projects-section .box .project .header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.more-projects-section .box .project .header .name {
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.more-projects-section .box .project .header .folder {
+  width: 50px;
+  height: 50px;
+}
+
+.more-projects-section .box .project .header .links img {
+  width: 32px;
+}
+
+.more-projects-section .box .project .body .text {
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.more-projects-section .box .project .body .tech {
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+  margin-top: 20px;
+}
+
+.more-projects-section .show-more {
   width: 100%;
   margin-top: 3rem;
   display: flex;

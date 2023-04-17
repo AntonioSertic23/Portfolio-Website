@@ -252,7 +252,7 @@ footer .copywright-div {
 
 .aboutme-section .box {
   display: grid;
-  grid-template-columns: 4fr 2fr;
+  grid-template-columns: 2fr 1fr;
   gap: 50px;
 }
 
@@ -261,6 +261,14 @@ footer .copywright-div {
   line-height: 1.3;
   margin-bottom: 15px;
   color: #89b0ae;
+}
+
+.aboutme-section .left-side a {
+  color: #555b6e;
+  font-weight: 500;
+}
+.aboutme-section .left-side a:hover {
+  text-decoration: underline;
 }
 
 .aboutme-section .right-side {
@@ -397,6 +405,7 @@ footer .copywright-div {
   flex-direction: row;
   column-gap: 15px;
   margin-bottom: 25px;
+  color: #555b6e;
 }
 
 .projects-section .box .project .right-side .links {
@@ -589,7 +598,8 @@ footer .copywright-div {
 .archive-section {
   max-width: 1300px;
   margin: 0px auto;
-  padding: 200px 0px;
+  padding-top: 200px;
+  padding-bottom: 100px;
   position: relative;
 }
 

@@ -6,7 +6,7 @@ window.onscroll = function () {
     document.getElementById("navbar").style.top = "0";
   } else {
     document.getElementById("navbar").style.backgroundColor = "inherit";
-    document.getElementById("navbar").style.top = "-85px";
+    document.getElementById("navbar").style.top = "-88px";
   }
   prevScrollpos = currentScrollPos;
 };

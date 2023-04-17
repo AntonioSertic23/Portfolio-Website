@@ -73,7 +73,7 @@ nav ul li a:hover {
   color: #555b6e;
   text-decoration: underline;
 }
-nav button {
+nav .action-button-link {
   margin-right: 50px;
 }
 

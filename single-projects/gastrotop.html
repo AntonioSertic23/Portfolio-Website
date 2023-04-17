@@ -11,68 +11,60 @@
     <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
-    <nav>
+    <nav id="navbar">
       <ul>
         <li>
-          <a href="../index.html">Početna</a>
+          <a href="/#aboutme-section">O Meni</a>
         </li>
         <li>
-          <a href="../aboutme.html">O meni</a>
+          <a href="/#jobs-section">Iskustvo</a>
         </li>
         <li>
-          <a href="../projects.html">Projekti</a>
+          <a href="/#projects-section">Projekti</a>
+        </li>
+        <li>
+          <a href="/#contact-section">Kontakt</a>
         </li>
       </ul>
+      <button class="action-button-link">Životopis</button>
     </nav>
 
-    <div class="container single-project-container">
+    <div class="container">
       <section class="single-project-section">
-        <p class="section-heading">Gastrotop</p>
+        <p class="heading">Gastrotop</p>
 
         <div class="project-description">
           <p>
             Stranica Gastrotop je rađena za vrijeme studentskih dana za
             veleučilište kao dio velikog projekta.
           </p>
-          <br />
           <p>
             Cilj projekta je poboljšati dostupnost edukacije u području
             POTROŠAČKOG TRŽIŠTA POSEBNIH OGRANIČIVANJA PREHRANE kroz razne
             programe obuke, studentske radionice, panel diskusije i edukacije.
           </p>
-          <br />
           <p>
             Stranica je rađena u <b>Wordpress</b> tehnologiji uz korištenje
             raznih <b>plugin-ova</b> kao što su:
           </p>
-          <br />
-          <ul class="three-view-list-ul">
+          <ul class="unordered-list">
             <li>Duplicator</li>
-            <br />
             <li>Envira Gallery</li>
-            <br />
             <li>Smooth Back To Top Button</li>
-            <br />
             <li>Tabs Responsive</li>
-            <br />
             <li>wpDataTables - Tables & Table Charts</li>
-            <br />
             <li>Elementor</li>
           </ul>
-          <br />
           <p>
             Stranica je puna objava sa raznih događanja u Mađarskoj i Hrvatskoj,
             stoga sadrži prijevod na Hrvatski,Mađarski i Engleski jezik za koji
             se korisito <b>Polylang</b> plugin.
           </p>
-          <br />
           <p>
-            Stranica je hostana na Netlify-u te ju se može posjetiti preko
-            sljedećg linka
+            Stranica je hostana na Netlify-u te ju se može posjetiti
+            <a href="http://gastrotop.hr/" class="link">preko sljedećg linka</a
+            >.
           </p>
-          <a href="http://gastrotop.hr/" style="color: blue"
-            >Link za stranicu</a
-          >
         </div>
 
         <div class="image-gallery">
@@ -116,12 +108,7 @@
     </div>
 
     <footer>
-      <ul>
-        <li>
-          <a href="#">Gmail</a>
-          <a href="#">Github</a>
-        </li>
-      </ul>
+      <p>Dizajnirao i izgradio Antonio Sertić</p>
       <div class="copywright-div">
         <p>&copy; Personal Portfolio Website. All rights reserved.</p>
       </div>
@@ -135,5 +122,6 @@
     </div>
 
     <script src="../modal.js"></script>
+    <script src="../navbar.js"></script>
   </body>
 </html>

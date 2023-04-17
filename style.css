@@ -30,6 +30,17 @@
   background-color: #bee3db;
 }
 
+.heading {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px 40px;
+  width: 100%;
+  font-size: 48px;
+  white-space: nowrap;
+  font-weight: 600;
+  color: #555b6e;
+}
+
 /* NAVBAR */
 
 nav {
@@ -239,17 +250,6 @@ footer .copywright-div {
   position: relative;
 }
 
-.aboutme-section .heading {
-  display: flex;
-  align-items: center;
-  margin: 10px 0px 40px;
-  width: 100%;
-  font-size: 48px;
-  white-space: nowrap;
-  font-weight: 600;
-  color: #555b6e;
-}
-
 .aboutme-section .box {
   display: grid;
   grid-template-columns: 4fr 2fr;
@@ -284,17 +284,6 @@ footer .copywright-div {
   max-width: 700px;
   margin: 0px auto;
   padding: 100px 0px;
-}
-
-.jobs-section .heading {
-  display: flex;
-  align-items: center;
-  margin: 10px 0px 40px;
-  width: 100%;
-  font-size: 48px;
-  white-space: nowrap;
-  font-weight: 600;
-  color: #555b6e;
 }
 
 .jobs-section .job p {
@@ -341,17 +330,6 @@ footer .copywright-div {
   max-width: 1000px;
   margin: 0px auto;
   padding: 100px 0px;
-}
-
-.projects-section .heading {
-  display: flex;
-  align-items: center;
-  margin: 10px 0px 40px;
-  width: 100%;
-  font-size: 48px;
-  white-space: nowrap;
-  font-weight: 600;
-  color: #555b6e;
 }
 
 .projects-section .box {
@@ -457,15 +435,9 @@ footer .copywright-div {
 }
 
 .more-projects-section .heading {
-  display: flex;
-  align-items: center;
   justify-content: center;
   margin: 10px 0px 20px;
-  width: 100%;
   font-size: 32px;
-  white-space: nowrap;
-  font-weight: 600;
-  color: #555b6e;
 }
 
 .more-projects-section .heading-box {
@@ -581,14 +553,9 @@ footer .copywright-div {
 }
 
 .contact-section .heading {
-  display: flex;
   justify-content: center;
   margin-bottom: 20px;
-  width: 100%;
   font-size: 32px;
-  white-space: nowrap;
-  font-weight: 600;
-  color: #555b6e;
 }
 
 .contact-section .box {
@@ -627,14 +594,7 @@ footer .copywright-div {
 }
 
 .archive-section .heading {
-  display: flex;
-  align-items: center;
   margin-bottom: 20px;
-  width: 100%;
-  font-size: 48px;
-  white-space: nowrap;
-  font-weight: 600;
-  color: #555b6e;
 }
 
 .archive-section .subheading {
@@ -705,21 +665,62 @@ footer .copywright-div {
   transition: transform 0.5s;
 }
 
-/**************************************************************************************************************************************/
-
 /* SINGLE PROJECT */
 
 .single-project-section {
   max-width: 900px;
   margin: 0px auto;
-  padding: 100px 0px;
+  padding: 150px 0px;
   position: relative;
 }
 
-.single-project-section .section-heading {
-  font-size: 48.83px;
-  margin-bottom: 3rem;
+.single-project-section .project-description .link {
+  color: #ffb685;
+}
+.single-project-section .project-description .link:hover {
+  text-decoration: underline;
+}
+
+.single-project-section p,
+.single-project-section .ordered-list,
+.single-project-section .unordered-list {
+  margin-bottom: 15px;
+}
+
+.single-project-section .ordered-list {
+  padding-left: 40px;
+  position: relative;
+}
+.single-project-section .ordered-list li:before {
+  position: absolute;
+  left: 0;
+  content: "▹";
+  width: 2rem;
   color: #555b6e;
+  font-size: 25px;
+}
+
+.single-project-section .unordered-list {
+  padding-left: 40px;
+  position: relative;
+}
+.single-project-section .unordered-list li:before {
+  position: absolute;
+  left: 0;
+  content: "▹";
+  width: 2rem;
+  color: #555b6e;
+  font-size: 25px;
+}
+
+.single-project-section .links {
+  display: flex;
+  column-gap: 20px;
+}
+
+.single-project-section .action-button-link {
+  display: inline-block;
+  margin: 40px 0px;
 }
 
 .single-project-section .image-gallery {
@@ -759,16 +760,6 @@ footer .copywright-div {
 
 .single-project-section .project-description b {
   font-weight: 600;
-}
-
-.three-view-list-ol {
-  list-style-type: decimal;
-  margin-left: 2rem;
-}
-
-.three-view-list-ul {
-  list-style-type: disc;
-  margin-left: 2rem;
 }
 
 .image-gallery-subheading {

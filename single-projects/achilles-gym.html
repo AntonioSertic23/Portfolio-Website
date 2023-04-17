@@ -11,83 +11,71 @@
     <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
-    <nav>
+    <nav id="navbar">
       <ul>
         <li>
-          <a href="../index.html">Početna</a>
+          <a href="/#aboutme-section">O Meni</a>
         </li>
         <li>
-          <a href="../aboutme.html">O meni</a>
+          <a href="/#jobs-section">Iskustvo</a>
         </li>
         <li>
-          <a href="../projects.html">Projekti</a>
+          <a href="/#projects-section">Projekti</a>
+        </li>
+        <li>
+          <a href="/#contact-section">Kontakt</a>
         </li>
       </ul>
+      <button class="action-button-link">Životopis</button>
     </nav>
 
-    <div class="container single-project-container">
+    <div class="container">
       <section class="single-project-section">
-        <p class="section-heading">Achilles Gym</p>
+        <p class="heading">Achilles Gym</p>
 
         <div class="project-description">
           <p>
             Projekt Achilles Gym je nastao na faksu kao projekt za
             konstrukcijske vježbe iz predmeta <b>CMS sustavi</b>.
           </p>
-          <br />
           <p>
             Tema projekta je bila kreirati wordpress temu za teretanu koristeći
             custom post type-ove, taksonomije i custom meta box-ove.
           </p>
-          <br />
           <p>
             Stranica prikazuje sva naučena znanja o korišenju
             <b>Wordpress</b> tehnologijom koja koristi <b>PHP</b> programski
             jezik i <b>MySQL</b> za bazu podataka.
           </p>
-          <br />
-          <br />
           <p><b>Administrativno sučelje</b></p>
-          <br />
-          <ul class="three-view-list-ul">
+          <ul class="unordered-list">
             <li>
               cpt <b>Program</b> sadrži cpt <b>Sprava</b> povezan preko custom
               meta box-a
             </li>
-            <br />
             <li>
               cpt <b>Trener</b> sadrži cpt <b>Program</b> isto povezan preko
               custom meta box-a
             </li>
-            <br />
             <li>tu je još i cpt <b>Zanimljivost</b></li>
-            <br />
             <li>svaki cpt također ima i svoju jedinstvenu taksonomiju</li>
           </ul>
-          <br />
-          <br />
           <p><b>Na starnici je moguće:</b></p>
-          <br />
-          <ul class="three-view-list-ul">
+          <ul class="unordered-list">
             <li>pregledati zanimljivosti</li>
-            <br />
             <li>pregledati programe, njihove trenere i sprave</li>
-            <br />
             <li>pregledati trenere i njihove programe</li>
-            <br />
             <li>pregledati sprave i njihove programe</li>
-            <br />
             <li>pronaći lokacije teretana na karti</li>
           </ul>
-          <br />
-          <br />
-          <a
-            href="https://github.com/AntonioSertic23/Achilles-Gym"
-            target="_blank"
-            class="open-btn"
-            >Open in Github</a
-          >
         </div>
+
+        <a
+          href="https://github.com/AntonioSertic23/Achilles-Gym"
+          target="_blank"
+          class="action-button-link"
+          >Github</a
+        >
 
         <div class="image-gallery">
           <div class="card">
@@ -179,12 +167,7 @@
     </div>
 
     <footer>
-      <ul>
-        <li>
-          <a href="#">Gmail</a>
-          <a href="#">Github</a>
-        </li>
-      </ul>
+      <p>Dizajnirao i izgradio Antonio Sertić</p>
       <div class="copywright-div">
         <p>&copy; Personal Portfolio Website. All rights reserved.</p>
       </div>
@@ -198,5 +181,6 @@
     </div>
 
     <script src="../modal.js"></script>
+    <script src="../navbar.js"></script>
   </body>
 </html>

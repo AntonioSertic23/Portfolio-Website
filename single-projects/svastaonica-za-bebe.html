@@ -11,23 +11,27 @@
     <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
-    <nav>
+    <nav id="navbar">
       <ul>
         <li>
-          <a href="../index.html">Početna</a>
+          <a href="/#aboutme-section">O Meni</a>
         </li>
         <li>
-          <a href="../aboutme.html">O meni</a>
+          <a href="/#jobs-section">Iskustvo</a>
         </li>
         <li>
-          <a href="../projects.html">Projekti</a>
+          <a href="/#projects-section">Projekti</a>
+        </li>
+        <li>
+          <a href="/#contact-section">Kontakt</a>
         </li>
       </ul>
+      <button class="action-button-link">Životopis</button>
     </nav>
 
-    <div class="container single-project-container">
+    <div class="container">
       <section class="single-project-section">
-        <p class="section-heading">Svaštaonica Za Bebe</p>
+        <p class="heading">Svaštaonica Za Bebe</p>
 
         <div class="project-description">
           <p>
@@ -36,7 +40,6 @@
             kreativnost. Isto tako kreirana je za potrebe klijenta u svrhu
             lijepog prikaza svih njegovih proizvoda na jednome mjestu.
           </p>
-          <br />
           <p>
             Stranica je rađena kao <b>Single Page Application</b> te su se za
             izradu stranice koristile sljedeće tehnologije: <b>HTML</b>,
@@ -45,32 +48,28 @@
             <b>Composition API</b>. Stranica je osim desktop uređaja prilagođena
             i mobilnim uređajima.
           </p>
-          <br />
           <p>
             Dizajn stranice je popraćen modernim web dizajn pravilima kao što su
             skaliranje fonta, razmaci između elemenata i tekstova i razne druge
             stvari. Sadrži dosta interaktivnih
-            <i>hover</i> efekata koji ujedno i nisu previše "napadni".
-            <br />Izgledom podsjeća na osobnu web trgovinu sa dodatkom vlastite
-            kreativnosti i <i>nečeg novog</i>.
+            <i>hover</i> efekata koji ujedno i nisu previše "napadni".Izgledom
+            podsjeća na osobnu web trgovinu sa dodatkom vlastite kreativnosti i
+            <i>nečeg novog</i>.
           </p>
-          <br />
           <p>
-            Stranica je hostana na Netlify-u te ju se može posjetiti preko
-            sljedećg linka
+            Stranica je hostana na Netlify-u te ju se može posjetiti
+            <a href="https://svastaonicazabebe.netlify.app" class="link"
+              >preko sljedećg linka</a
+            >.
           </p>
-          <a href="https://svastaonicazabebe.netlify.app" style="color: blue"
-            >Link za stranicu</a
-          >
-          <br />
-          <br />
-          <a
-            href="https://github.com/AntonioSertic23/Svastaonica-Za-Bebace"
-            target="_blank"
-            class="open-btn"
-            >Open in Github</a
-          >
         </div>
+
+        <a
+          href="https://github.com/AntonioSertic23/Svastaonica-Za-Bebace"
+          target="_blank"
+          class="action-button-link"
+          >Github</a
+        >
 
         <div class="image-gallery">
           <div class="card">
@@ -155,12 +154,7 @@
     </div>
 
     <footer>
-      <ul>
-        <li>
-          <a href="#">Gmail</a>
-          <a href="#">Github</a>
-        </li>
-      </ul>
+      <p>Dizajnirao i izgradio Antonio Sertić</p>
       <div class="copywright-div">
         <p>&copy; Personal Portfolio Website. All rights reserved.</p>
       </div>
@@ -174,5 +168,6 @@
     </div>
 
     <script src="../modal.js"></script>
+    <script src="../navbar.js"></script>
   </body>
 </html>

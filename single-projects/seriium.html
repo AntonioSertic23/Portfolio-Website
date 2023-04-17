@@ -11,23 +11,27 @@
     <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
-    <nav>
+    <nav id="navbar">
       <ul>
         <li>
-          <a href="../index.html">Početna</a>
+          <a href="/#aboutme-section">O Meni</a>
         </li>
         <li>
-          <a href="../aboutme.html">O meni</a>
+          <a href="/#jobs-section">Iskustvo</a>
         </li>
         <li>
-          <a href="../projects.html">Projekti</a>
+          <a href="/#projects-section">Projekti</a>
+        </li>
+        <li>
+          <a href="/#contact-section">Kontakt</a>
         </li>
       </ul>
+      <button class="action-button-link">Životopis</button>
     </nav>
 
-    <div class="container single-project-container">
+    <div class="container">
       <section class="single-project-section">
-        <p class="section-heading">Seriium</p>
+        <p class="heading">Seriium</p>
 
         <div class="project-description">
           <p>
@@ -35,7 +39,6 @@
             konstrukcijske vježbe za predmet
             <b>Programiranje mobilnih aplikacija</b>.
           </p>
-          <br />
           <p>
             Aplikacija služi za vođenje evidencije serija kako bi si korisnik
             mogao pratiti gdje je stao sa gledanjem.
@@ -45,21 +48,14 @@
             <b>Firebase-a</b> za koje postoji opcija potvrde profila mail
             adresom.
           </p>
-          <br />
           <p><b>Kada se prijavi u aplikaciju, korisnik može:</b></p>
-          <br />
-          <ul class="three-view-list-ol">
+          <ol class="ordered-list">
             <li>vidjeti svoju listu serija</li>
-            <br />
             <li>pretražiti serije</li>
-            <br />
             <li>pogledati detalje pojedine serije</li>
-            <br />
             <li>dodavati i micati serije iz svoje liste</li>
-            <br />
             <li>označavati i odznačavati pogledane sezone i epizode</li>
-          </ul>
-          <br />
+          </ol>
           <p>
             Uz to se nalazi i detaljna <i>statistika</i> gdje korisnik može
             vidjeti koliko je sveukupno vremena potrošio gledajući serije,
@@ -70,32 +66,29 @@
             Korisnik ima i uvid u svoj profil na kojemu može mjenjati sve
             podatke.
           </p>
-          <br />
           <p>
             Projekt je rađen u Android Studiu, a za programski jezik izabrana je
             <b>Java</b> uz <b>Firebase</b> bazu podataka. Primjenjena su znanja
             korištenja: <i>activitya</i>, <i>adaptera</i>, <i>fragmenta</i>,
             <i>listenera</i>, <i>izrade modela</i> i <i>služenja network-om</i>.
           </p>
-          <br />
           <p>
             Za izlistavanje serija, sezona i epizoda korišten je
             <b>RecyclerView</b>, a za dohvaćanje podataka o serijama koristi se
             <b>Retrofit</b> koji se spaja na
-            <a style="color: blue" href="https://www.episodate.com/api"
+            <a class="link" href="https://www.episodate.com/api"
               >EPISODATE API</a
             >
             radi dohvaćanja podataka o serijama.
           </p>
-          <br />
-          <br />
-          <a
-            href="https://github.com/AntonioSertic23/Seriium"
-            target="_blank"
-            class="open-btn"
-            >Open in Github</a
-          >
         </div>
+
+        <a
+          href="https://github.com/AntonioSertic23/Seriium"
+          target="_blank"
+          class="action-button-link"
+          >Github</a
+        >
 
         <p class="image-gallery-subheading">Skice</p>
         <div class="image-gallery">
@@ -227,12 +220,7 @@
     </div>
 
     <footer>
-      <ul>
-        <li>
-          <a href="#">Gmail</a>
-          <a href="#">Github</a>
-        </li>
-      </ul>
+      <p>Dizajnirao i izgradio Antonio Sertić</p>
       <div class="copywright-div">
         <p>&copy; Personal Portfolio Website. All rights reserved.</p>
       </div>
@@ -246,5 +234,6 @@
     </div>
 
     <script src="../modal.js"></script>
+    <script src="../navbar.js"></script>
   </body>
 </html>

@@ -11,23 +11,27 @@
     <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
-    <nav>
+    <nav id="navbar">
       <ul>
         <li>
-          <a href="../index.html">Početna</a>
+          <a href="/#aboutme-section">O Meni</a>
         </li>
         <li>
-          <a href="../aboutme.html">O meni</a>
+          <a href="/#jobs-section">Iskustvo</a>
         </li>
         <li>
-          <a href="../projects.html">Projekti</a>
+          <a href="/#projects-section">Projekti</a>
+        </li>
+        <li>
+          <a href="/#contact-section">Kontakt</a>
         </li>
       </ul>
+      <button class="action-button-link">Životopis</button>
     </nav>
 
-    <div class="container single-project-container">
+    <div class="container">
       <section class="single-project-section">
-        <p class="section-heading">Moviium</p>
+        <p class="heading">Moviium</p>
 
         <div class="project-description">
           <p>
@@ -35,13 +39,11 @@
             zaposlenja kako bi stekao znanja u radu sa Anularom i kreiranju
             API-ja.
           </p>
-          <br />
           <p>
             Tema projekta je bila napraviti kopiju prijašnje vlastite aplikacije
             sa faksa "Filmovi" samo u Angularu i sa pripadajućim api-jem za
             obradu podataka i komunikaciju sa bazom podataka.
           </p>
-          <br />
           <p>
             Za izradu stranice korišten je <b>Angular</b> koji koristi
             <b>Bootstrap</b> za dizajn. Za izradu api-ja korišten je
@@ -49,43 +51,31 @@
             kreiranih kontolera. Za bazu podataka korišten je
             <b>Microsoft SQL Server</b>.
           </p>
-          <br />
           <p>
             Aplikacija sadrži prijavu i registraciju uz potrebne provjere
             unesenih parametara, a za dohvaćanje filmova i njihovih podataka
             koristi se
-            <a
-              style="color: blue"
-              target="_blank"
-              href="https://www.omdbapi.com/"
+            <a class="link" target="_blank" href="https://www.omdbapi.com/"
               >OMDb API</a
             >.
           </p>
-          <br />
           <p><b>Nakon uspješne prijave, u aplikaciji je moguće:</b></p>
-          <br />
-          <ul class="three-view-list-ol">
+          <ol class="ordered-list">
             <li>pretražiti filmove po nazivu</li>
-            <br />
             <li>pogledati detalje pojedinog filma</li>
-            <br />
             <li>dodavanje filmova u svoju listu uz dodjelu vlastite ocjene</li>
-            <br />
             <li>pogledati svoju listu filmova</li>
-            <br />
             <li>ažurirati dodjeljene ocjene</li>
-            <br />
             <li>uklanjanje filmova iz svoje liste</li>
-          </ul>
-          <br />
-          <br />
-          <a
-            href="https://github.com/AntonioSertic23/Moviium"
-            target="_blank"
-            class="open-btn"
-            >Open in Github</a
-          >
+          </ol>
         </div>
+
+        <a
+          href="https://github.com/AntonioSertic23/Moviium"
+          target="_blank"
+          class="action-button-link"
+          >Github</a
+        >
 
         <div class="image-gallery">
           <div class="card">
@@ -142,12 +132,7 @@
     </div>
 
     <footer>
-      <ul>
-        <li>
-          <a href="#">Gmail</a>
-          <a href="#">Github</a>
-        </li>
-      </ul>
+      <p>Dizajnirao i izgradio Antonio Sertić</p>
       <div class="copywright-div">
         <p>&copy; Personal Portfolio Website. All rights reserved.</p>
       </div>
@@ -161,5 +146,6 @@
     </div>
 
     <script src="../modal.js"></script>
+    <script src="../navbar.js"></script>
   </body>
 </html>

@@ -11,23 +11,27 @@
     <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
-    <nav>
+    <nav id="navbar">
       <ul>
         <li>
-          <a href="../index.html">Početna</a>
+          <a href="/#aboutme-section">O Meni</a>
         </li>
         <li>
-          <a href="../aboutme.html">O meni</a>
+          <a href="/#jobs-section">Iskustvo</a>
         </li>
         <li>
-          <a href="../projects.html">Projekti</a>
+          <a href="/#projects-section">Projekti</a>
+        </li>
+        <li>
+          <a href="/#contact-section">Kontakt</a>
         </li>
       </ul>
+      <button class="action-button-link">Životopis</button>
     </nav>
 
-    <div class="container single-project-container">
+    <div class="container">
       <section class="single-project-section">
-        <p class="section-heading">Digipedia</p>
+        <p class="heading">Digipedia</p>
 
         <div class="project-description">
           <p>
@@ -35,7 +39,6 @@
             vježbe iz predmeta <b>Web programiranje na strani poslužitelja</b> i
             <b>Skriptni programski jezici</b>.
           </p>
-          <br />
           <p>
             Tema projekta je bila kreirati program koji će služiti kao
             informativni portal nalik Wikipedi-i sa autorizacijom korisnika.
@@ -43,44 +46,38 @@
             dostupni svima te administrativno sučelje za admina pomoću kojeg će
             moći upravljati svime na stranici.
           </p>
-          <br />
           <p>
             Stranica prikazuje sva naučena znanja o sljedećim web tehnologijama:
             <b>AngularJs v1.6.9</b> uz <b>jQuery 3.2.1</b>, <b>PHP 7</b> i
             korišten je <b>Bootstrap 3.3.7</b> za dizajn. A za bazu se koristio
             <b>MySQL</b>.
           </p>
-          <br />
           <p><b>Stranica sadrži 3 vrste pregleda:</b></p>
-          <br />
-          <ul class="three-view-list-ol">
+          <ol class="ordered-list">
             <li>
               Za običnog gosta stranice koji može pristupiti svim člancima na
               stranici te mu je sve <i>read-only</i>.
             </li>
-            <br />
             <li>
               Za prijavljenog korisnika koji može dodavati članke i podčlanke,
               te dati ocjenu svim člancima. Isto tako ima svu kontrolu nad
               svojim člancima i podčlancima jer ih može uređivati i brisati.
             </li>
-            <br />
             <li>
               Za prijavljenog admina koji može upravljati svim korisnicima,
               kategorijama i članicam, znači dodavat, uređivat i brisati ih.
               Također ima i uvid u povijest uređivanja članaka gdje može vidjeti
               tko je kada i koji članak uređivao.
             </li>
-          </ul>
-          <br />
-          <br />
-          <a
-            href="https://github.com/AntonioSertic23/Digipedia"
-            target="_blank"
-            class="open-btn"
-            >Open in Github</a
-          >
+          </ol>
         </div>
+
+        <a
+          href="https://github.com/AntonioSertic23/Digipedia"
+          target="_blank"
+          class="action-button-link"
+          >Github</a
+        >
 
         <p class="image-gallery-subheading">Neprijavljeni korisnik</p>
         <div class="image-gallery">
@@ -222,12 +219,7 @@
     </div>
 
     <footer>
-      <ul>
-        <li>
-          <a href="#">Gmail</a>
-          <a href="#">Github</a>
-        </li>
-      </ul>
+      <p>Dizajnirao i izgradio Antonio Sertić</p>
       <div class="copywright-div">
         <p>&copy; Personal Portfolio Website. All rights reserved.</p>
       </div>
@@ -241,5 +233,6 @@
     </div>
 
     <script src="../modal.js"></script>
+    <script src="../navbar.js"></script>
   </body>
 </html>

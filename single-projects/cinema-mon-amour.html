@@ -11,23 +11,27 @@
     <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
-    <nav>
+    <nav id="navbar">
       <ul>
         <li>
-          <a href="../index.html">Početna</a>
+          <a href="/#aboutme-section">O Meni</a>
         </li>
         <li>
-          <a href="../aboutme.html">O meni</a>
+          <a href="/#jobs-section">Iskustvo</a>
         </li>
         <li>
-          <a href="../projects.html">Projekti</a>
+          <a href="/#projects-section">Projekti</a>
+        </li>
+        <li>
+          <a href="/#contact-section">Kontakt</a>
         </li>
       </ul>
+      <button class="action-button-link">Životopis</button>
     </nav>
 
-    <div class="container single-project-container">
+    <div class="container">
       <section class="single-project-section">
-        <p class="section-heading">Cinema Mon Amour</p>
+        <p class="heading">Cinema Mon Amour</p>
 
         <div class="project-description">
           <p>
@@ -35,55 +39,43 @@
             za konstrukcijske vježbe za predmet
             <b>Programiranje mobilnih aplikacija</b>.
           </p>
-          <br />
           <p>
             Aplikacija služi za vođenje evidencije filmova kako bi si korisnik
             mogao pratiti omiljene pogledane filmove.
           </p>
-          <br />
           <p><b>U aplikaciji je moguće:</b></p>
-          <br />
-          <ul class="three-view-list-ol">
+          <ol class="ordered-list">
             <li>vidjeti listu filmova</li>
-            <br />
             <li>pregled detalja filmova (datum izlaska, imdb ocjenu i opis)</li>
-            <br />
             <li>
               dodavanje filmova u favorite uz dodjelu vlastite ocjene pojedinom
               filmu
             </li>
-            <br />
             <li>pregled favorita gdje se vide svi dodani filmovi</li>
-            <br />
             <li>uklanjanje filmova iz favorita</li>
-          </ul>
-          <br />
+          </ol>
           <p>
             Projekt je rađen u Android Studiu, a za programski jezik izabrana je
             <b>Java</b>. Primjenjena su znanja korištenja: <i>activitya</i>,
             <i>adaptera</i>, <i>fragmenta</i>, <i>listenera</i>,
             <i>izrade modela</i> i <i>služenja network-om</i>.
           </p>
-          <br />
           <p>
             Kao baza podataka izabrana je lokalna baza podataka <b>Room</b>, a
             za dohvaćanje filmova i njihovih podataka koristi se
             <b>Retrofit</b> koji se spaja na
-            <a
-              style="color: blue"
-              href="https://www.themoviedb.org/documentation/api"
+            <a class="link" href="https://www.themoviedb.org/documentation/api"
               >TMDb API</a
             >.
           </p>
-          <br />
-          <br />
-          <a
-            href="https://github.com/AntonioSertic23/Cinema-Mon-Amour"
-            target="_blank"
-            class="open-btn"
-            >Open in Github</a
-          >
         </div>
+
+        <a
+          href="https://github.com/AntonioSertic23/Cinema-Mon-Amour"
+          target="_blank"
+          class="action-button-link"
+          >Github</a
+        >
 
         <div class="image-gallery">
           <div class="card">
@@ -119,12 +111,7 @@
     </div>
 
     <footer>
-      <ul>
-        <li>
-          <a href="#">Gmail</a>
-          <a href="#">Github</a>
-        </li>
-      </ul>
+      <p>Dizajnirao i izgradio Antonio Sertić</p>
       <div class="copywright-div">
         <p>&copy; Personal Portfolio Website. All rights reserved.</p>
       </div>
@@ -138,5 +125,6 @@
     </div>
 
     <script src="../modal.js"></script>
+    <script src="../navbar.js"></script>
   </body>
 </html>

@@ -11,72 +11,68 @@
     <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
-    <nav>
+    <nav id="navbar">
       <ul>
         <li>
-          <a href="../index.html">Početna</a>
+          <a href="/#aboutme-section">O Meni</a>
         </li>
         <li>
-          <a href="../aboutme.html">O meni</a>
+          <a href="/#jobs-section">Iskustvo</a>
         </li>
         <li>
-          <a href="../projects.html">Projekti</a>
+          <a href="/#projects-section">Projekti</a>
+        </li>
+        <li>
+          <a href="/#contact-section">Kontakt</a>
         </li>
       </ul>
+      <button class="action-button-link">Životopis</button>
     </nav>
 
     <div class="container">
       <section class="single-project-section">
-        <p class="section-heading">Hoteli</p>
+        <p class="heading">Hoteli</p>
 
         <div class="project-description">
           <p>
             Stranica Hoteli je nastala na faksu kao projekt za konstrukcijske
             vježbe za predmet <b>Osnove Web Programiranja</b>.
           </p>
-          <br />
           <p>
             Tema projekta je izabrana zbog riješavanja potencijalne problematike
             vođenja lanca hotela
           </p>
-          <br />
           <p>
             Stranica prikazuje sva naučena znanja o osnovnim web tehnologijama
             <b>HTML</b>, <b>CSS</b> uz <b>Bootstrap 3.3.7</b> i
             <b>JavaScript</b> uz <b>jQuery</b>. A za bazu se koristio
             <b>Firebase</b>.
           </p>
-          <br />
           <p>
             Omogućeni su prijava i registracija putem firebase-a uz potpunu
             provjeru svih unesenih parametara kao što je na primjer provjera
             pravilnog formata email-a.
           </p>
-          <br />
           <p><b>Stranica sadrži 3 vrste pregleda:</b></p>
-          <br />
-          <ul class="three-view-list-ol">
+          <ol class="ordered-list">
             <li>Za običnog gosta stranice koji vidi samo popis hotela.</li>
-            <br />
             <li>
               Za prijavljenog korisnika koji može rezervirati sobe u hotelima.
             </li>
-            <br />
             <li>
               Za prijavljenog admina koji može upravljati samim hotelima.
               Uređivat, brisat i dodavat ih te uklanjati same rezervacije. Ima
               uvid u statistiku te može dodavati novog admina.
             </li>
-          </ul>
-          <br />
-          <br />
-          <a
-            href="https://github.com/AntonioSertic23/Hoteli"
-            target="_blank"
-            class="action-button-link"
-            >Open in Github</a
-          >
+          </ol>
         </div>
+
+        <a
+          href="https://github.com/AntonioSertic23/Hoteli"
+          target="_blank"
+          class="action-button-link"
+          >Github</a
+        >
 
         <div class="image-gallery">
           <div class="card">
@@ -140,12 +136,7 @@
     </div>
 
     <footer>
-      <ul>
-        <li>
-          <a href="#">Gmail</a>
-          <a href="#">Github</a>
-        </li>
-      </ul>
+      <p>Dizajnirao i izgradio Antonio Sertić</p>
       <div class="copywright-div">
         <p>&copy; Personal Portfolio Website. All rights reserved.</p>
       </div>
@@ -159,5 +150,6 @@
     </div>
 
     <script src="../modal.js"></script>
+    <script src="../navbar.js"></script>
   </body>
 </html>

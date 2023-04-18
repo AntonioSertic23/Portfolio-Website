@@ -108,7 +108,6 @@ footer .copywright-div {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.8); /* Black w/ opacity */
 }
 /* Modal Content (image) */
@@ -116,8 +115,9 @@ footer .copywright-div {
   margin: auto;
   display: block;
   max-width: 80%;
-  height: 85vh;
+  max-height: 85vh;
   opacity: 1 !important;
+  border-radius: 5px;
 }
 /* Caption of Modal Image */
 .modal-caption {
@@ -734,17 +734,15 @@ footer .copywright-div {
 }
 
 .single-project-section .image-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
   margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
 }
 
 .single-project-section .image-gallery .card {
-  width: 400px;
   height: 400px;
-  border-radius: 15px;
+  border-radius: 5px;
   overflow: hidden;
   box-shadow: 3px 3px 5px gray;
 }
@@ -773,9 +771,10 @@ footer .copywright-div {
 }
 
 .image-gallery-subheading {
-  font-size: 39.06px;
+  font-size: 40px;
   margin-top: 3rem;
   font-weight: 500;
+  color: #555b6e;
 }
 
 /* COLORS

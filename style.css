@@ -80,19 +80,12 @@ nav .action-button-link {
 /* FOOTER */
 
 footer {
-  background-color: #89b0ae;
+  background-color: #555b6e;
   color: #faf9f9;
   padding-top: 2rem;
+  padding-bottom: 2rem;
   font-weight: 500;
   text-align: center;
-}
-footer .copywright-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #555b6e;
-  height: 60px;
-  margin-top: 2rem;
 }
 
 /* MODAL */
@@ -585,11 +578,18 @@ footer .copywright-div {
 .contact-section .text {
   font-size: 20px;
   line-height: 1.3;
-  margin-bottom: 50px;
   color: #89b0ae;
 }
 
+.contact-section .email {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #555b6e;
+}
+
 .contact-section .action-button-link {
+  margin-top: 50px;
   padding: 1rem 2rem;
 }
 

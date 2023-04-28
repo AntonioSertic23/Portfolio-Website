@@ -13,7 +13,7 @@
 }
 
 .archive-section .subheading {
-  font-size: 20px;
+  font-size: var(--xsmall);
   white-space: nowrap;
   font-weight: 600;
   color: var(--secondary);
@@ -33,7 +33,7 @@
 .archive-section table th {
   color: var(--secondary);
   font-weight: 700;
-  font-size: 20px;
+  font-size: var(--xsmall);
 }
 
 .archive-section table th:last-child {
@@ -48,16 +48,16 @@
 }
 
 .archive-section table .year {
-  font-size: 18px;
+  font-size: var(--xxsmall);
   color: var(--action-variant);
 }
 .archive-section table .name {
-  font-size: 20px;
+  font-size: var(--xsmall);
   font-weight: 600;
   color: var(--primary);
 }
 .archive-section table .madeat {
-  font-size: 18px;
+  font-size: var(--xxsmall);
   color: var(--secondary);
 }
 .archive-section table .tech {

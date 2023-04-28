@@ -30,7 +30,7 @@
   content: "▹";
   width: 2rem;
   color: var(--primary);
-  font-size: 25px;
+  font-size: var(--small);
 }
 
 .single-project-section .unordered-list {
@@ -43,7 +43,7 @@
   content: "▹";
   width: 2rem;
   color: var(--primary);
-  font-size: 25px;
+  font-size: var(--small);
 }
 
 .single-project-section .links {
@@ -83,7 +83,7 @@
 }
 
 .single-project-section .project-description {
-  font-size: 20px;
+  font-size: var(--xsmall);
   line-height: 1.4;
   margin-top: 3rem;
   color: var(--secondary);
@@ -94,7 +94,7 @@
 }
 
 .image-gallery-subheading {
-  font-size: 40px;
+  font-size: var(--large);
   margin-top: 3rem;
   font-weight: 500;
   color: var(--primary);
@@ -124,21 +124,8 @@
   opacity: 1 !important;
   border-radius: 5px;
 }
-/* Caption of Modal Image */
-.modal-caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 1200px;
-  text-align: center;
-  color: var(--white);
-  font-weight: 700;
-  font-size: 1em;
-  margin-top: 32px;
-}
 /* Add Animation */
-.modal-content,
-.modal-caption {
+.modal-content {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
@@ -166,7 +153,7 @@
   top: 15px;
   right: 35px;
   color: var(--background);
-  font-size: 40px;
+  font-size: var(--large);
   font-weight: bold;
   transition: 0.3s;
 }

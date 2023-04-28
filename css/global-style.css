@@ -3,18 +3,9 @@
   src: url(./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
 
-/* FONT SIZES 
-61.04px
-3.052rem/48.83px
-2.441rem/39.06px
-1.953rem/31.25px
-1.563rem/25.00px - navbar links
-1.25rem/20.00px
-1rem/16.00px
-*/
-
 :root {
   /* THEME 1 */
+  /* color */
   --primary: #555b6e;
   --secondary: #89b0ae;
   --secondary-variant: #bee3db;
@@ -22,8 +13,19 @@
   --background: #faf9f9;
   --action: #ffd6ba;
   --action-variant: #ffb685;
+  /* font size - Major Third */
+  --xxxlarge: 80px;
+  --xxlarge: 61.04px;
+  --xlarge: 48.83px;
+  --large: 39.06px;
+  --medium: 31.25px;
+  --small: 25px;
+  --xsmall: 20px;
+  --xxsmall: 18px;
+  --xxxsmall: 16px;
 
-  /* THEME 2 */ /*
+  /* THEME 2 */
+  /* color */ /*
   --primary: #386641;
   --secondary: #6A994E;
   --secondary-variant: #A7C957;
@@ -53,7 +55,7 @@
   padding: 1rem 1.25rem;
   background-color: var(--action);
   border: 1px solid var(--action);
-  font-size: 16px;
+  font-size: var(--xxsmall);
   transition: 0.5s;
   border-radius: 5px;
   box-shadow: 2px 2px 3px var(--gray);
@@ -69,7 +71,7 @@
   align-items: center;
   margin: 10px 0px 40px;
   width: 100%;
-  font-size: 48px;
+  font-size: var(--xlarge);
   white-space: nowrap;
   font-weight: 600;
   color: var(--primary);
@@ -96,7 +98,7 @@ nav ul {
   align-items: center;
 }
 nav ul li a {
-  font-size: 20px;
+  font-size: var(--xsmall);
   color: var(--secondary);
 }
 nav ul li a.active {

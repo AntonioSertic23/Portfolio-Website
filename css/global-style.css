@@ -1,7 +1,41 @@
-/* * */
 @font-face {
   font-family: Montserrat;
   src: url(./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+/* FONT SIZES 
+61.04px
+3.052rem/48.83px
+2.441rem/39.06px
+1.953rem/31.25px
+1.563rem/25.00px - navbar links
+1.25rem/20.00px
+1rem/16.00px
+*/
+
+:root {
+  /* THEME 1 */
+  --primary: #555b6e;
+  --secondary: #89b0ae;
+  --secondary-variant: #bee3db;
+  --secondary-variant-variant: #9bd4c8;
+  --background: #faf9f9;
+  --action: #ffd6ba;
+  --action-variant: #ffb685;
+
+  /* THEME 2 */ /*
+  --primary: #386641;
+  --secondary: #6A994E;
+  --secondary-variant: #A7C957;
+  --secondary-variant-variant: #9bd4c8;
+  --background: #F2E8CF;
+  --action: #BC4749;
+  --action-variant: #ffb685; */
+
+  /* NEUTRAL */
+  --black: #000000;
+  --gray: #808080;
+  --white: #ffffff;
 }
 
 * {
@@ -9,7 +43,7 @@
   scroll-behavior: smooth;
 }
 .container {
-  background-color: #faf9f9;
+  background-color: var(--background);
   margin: 0px auto;
   width: 100%;
   padding-bottom: 100px;
@@ -17,17 +51,17 @@
 
 .action-button-link {
   padding: 1rem 1.25rem;
-  background-color: #ffd6ba;
-  border: 1px solid #ffd6ba;
+  background-color: var(--action);
+  border: 1px solid var(--action);
   font-size: 16px;
   transition: 0.5s;
   border-radius: 5px;
-  box-shadow: 2px 2px 3px gray;
+  box-shadow: 2px 2px 3px var(--gray);
 }
 .action-button-link:hover {
-  border-color: black;
+  border-color: var(--black);
   cursor: pointer;
-  background-color: #bee3db;
+  background-color: var(--secondary-variant);
 }
 
 .heading {
@@ -38,7 +72,7 @@
   font-size: 48px;
   white-space: nowrap;
   font-weight: 600;
-  color: #555b6e;
+  color: var(--primary);
 }
 
 /* NAVBAR */
@@ -46,7 +80,7 @@
 nav {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: #faf9f9;
+  background-color: var(--background);
   position: fixed;
   width: 100%;
   display: flex;
@@ -63,14 +97,14 @@ nav ul {
 }
 nav ul li a {
   font-size: 20px;
-  color: #89b0ae;
+  color: var(--secondary);
 }
 nav ul li a.active {
   text-decoration: underline;
-  color: #555b6e;
+  color: var(--primary);
 }
 nav ul li a:hover {
-  color: #555b6e;
+  color: var(--primary);
   text-decoration: underline;
 }
 nav .action-button-link {
@@ -80,30 +114,10 @@ nav .action-button-link {
 /* FOOTER */
 
 footer {
-  background-color: #555b6e;
-  color: #faf9f9;
+  background-color: var(--primary);
+  color: var(--background);
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-weight: 500;
   text-align: center;
 }
-
-/* COLORS
-#555B6E - tamni tekst
-#89B0AE - tekst
-#BEE3DB - buttons hover & kartice na ostali projekti
-#9bd4c8 - buttons hover za tamniji button
-#FAF9F9 - pozadina
-#FFD6BA - buttons
-#ffb685 - tamniji buttons
-*/
-
-/* FONT SIZES 
-61.04px
-3.052rem/48.83px
-2.441rem/39.06px
-1.953rem/31.25px
-1.563rem/25.00px - navbar links
-1.25rem/20.00px
-1rem/16.00px
-*/

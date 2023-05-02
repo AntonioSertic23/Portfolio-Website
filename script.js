@@ -1,9 +1,10 @@
 var isResized = false;
 
 function resizeBox() {
+  $("#box").toggleClass("show-full-box");
+
   if (isResized === false) {
     var myDiv = document.getElementById("box");
-    myDiv.style.height = "1233px";
     setTimeout(function () {
       myDiv.style.overflow = "visible";
     }, 500);
@@ -12,7 +13,6 @@ function resizeBox() {
   } else {
     var myDiv = document.getElementById("box");
     myDiv.style.overflow = "hidden";
-    myDiv.style.height = "398px";
     isResized = false;
     document.getElementById("show-more-btn").innerHTML = "Prikaži više";
     document.getElementById("more-projects-section").scrollIntoView();
@@ -35,5 +35,6 @@ $(".container").click(function () {
   $("#toggleBtn").removeClass("open");
   $(".sidebar").removeClass("show-sidebar");
   $(".container").removeClass("blur-effect");
-  $("body").toggleClass("disable-scroll");
+  $("body").removeClass("disable-scroll");
+  $("nav").removeClass("inherit-background");
 });

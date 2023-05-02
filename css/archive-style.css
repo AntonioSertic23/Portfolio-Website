@@ -64,6 +64,7 @@
 }
 .archive-section table .links {
   text-align: center;
+  white-space: nowrap;
 }
 
 .archive-section table .links a:hover img {
@@ -87,15 +88,6 @@
 
   .archive-section table th,
   .archive-section table td {
-    padding: 10px 15px;
-  }
-
-  .archive-section table .links a + a {
-    margin-left: 0;
-  }
-
-  .archive-section table {
-    border-collapse: separate;
-    border-spacing: 0 15px;
+    padding: 20px 15px;
   }
 }

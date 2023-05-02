@@ -363,6 +363,11 @@
   .projects-section .box .project .right-side .links .link img {
     width: 24px;
   }
+
+  .projects-section .box .project .right-side ul {
+    row-gap: 15px;
+    flex-wrap: wrap;
+  }
 }
 
 /* MORE PROJECTS SECTION */

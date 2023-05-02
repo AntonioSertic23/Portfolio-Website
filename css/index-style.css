@@ -78,10 +78,6 @@
   .hero-section .paragraph2 {
     font-size: var(--xxsmall);
   }
-
-  .hero-section .action-button-link {
-    font-size: var(--xxxsmall);
-  }
 }
 
 /* ABOUT ME SECTION */
@@ -127,6 +123,21 @@
   width: 100%;
   border-radius: 5px;
   box-shadow: 0px 0px 5px var(--gray);
+}
+
+@media (max-width: 992px) {
+  .aboutme-section .box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutme-section .left-side p {
+    font-size: var(--xxsmall);
+  }
+
+  .aboutme-section .right-side {
+    max-width: 250px;
+  }
 }
 
 /* JOBS SECTION */
@@ -178,6 +189,24 @@
   width: 2rem;
   color: var(--primary);
   font-size: var(--small);
+}
+
+@media (max-width: 992px) {
+  .jobs-section .job p {
+    font-size: var(--xxsmall);
+  }
+
+  .jobs-section .job .position {
+    font-size: var(--small);
+  }
+
+  .jobs-section .job .year {
+    font-size: var(--xxsmall);
+  }
+
+  .jobs-section .job ul li:before {
+    font-size: var(--xsmall);
+  }
 }
 
 /* PROJECTS SECTION */
@@ -284,8 +313,38 @@
 }
 
 @media (max-width: 992px) {
-  .projects-section {
-    overflow: hidden;
+  .projects-section .box .project {
+    flex-direction: column;
+  }
+
+  .projects-section .box .project .left-side,
+  .projects-section .box .project .right-side {
+    width: 100%;
+  }
+
+  .projects-section .box .project .left-side .image-box a {
+    display: flex;
+  }
+
+  .projects-section .box .project .right-side {
+    padding-left: 0;
+    margin-top: 20px;
+  }
+
+  .projects-section .box .project .right-side .name {
+    font-size: var(--small);
+  }
+
+  .projects-section .box .project .right-side .year {
+    font-size: var(--xxsmall);
+  }
+
+  .projects-section .box .project .right-side .description {
+    font-size: var(--xxsmall);
+  }
+
+  .projects-section .box .project .right-side .links .link img {
+    width: 24px;
   }
 }
 
@@ -407,8 +466,18 @@
 }
 
 @media (max-width: 992px) {
-  .more-projects-section {
-    overflow: hidden;
+  .more-projects-section .heading {
+    font-size: var(--small);
+    white-space: initial;
+    text-align: center;
+  }
+
+  .more-projects-section .subheading {
+    font-size: var(--small);
+  }
+
+  .more-projects-section .box .project .header .name {
+    font-size: var(--small);
   }
 }
 
@@ -462,6 +531,24 @@
 
 @media (max-width: 992px) {
   .contact-section {
-    overflow: hidden;
+    padding-bottom: 100px;
+  }
+
+  .contact-section .heading {
+    font-size: var(--small);
+  }
+
+  .contact-section .big-heading {
+    font-size: var(--large);
+    white-space: initial;
+    line-height: 1.2;
+  }
+
+  .contact-section .text {
+    font-size: var(--xxsmall);
+  }
+
+  .contact-section .email {
+    font-size: var(--xxsmall);
   }
 }

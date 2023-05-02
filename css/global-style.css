@@ -241,6 +241,14 @@ footer {
     padding: 0 25px;
   }
 
+  .action-button-link {
+    font-size: var(--xxxsmall);
+  }
+
+  .heading {
+    font-size: var(--large);
+  }
+
   #toggleBtn {
     display: block;
   }

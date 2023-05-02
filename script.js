@@ -18,3 +18,13 @@ function resizeBox() {
     document.getElementById("more-projects-section").scrollIntoView();
   }
 }
+
+function toggleNavbar() {
+  // otvoriti model preko cijelog uz možda animaciju prema dolje
+}
+
+$(document).ready(function () {
+  $("#toggleBtn").click(function () {
+    $(this).toggleClass("open");
+  });
+});

@@ -138,6 +138,23 @@
   .aboutme-section .right-side {
     max-width: 250px;
   }
+
+  #aboutme-section {
+    position: relative;
+    bottom: -200px;
+  }
+}
+
+@media (max-width: 768px) {
+  #aboutme-section {
+    bottom: -150px;
+  }
+}
+
+@media (max-width: 576px) {
+  #aboutme-section {
+    bottom: -100px;
+  }
 }
 
 /* JOBS SECTION */

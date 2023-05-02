@@ -38,3 +38,11 @@ $(".container").click(function () {
   $("body").removeClass("disable-scroll");
   $("nav").removeClass("inherit-background");
 });
+
+$(".sidebar a").click(function () {
+  $("#toggleBtn").removeClass("open");
+  $(".sidebar").removeClass("show-sidebar");
+  $(".container").removeClass("blur-effect");
+  $("body").removeClass("disable-scroll");
+  $("nav").removeClass("inherit-background");
+});

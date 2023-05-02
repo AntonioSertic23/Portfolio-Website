@@ -23,8 +23,17 @@ function toggleNavbar() {
   // otvoriti model preko cijelog uz možda animaciju prema dolje
 }
 
-$(document).ready(function () {
-  $("#toggleBtn").click(function () {
-    $(this).toggleClass("open");
-  });
+$("#toggleBtn").click(function () {
+  $(this).toggleClass("open");
+  $(".sidebar").toggleClass("show-sidebar");
+  $(".container").toggleClass("blur-effect");
+  $("body").toggleClass("disable-scroll");
+  $("nav").toggleClass("inherit-background");
+});
+
+$(".container").click(function () {
+  $("#toggleBtn").removeClass("open");
+  $(".sidebar").removeClass("show-sidebar");
+  $(".container").removeClass("blur-effect");
+  $("body").toggleClass("disable-scroll");
 });

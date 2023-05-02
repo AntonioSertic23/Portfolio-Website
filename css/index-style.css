@@ -386,7 +386,6 @@
 
 .more-projects-section .subheading {
   font-size: var(--small);
-  white-space: nowrap;
   font-weight: 600;
   color: var(--secondary);
 }
@@ -489,7 +488,6 @@
 @media (max-width: 992px) {
   .more-projects-section .heading {
     font-size: var(--small);
-    white-space: initial;
     text-align: center;
   }
 
@@ -585,7 +583,6 @@
   margin-bottom: 30px;
   width: 100%;
   font-size: var(--xlarge);
-  white-space: nowrap;
   font-weight: 600;
   color: var(--primary);
 }
@@ -619,8 +616,6 @@
 
   .contact-section .big-heading {
     font-size: var(--large);
-    white-space: initial;
-    line-height: 1.2;
   }
 
   .contact-section .text {

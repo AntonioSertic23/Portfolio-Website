@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../reset.css" />
     <link rel="stylesheet" href="../css/global-style.css" />
     <link rel="stylesheet" href="../css/single-project-style.css" />
+    <script src="../assets/jquery-3.6.4.min.js"></script>
   </head>
   <body>
     <nav id="navbar">
@@ -26,14 +27,47 @@
         <li>
           <a href="/#contact-section">Kontakt</a>
         </li>
+        <li>
+          <a
+            href="../assets/CV - Antonio Sertić.pdf"
+            target="_blank"
+            class="action-button-link"
+            >Životopis</a
+          >
+        </li>
       </ul>
-      <a
-        href="../assets/CV - Antonio Sertić.pdf"
-        target="_blank"
-        class="action-button-link"
-        >Životopis</a
-      >
+      <div id="toggleBtn">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </nav>
+
+    <aside class="sidebar">
+      <ul>
+        <li>
+          <a href="/#aboutme-section">O Meni</a>
+        </li>
+        <li>
+          <a href="/#jobs-section">Iskustvo</a>
+        </li>
+        <li>
+          <a href="/#projects-section">Projekti</a>
+        </li>
+        <li>
+          <a href="/#contact-section">Kontakt</a>
+        </li>
+        <li>
+          <a
+            href="../assets/CV - Antonio Sertić.pdf"
+            target="_blank"
+            class="action-button-link"
+            >Životopis</a
+          >
+        </li>
+      </ul>
+    </aside>
 
     <div class="container">
       <section class="single-project-section">
@@ -201,5 +235,6 @@
 
     <script src="../modal.js"></script>
     <script src="../navbar.js"></script>
+    <script src="../sidebar.js"></script>
   </body>
 </html>

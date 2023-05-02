@@ -71,9 +71,9 @@
   margin: 10px 0px 40px;
   width: 100%;
   font-size: var(--xlarge);
-  white-space: nowrap;
   font-weight: 600;
   color: var(--primary);
+  line-height: 1.3;
 }
 
 /* NAVBAR */

@@ -100,6 +100,33 @@
   color: var(--primary);
 }
 
+@media (max-width: 992px) {
+  .single-project-section .ordered-list li:before {
+    font-size: var(--xsmall);
+  }
+
+  .single-project-section .unordered-list li:before {
+    font-size: var(--xsmall);
+  }
+
+  .single-project-section .project-description {
+    font-size: var(--xxsmall);
+  }
+
+  .image-gallery-subheading {
+    font-size: var(--medium);
+  }
+
+  .single-project-section .image-gallery {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .single-project-section .image-gallery .card {
+    height: 300px;
+  }
+}
+
 /* MODAL */
 
 /* The Modal (background) */

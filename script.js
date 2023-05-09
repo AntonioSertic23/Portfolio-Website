@@ -4,17 +4,15 @@ function resizeBox() {
   $("#box").toggleClass("show-full-box");
 
   if (isResized === false) {
-    var myDiv = document.getElementById("box");
     setTimeout(function () {
-      myDiv.style.overflow = "visible";
+      $("#box").css("overflow", "visible");
     }, 500);
     isResized = true;
-    document.getElementById("show-more-btn").innerHTML = "Prikaži manje";
+    $("#show-more-btn").html("Prikaži manje");
   } else {
-    var myDiv = document.getElementById("box");
-    myDiv.style.overflow = "hidden";
+    $("#box").css("overflow", "hidden");
     isResized = false;
-    document.getElementById("show-more-btn").innerHTML = "Prikaži više";
-    document.getElementById("more-projects-section").scrollIntoView();
+    $("#show-more-btn").html("Prikaži više");
+    $("#more-projects-section")[0].scrollIntoView();
   }
 }

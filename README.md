@@ -1,13 +1,33 @@
-# Portfolio Website
+# My Portfolio Website
 
-## Moja portfolio stranica
+## Project Description
 
-Web portfolio je osobni projekt izrađen radi prikaza svih osobnih projekata na kojima sam radio, prikaza informacija o meni i radnog iskustva što može poslužiti pri zapošljavanju i dobivanju klijenata za izradu budućih projekata.
+My Portfolio Website is a personal project showcasing my skills, projects, and achievements. This website is built using HTML, CSS, JavaScript, and jQuery, and it serves as a digital resume and a showcase of my work in the field of web development.
 
-### Tehnologije korištene za izradu:
+## Features
 
-- **HTML5**
-- **CSS3**
-- **JavaScript** uz jQuery
+My Portfolio Website includes the following features:
+
+1. **About Me:** A section that provides a brief introduction about me, my background, and my interests.
+
+2. **Projects:** Display of my selected projects with descriptions, screenshots, and links to live demos or repositories.
+
+3. **Work Experience:** Detailed information about my work history, including job roles, responsibilities, and accomplishments.
+
+4. **Contact:** Contact information, including email and social media links, for potential employers or collaborators to reach out to me.
+
+## Technical Details
+
+The website was built using pure HTML, CSS, JavaScript, and jQuery. It utilizes modern web design techniques to ensure a responsive and visually appealing layout across various devices and screen sizes.
 
 [![My Skills](https://skills.thijs.gg/icons?i=html,css,js)](https://skills.thijs.gg)
+
+## Installation and Usage
+
+To view my portfolio website locally, follow these steps:
+
+1. Clone this repository to your computer.
+
+2. Open the project directory.
+
+3. Double-click the `index.html` file to open it in a web browser.

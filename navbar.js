@@ -66,7 +66,7 @@ function getTheme() {
     setTheme(theme);
     $(".custom-select-wrapper").find("select").val(theme);
     $(".custom-options").find(`[data-value='${theme}']`).addClass("selection");
-    $(".custom-select").find(".custom-select-trigger").text($(".selection").text());
+    $(".custom-select").find(".custom-select-trigger").text($(".selection").first().text());
   } else {
     $(".custom-options").find("span").first().addClass("selection");
   }

@@ -28,12 +28,11 @@
           <a href="/#contact-section">Kontakt</a>
         </li>
         <li>
-          <a
-            href="../assets/CV - Antonio Sertić.pdf"
-            target="_blank"
-            class="action-button-link"
-            >Životopis</a
-          >
+          <select name="sources" id="sources" class="custom-select sources action-button-link" placeholder="Izaberi temu">
+            <option value="theme1">Tiha Oaza</option>
+            <option value="theme2">Tropska Vedrina</option>
+            <option value="theme3">Nježna Neutralnost</option>
+          </select>
         </li>
       </ul>
       <div id="toggleBtn">
@@ -59,12 +58,11 @@
           <a href="/#contact-section">Kontakt</a>
         </li>
         <li>
-          <a
-            href="../assets/CV - Antonio Sertić.pdf"
-            target="_blank"
-            class="action-button-link"
-            >Životopis</a
-          >
+          <select name="sources" id="sources" class="custom-select sources action-button-link" placeholder="Izaberi temu">
+            <option value="theme1">Tiha Oaza</option>
+            <option value="theme2">Tropska Vedrina</option>
+            <option value="theme3">Nježna Neutralnost</option>
+          </select>
         </li>
       </ul>
     </aside>
@@ -75,185 +73,95 @@
 
         <div class="project-description">
           <p>
-            Projekt Digipedia je nastao na fakultetu kao projekt za
-            konstrukcijske vježbe iz predmeta
-            <b>Web programiranje na strani poslužitelja</b> i
-            <b>Skriptni programski jezici</b>.
+            Projekt Digipedia je nastao na fakultetu kao projekt za konstrukcijske vježbe iz predmeta
+            <b>Web programiranje na strani poslužitelja</b> i <b>Skriptni programski jezici</b>.
           </p>
           <p>
-            Tema projekta je bila kreirati program koji će služiti kao
-            informativni portal nalik Wikipedi-i s autorizacijom korisnika.
-            Program treba sadržavati kategorije, članke i podčlanke koji su
-            dostupni svima te administrativno sučelje za admina pomoću kojeg će
-            moći upravljati svime na stranici.
+            Tema projekta je bila kreirati program koji će služiti kao informativni portal nalik Wikipedi-i s autorizacijom korisnika. Program treba sadržavati kategorije, članke i podčlanke koji su
+            dostupni svima te administrativno sučelje za admina pomoću kojeg će moći upravljati svime na stranici.
           </p>
           <p>
             Stranica prikazuje sva naučena znanja o sljedećim web tehnologijama:
-            <b>AngularJs v1.6.9</b> uz <b>jQuery 3.2.1</b>, <b>PHP 7</b> i
-            korišten je <b>Bootstrap 3.3.7</b> za dizajn. A za bazu se koristio
-            <b>MySQL</b>.
+            <b>AngularJs v1.6.9</b> uz <b>jQuery 3.2.1</b>, <b>PHP 7</b> i korišten je <b>Bootstrap 3.3.7</b> za dizajn. A za bazu se koristio <b>MySQL</b>.
           </p>
           <p><b>Stranica sadrži 3 vrste pregleda:</b></p>
           <ol class="ordered-list">
+            <li>Za običnog gosta stranice koji može pristupiti svim člancima na stranici te mu je sve <i>read-only</i>.</li>
             <li>
-              Za običnog gosta stranice koji može pristupiti svim člancima na
-              stranici te mu je sve <i>read-only</i>.
+              Za prijavljenog korisnika koji može dodavati članke i podčlanke, te dati ocjenu svim člancima. Isto tako ima svu kontrolu nad svojim člancima i podčlancima jer ih može uređivati i
+              brisati.
             </li>
             <li>
-              Za prijavljenog korisnika koji može dodavati članke i podčlanke,
-              te dati ocjenu svim člancima. Isto tako ima svu kontrolu nad
-              svojim člancima i podčlancima jer ih može uređivati i brisati.
-            </li>
-            <li>
-              Za prijavljenog admina koji može upravljati svim korisnicima,
-              kategorijama i člancima, znači dodavati, uređivati i brisati ih.
-              Također ima i uvid u povijest uređivanja članaka gdje može vidjeti
-              tko je kada i koji članak uređivao.
+              Za prijavljenog admina koji može upravljati svim korisnicima, kategorijama i člancima, znači dodavati, uređivati i brisati ih. Također ima i uvid u povijest uređivanja članaka gdje može
+              vidjeti tko je kada i koji članak uređivao.
             </li>
           </ol>
         </div>
 
-        <a
-          href="https://github.com/AntonioSertic23/Digipedia"
-          target="_blank"
-          class="action-button-link"
-          >Github</a
-        >
+        <a href="https://github.com/AntonioSertic23/Digipedia" target="_blank" class="action-button-link">Github</a>
 
         <p class="image-gallery-subheading">Neprijavljeni korisnik</p>
         <div class="image-gallery">
           <div class="card">
-            <img
-              class="modal-target"
-              src="../assets/projects/digipedia/1.png"
-              alt=""
-            />
+            <img class="modal-target" src="../assets/projects/digipedia/1.png" alt="" />
           </div>
           <div class="card">
-            <img
-              class="modal-target"
-              src="../assets/projects/digipedia/2.png"
-              alt=""
-            />
+            <img class="modal-target" src="../assets/projects/digipedia/2.png" alt="" />
           </div>
           <div class="card">
-            <img
-              class="modal-target"
-              src="../assets/projects/digipedia/3.png"
-              alt=""
-            />
+            <img class="modal-target" src="../assets/projects/digipedia/3.png" alt="" />
           </div>
           <div class="card">
-            <img
-              class="modal-target"
-              src="../assets/projects/digipedia/4.png"
-              alt=""
-            />
+            <img class="modal-target" src="../assets/projects/digipedia/4.png" alt="" />
           </div>
         </div>
 
         <p class="image-gallery-subheading">Prijavljeni obični korisnik</p>
         <div class="image-gallery">
           <div class="card">
-            <img
-              class="modal-target"
-              src="../assets/projects/digipedia/5.png"
-              alt=""
-            />
+            <img class="modal-target" src="../assets/projects/digipedia/5.png" alt="" />
           </div>
           <div class="card">
-            <img
-              class="modal-target"
-              src="../assets/projects/digipedia/6.png"
-              alt=""
-            />
+            <img class="modal-target" src="../assets/projects/digipedia/6.png" alt="" />
           </div>
         </div>
         <p class="image-gallery-subheading">Prijavljeni admin</p>
         <div class="image-gallery">
           <div class="card">
-            <img
-              class="modal-target"
-              src="../assets/projects/digipedia/7.png"
-              alt=""
-            />
+            <img class="modal-target" src="../assets/projects/digipedia/7.png" alt="" />
           </div>
           <div class="card">
-            <img
-              class="modal-target"
-              src="../assets/projects/digipedia/8.png"
-              alt=""
-            />
+            <img class="modal-target" src="../assets/projects/digipedia/8.png" alt="" />
           </div>
           <div class="card">
-            <img
-              class="modal-target"
-              src="../assets/projects/digipedia/9.png"
-              alt=""
-            />
+            <img class="modal-target" src="../assets/projects/digipedia/9.png" alt="" />
           </div>
           <div class="card">
-            <img
-              class="modal-target"
-              src="../assets/projects/digipedia/10.png"
-              alt=""
-            />
+            <img class="modal-target" src="../assets/projects/digipedia/10.png" alt="" />
           </div>
           <div class="card">
-            <img
-              class="modal-target"
-              src="../assets/projects/digipedia/11.png"
-              alt=""
-            />
+            <img class="modal-target" src="../assets/projects/digipedia/11.png" alt="" />
           </div>
           <div class="card">
-            <img
-              class="modal-target"
-              src="../assets/projects/digipedia/12.png"
-              alt=""
-            />
+            <img class="modal-target" src="../assets/projects/digipedia/12.png" alt="" />
           </div>
           <div class="card">
-            <img
-              class="modal-target"
-              src="../assets/projects/digipedia/13.png"
-              alt=""
-            />
+            <img class="modal-target" src="../assets/projects/digipedia/13.png" alt="" />
           </div>
           <div class="card">
-            <img
-              class="modal-target"
-              src="../assets/projects/digipedia/14.png"
-              alt=""
-            />
+            <img class="modal-target" src="../assets/projects/digipedia/14.png" alt="" />
           </div>
           <div class="card">
-            <img
-              class="modal-target"
-              src="../assets/projects/digipedia/15.png"
-              alt=""
-            />
+            <img class="modal-target" src="../assets/projects/digipedia/15.png" alt="" />
           </div>
           <div class="card">
-            <img
-              class="modal-target"
-              src="../assets/projects/digipedia/16.png"
-              alt=""
-            />
+            <img class="modal-target" src="../assets/projects/digipedia/16.png" alt="" />
           </div>
           <div class="card">
-            <img
-              class="modal-target"
-              src="../assets/projects/digipedia/17.png"
-              alt=""
-            />
+            <img class="modal-target" src="../assets/projects/digipedia/17.png" alt="" />
           </div>
           <div class="card">
-            <img
-              class="modal-target"
-              src="../assets/projects/digipedia/18.png"
-              alt=""
-            />
+            <img class="modal-target" src="../assets/projects/digipedia/18.png" alt="" />
           </div>
         </div>
       </section>

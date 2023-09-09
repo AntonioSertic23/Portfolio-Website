@@ -2,9 +2,9 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function () {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
-    $("#navbar").css({ "background-color": "#faf9f9", top: "0" });
+    $("#navbar").css({ top: "0" });
   } else {
-    $("#navbar").css({ "background-color": "inherit", top: "-88px" });
+    $("#navbar").css({ top: "-88px" });
   }
   prevScrollpos = currentScrollPos;
 };
@@ -12,23 +12,6 @@ window.onscroll = function () {
 /* CHANGING THEME */
 
 const setTheme = (theme) => (document.documentElement.className = theme);
-
-function getTheme() {
-  const theme = localStorage.getItem("theme");
-  if (theme) {
-    setTheme(theme);
-    // postaviti vrijednost selecta na vrijednost izabranog
-    $(".custom-select-wrapper").find("select").val(theme);
-
-    // dodati selection na novoizabrani
-    $(".custom-options").find(`[data-value='${theme}']`).addClass("selection");
-
-    // postaviti text u selectu
-    $(".custom-select").find(".custom-select-trigger").text($(".selection").text());
-  }
-}
-
-getTheme();
 
 /* CUSTOM DROPDOWN */
 
@@ -81,3 +64,23 @@ $(".custom-option").on("click", function () {
   setTheme($(this).data("value"));
   localStorage.setItem("theme", $(this).data("value"));
 });
+
+function getTheme() {
+  const theme = localStorage.getItem("theme");
+  if (theme) {
+    setTheme(theme);
+    // postaviti vrijednost selecta na vrijednost izabranog
+    $(".custom-select-wrapper").find("select").val(theme);
+
+    // dodati selection na novoizabrani
+    $(".custom-options").find(`[data-value='${theme}']`).addClass("selection");
+
+    // postaviti text u selectu
+    $(".custom-select").find(".custom-select-trigger").text($(".selection").text());
+  } else {
+    console.log($(".custom-options").find("span"));
+    $(".custom-options").find("span").first().addClass("selection");
+  }
+}
+
+getTheme();

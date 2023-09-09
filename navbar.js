@@ -1,7 +1,10 @@
+"use strict";
+
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function () {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
+    // TODO: tu je bilo prije "top" promjena i background colora jer se na modelu vidi iznad...
     $("#navbar").css({ top: "0" });
   } else {
     $("#navbar").css({ top: "-88px" });
@@ -16,9 +19,7 @@ const setTheme = (theme) => (document.documentElement.className = theme);
 /* CUSTOM DROPDOWN */
 
 $(".custom-select").each(function () {
-  var classes = $(this).attr("class"),
-    id = $(this).attr("id"),
-    name = $(this).attr("name");
+  var classes = $(this).attr("class");
   var template = '<div class="' + classes + '">';
   template += '<span class="custom-select-trigger">' + $(this).attr("placeholder") + "</span>";
   template += '<div class="custom-options">';
@@ -49,18 +50,12 @@ $(".custom-select-trigger").on("click", function () {
   event.stopPropagation();
 });
 $(".custom-option").on("click", function () {
-  // postaviti vrijednost selecta na vrijednost izabranog
   $(this).parents(".custom-select-wrapper").find("select").val($(this).data("value"));
-  // ukoliniti klasu selection sa prijašnjeg
   $(this).parents(".custom-options").find(".custom-option").removeClass("selection");
-  // dodati selection na novoizabrani
   $(this).addClass("selection");
-  // zatvoriti dropdown
   $(this).parents(".custom-select").removeClass("opened");
-  // postaviti text u selectu
   $(this).parents(".custom-select").find(".custom-select-trigger").text($(this).text());
 
-  // postavi temu i spremi ju
   setTheme($(this).data("value"));
   localStorage.setItem("theme", $(this).data("value"));
 });
@@ -69,16 +64,10 @@ function getTheme() {
   const theme = localStorage.getItem("theme");
   if (theme) {
     setTheme(theme);
-    // postaviti vrijednost selecta na vrijednost izabranog
     $(".custom-select-wrapper").find("select").val(theme);
-
-    // dodati selection na novoizabrani
     $(".custom-options").find(`[data-value='${theme}']`).addClass("selection");
-
-    // postaviti text u selectu
     $(".custom-select").find(".custom-select-trigger").text($(".selection").text());
   } else {
-    console.log($(".custom-options").find("span"));
     $(".custom-options").find("span").first().addClass("selection");
   }
 }

@@ -1,6 +1,6 @@
 @font-face {
   font-family: Montserrat;
-  src: url(./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+  src: url(../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
 
 :root {
@@ -25,8 +25,7 @@
 
 :root,
 :root.theme1 {
-  /* THEME 1 */
-  /* colors https://coolors.co/palette/555b6e-89b0ae-bee3db-faf9f9-ffd6ba */
+  /* THEME 1 - https://coolors.co/palette/555b6e-89b0ae-bee3db-faf9f9-ffd6ba */
   --primary: #555b6e;
   --secondary: #89b0ae;
   --secondary-variant: #bee3db;
@@ -37,27 +36,25 @@
 }
 
 :root.theme2 {
-  /* THEME 3 */
-  /* colors https://coolors.co/palette/386641-6a994e-a7c957-f2e8cf-bc4749 */
+  /* THEME 3 - https://coolors.co/palette/386641-6a994e-a7c957-f2e8cf-bc4749 */
   --primary: #386641;
   --secondary: #6a994e;
   --secondary-variant: #a7c957;
-  --secondary-variant-variant: #9bd4c8;
+  --secondary-variant-variant: #87a937;
   --background: #f2e8cf;
   --action: #bc4749;
-  --action-variant: #ffb685;
+  --action-variant: #963638;
 }
 
 :root.theme3 {
-  /* THEME 2 */
-  /* colors https://coolors.co/palette/463f3a-8a817c-bcb8b1-f4f3ee-e0afa0 */
+  /* THEME 2 - https://coolors.co/palette/463f3a-8a817c-bcb8b1-f4f3ee-e0afa0 */
   --primary: #463f3a;
   --secondary: #8a817c;
   --secondary-variant: #bcb8b1;
-  --secondary-variant-variant: #9bd4c8;
+  --secondary-variant-variant: #a19b91;
   --background: #f4f3ee;
   --action: #e0afa0;
-  --action-variant: #ffb685;
+  --action-variant: #d28a74;
 }
 
 * {
@@ -109,11 +106,13 @@
 .custom-select {
   position: relative;
   display: inline-block;
+  padding: 0;
 }
 .custom-select-trigger {
   display: block;
   width: fit-content;
-  padding: 0 35px 0 0;
+  padding: 1rem 3.5rem 1rem 1.25rem;
+  color: var(--black);
 }
 .custom-select-trigger:after {
   position: absolute;

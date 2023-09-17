@@ -11,11 +11,11 @@
 
   "aboutme-heading": "O meni",
   "aboutme-text-1": "Pozdrav, zovem se Antonio, dolazim iz manjeg mjesta zvanog Đurđenovac i volim kreirati zanimljive i izazovne aplikacije.",
-  "aboutme-text-2": "Godine 2018. sam započeo s pohađanjem Računarstva smjer Programsko inženjerstvo na Veleučilištu u Virovitici.",
+  "aboutme-text-2": "Godine 2018. sam započeo s pohađanjem Računarstva smjer Programsko inženjerstvo na <a target='_blank' href='https://vuv.hr'>Veleučilištu u Virovitici</a>.",
 
   "aboutme-text-3": "Na Veleučilištu sam usvojio znanja programiranja desktop, web, mobilnih i cms aplikacija koje su varirale po svojoj zahtjevnosti. Koristio sam se raznim programskim tehnologijama, jezicima i okvirima:",
-  "aboutme-text-4": "Studentsku praksu sam odradio na drugoj godini studija, pohađanjem frontend akademije koju je održavao Factory",
-  "aboutme-text-5": "Početkom treće godine sam se zaposlio kao programer u Fini, također u Virovitici gdje sam nakon studiranja nastavio raditi naredne dvije godine.",
+  "aboutme-text-4": "Studentsku praksu sam odradio na drugoj godini studija, pohađanjem frontend akademije koju je održavao <a target='_blank' href='https://factory.dev'>Factory</a>.",
+  "aboutme-text-5": "Početkom treće godine sam se zaposlio kao programer u <a target='_blank' href='https://www.fina.hr'>Fini</a>, također u Virovitici gdje sam nakon studiranja nastavio raditi naredne dvije godine.",
   "aboutme-text-6": "Imam puno interesa stoga vrijeme van radnog vremena provodim na razne načine. Čitam knjige, igram košarku, gledam filmove, serije, igram društvene igre...",
 
   "jobs-heading": "Radno iskustvo",
@@ -26,5 +26,36 @@
   "jobs-fina-2": "Usvojio sam znanja kako provesti projekt od početka do kraja. Od planiranja, skiciranja i osmišljavanja arhitekture aplikacije i baze podataka, izrade i potencijalnih izmjena do uspješno završenog projekta.",
   "jobs-fina-3": "Kada sam se zaposlio položio sam SCRUM tečaj u Algebri 2022 i sudjelovao u prijelazu na agilne metode rada. Stekao iskustva u radu s agilnim alatima (Jira) i alatima za komunikaciju s dizajnerima (Figma).",
   "jobs-fina-4": "Ručno testirao web stranice u različitim preglednicima i mobilnim uređajima kako bi se osigurala kompatibilnost i responzivnost.",
-  "jobs-fina-5": "Pisao sam moderan, učinkovit i održiv kod u .NET razvojnoj okolini koristeći Blazor, Razor Pages, JavaScript i SQL."
+  "jobs-fina-5": "Pisao sam moderan, učinkovit i održiv kod u .NET razvojnoj okolini koristeći Blazor, Razor Pages, JavaScript i SQL.",
+
+  "more": "Više..",
+  "projects-heading": "Moji projekti",
+  "projects-1-name": "Svaštaonica Za Bebe",
+  "projects-1-description": "Mali strastveni projekt preko kojega sam proširio znanje Vue.js-a i pokazao svoju kreativnost. Kreirana je za potrebe klijenta kao mala ogledna stranica za prikaza svih proizvoda iz ponude.",
+  "projects-2-name": "Fast Food Pink Panther Crikvenica",
+  "projects-2-description": "Srednje-velik, strastveni projekt preko kojega sam započeo izučavanje Vue.js-a i pokazao svoju kreativnost. Kreirana je iz potrebe klijenta za redizajnom postojeće stranice.",
+  "projects-3-name": "Smart Villages",
+  "projects-3-description": "Veći projekt koji je rađen potpunosti samostalno za završni rad.",
+  "projects-4-name": "Seriium",
+  "projects-4-description": "Mobilna aplikacija nastala na faksu kao projekt za konstrukcijske vježbe za predmet Programiranje mobilnih aplikacija.",
+
+  "more-projects-heading": "Ostali projekti vrijedni pažnje",
+  "more-projects-subheading": "pogledaj arhivu",
+  "more-projects-1": "Web stranica rađena za veleučilište kao službena web stranica projekta Gastrotop. <br /><br />Stranica je rađena u Wordpress tehnologiji uz korištenje raznih plugin-ova.",
+  "more-projects-2": "Mobilna aplikacija nastala na faksu kao projekt za konstrukcijske vježbe za predmet Programiranje mobilnih aplikacija. <br /><br />Aplikacija služi za vođenje evidencije filmova.",
+  "more-projects-3": "Projekt nastao na faksu kao projekt za konstrukcijske vježbe iz predmeta CMS sustavi. <br /><br />Tema projekta je bila kreirati wordpress temu za fast food.",
+  "more-projects-4": "Projekt nastao na faksu kao projekt za konstrukcijske vježbe iz predmeta CMS sustavi. <br /><br />Tema projekta je bila kreirati wordpress temu za teretanu.",
+  "more-projects-5": "Prvi projekt dodijeljen nakon zaposlenja kako bi stekao znanja u radu sa Anularom i kreiranju API-ja. <br /><br />Tema projekta je bila rekreirati aplikaciju ''Filmovi'' samo u Angularu i s pripadajućim api-jem.",
+  "more-projects-6": "Projekt nastao na faksu kao projekt za konstrukcijske vježbe iz predmeta WPSP i SPJ.<br /><br />Tema projekta je bila kreirati program koji će služiti kao informativni portal nalik Wikipedi-i s autorizacijom korisnika.",
+  "more-projects-7": "Projekt nastao na faksu kao projekt za konstrukcijske vježbe iz predmeta WPSP i SPJ.<br /><br />Tema projekta je bila kreirati program za evidenciju zadataka s autorizacijom korisnika i korištenjem hijerarhija klasa.",
+  "more-projects-8": "Aplikacija nastala na faksu kao projekt za konstrukcijske vježbe za predmet Programiranje u .NET okolini.<br /><br />Aplikacija služi za vođenje evidencije filmova kako bi si korisnik mogao pratiti omiljene pogledane filmove.",
+  "more-projects-9": "Stranica nastala na faksu kao projekt za konstrukcijske vježbe za predmet Osnove Web Programiranja.<br /><br />Tema projekta je izabrana zbog rješavanja potencijalne problematike vođenja lanca hotela.",
+  "show-more": "Prikaži više",
+
+  "contact-heading": "Kontakt",
+  "contact-subheading": "Budimo u kontaktu",
+  "contact-text": "Otvoren za nove prilike i izazove, moj inbox je uvijek otvoren. Bilo da imate pitanje ili samo želite pozdraviti, potrudit ću se da vam odgovorim!",
+  "contact-getintouch": "Javi se",
+
+  "footer": "Dizajnirao i izgradio Antonio Sertić"
 }

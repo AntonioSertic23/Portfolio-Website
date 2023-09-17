@@ -107,6 +107,14 @@
   color: var(--secondary);
 }
 
+.aboutme-section .left-side a {
+  color: var(--primary);
+  font-weight: 500;
+}
+.aboutme-section .left-side a:hover {
+  text-decoration: underline;
+}
+
 .aboutme-section .left-side .languages-container {
   display: flex;
   justify-content: space-between;

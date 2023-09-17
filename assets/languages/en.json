@@ -11,10 +11,10 @@
 
   "aboutme-heading": "About Me",
   "aboutme-text-1": "Hello, my name is Antonio, I come from a smaller town called Đurđenovac, and I love creating interesting and challenging applications.",
-  "aboutme-text-2": "In 2018, I began my Computer Science journey with a specialization in Software Engineering at the Polytechnic in Virovitica.",
+  "aboutme-text-2": "In 2018, I began my Computer Science journey with a specialization in Software Engineering at the <a target='_blank' href='https://vuv.hr'>Polytechnic in Virovitica</a>.",
   "aboutme-text-3": "During my time at the Polytechnic, I acquired knowledge in programming desktop, web, mobile, and CMS applications of varying complexity. I worked with various programming technologies, languages, and frameworks:",
-  "aboutme-text-4": "I completed my student internship during my second year of study by attending the Frontend Academy organized by Factory.",
-  "aboutme-text-5": "At the beginning of my third year, I joined Fina as a programmer, also in Virovitica, where I continued to work for the next two years after completing my studies.",
+  "aboutme-text-4": "I completed my student internship during my second year of study by attending the Frontend Academy organized by <a target='_blank' href='https://factory.dev'>Factory</a>.",
+  "aboutme-text-5": "At the beginning of my third year, I joined <a target='_blank' href='https://www.fina.hr'>Fina</a> as a programmer, also in Virovitica, where I continued to work for the next two years after completing my studies.",
   "aboutme-text-6": "I have many interests, so I spend my free time in various ways. I read books, play basketball, watch movies and series, and engage in social games.",
 
   "jobs-heading": "Work Experience",
@@ -25,5 +25,36 @@
   "jobs-fina-2": "I have acquired knowledge on how to carry out a project from start to finish. This includes planning, sketching, and designing the architecture of the application and database, development, potential revisions, to the successful completion of the project.",
   "jobs-fina-3": "Upon employment, I completed a SCRUM course at Algebra in 2022 and participated in the transition to agile work methods. Gained experience in working with agile tools (Jira) and communication tools with designers (Figma).",
   "jobs-fina-4": "Manually tested websites on various browsers and mobile devices to ensure compatibility and responsiveness.",
-  "jobs-fina-5": "I wrote modern, efficient, and sustainable code in the .NET development environment using Blazor, Razor Pages, JavaScript, and SQL."
+  "jobs-fina-5": "I wrote modern, efficient, and sustainable code in the .NET development environment using Blazor, Razor Pages, JavaScript, and SQL.",
+
+  "more": "More...",
+  "projects-heading": "My Projects",
+  "projects-1-name": "Svaštaonica Za Bebe",
+  "projects-1-description": "Small passion project where I expanded my Vue.js knowledge and showcased creativity. Created for a client as a product showcase site.",
+  "projects-2-name": "Fast Food Pink Panther Crikvenica",
+  "projects-2-description": "Medium-sized Vue.js project initiated for client website redesign, showcasing creativity.",
+  "projects-3-name": "Smart Villages",
+  "projects-3-description": "A larger project done entirely independently for my final thesis.",
+  "projects-4-name": "Seriium",
+  "projects-4-description": "A mobile application created at college as a project for construction exercises in the subject of Mobile Application Programming.",
+
+  "more-projects-heading": "Other noteworthy projects",
+  "more-projects-subheading": "View archive",
+  "more-projects-1": "A website created for the Polytechnic as the official website of the Gastrotop project. <br /><br />The site was built using Wordpress technology and incorporated various plugins.",
+  "more-projects-2": "Mobile application created during college as a project for construction exercises in the Mobile Application Programming course. <br /><br />The application is used for tracking movie records.",
+  "more-projects-3": "Project developed at college as a project for construction exercises in the CMS Systems course. <br /><br />The project's theme was to create a WordPress theme for a fast food restaurant.",
+  "more-projects-4": "Project developed at college as a project for construction exercises in the CMS Systems course. <br /><br />The project's theme was to create a WordPress theme for a gym.",
+  "more-projects-5": "First project assigned after employment to gain knowledge in working with Angular and creating APIs. <br /><br />The project's theme was to recreate the ''Movies'' application solely in Angular with its corresponding API.",
+  "more-projects-6": "Project developed at college as a project for construction exercises in the WPSP and SPJ courses.<br /><br />The project's theme was to create a program that serves as an informative portal similar to Wikipedia with user authorization.",
+  "more-projects-7": "Project developed at college as a project for construction exercises in the WPSP and SPJ courses.<br /><br />The project's theme was to create a task tracking program with user authorization and the use of class hierarchies.",
+  "more-projects-8": "Application created at college as a project for construction exercises in the Programming in .NET Environment course.<br /><br />The application is used for keeping track of movies so that users can monitor their favorite watched films.",
+  "more-projects-9": "Website created at college as a project for construction exercises in the Fundamentals of Web Programming course.<br /><br />The project's theme was chosen to address potential issues related to hotel chain management.",
+  "show-more": "Show More",
+
+  "contact-heading": "Contact",
+  "contact-subheading": "Let's stay connected",
+  "contact-text": "Open to new opportunities and challenges, my inbox is always open. Whether you have a question or just want to say hello, I'll make sure to respond!",
+  "contact-getintouch": "Get in touch",
+
+  "footer": "Designed and built by Antonio Sertić"
 }

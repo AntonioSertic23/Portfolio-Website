@@ -94,7 +94,7 @@ async function updateLocalization(language) {
   elementsToUpdate.forEach((element) => {
     const key = element.getAttribute("data-localization-key");
     if (localizationData[language] && localizationData[language][key]) {
-      element.textContent = localizationData[language][key];
+      element.innerHTML = localizationData[language][key];
     }
   });
 }

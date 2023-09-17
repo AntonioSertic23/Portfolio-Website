@@ -2,5 +2,29 @@
   "menu-about-me": "O Meni",
   "menu-experience": "Iskustvo",
   "menu-projects": "Projekti",
-  "menu-contact": "Kontakt"
+  "menu-contact": "Kontakt",
+
+  "hero-1": "Pozdrav, zovem se",
+  "hero-2": "Kreativni full stack web developer.",
+  "hero-3": "Strastveni sam i kreativni softverski inženjer specijaliziran za izgradnju (i povremeno dizajniranje) full stack web aplikacija. Trenutačno sam usredotočen na razvoj aplikacija u Fini.",
+  "hero-4": "Životopis",
+
+  "aboutme-heading": "O meni",
+  "aboutme-text-1": "Pozdrav, zovem se Antonio, dolazim iz manjeg mjesta zvanog Đurđenovac i volim kreirati zanimljive i izazovne aplikacije.",
+  "aboutme-text-2": "Godine 2018. sam započeo s pohađanjem Računarstva smjer Programsko inženjerstvo na Veleučilištu u Virovitici.",
+
+  "aboutme-text-3": "Na Veleučilištu sam usvojio znanja programiranja desktop, web, mobilnih i cms aplikacija koje su varirale po svojoj zahtjevnosti. Koristio sam se raznim programskim tehnologijama, jezicima i okvirima:",
+  "aboutme-text-4": "Studentsku praksu sam odradio na drugoj godini studija, pohađanjem frontend akademije koju je održavao Factory",
+  "aboutme-text-5": "Početkom treće godine sam se zaposlio kao programer u Fini, također u Virovitici gdje sam nakon studiranja nastavio raditi naredne dvije godine.",
+  "aboutme-text-6": "Imam puno interesa stoga vrijeme van radnog vremena provodim na razne načine. Čitam knjige, igram košarku, gledam filmove, serije, igram društvene igre...",
+
+  "jobs-heading": "Radno iskustvo",
+  "jobs-infigo-1": "Listopad 2023 - Danas",
+  "jobs-infigo-2": "Upoznavanje sa Pythonom & Splunkom te njihovom sintaksom.",
+
+  "jobs-fina-1": "Listopad 2020 - Listopad 2023",
+  "jobs-fina-2": "Usvojio sam znanja kako provesti projekt od početka do kraja. Od planiranja, skiciranja i osmišljavanja arhitekture aplikacije i baze podataka, izrade i potencijalnih izmjena do uspješno završenog projekta.",
+  "jobs-fina-3": "Kada sam se zaposlio položio sam SCRUM tečaj u Algebri 2022 i sudjelovao u prijelazu na agilne metode rada. Stekao iskustva u radu s agilnim alatima (Jira) i alatima za komunikaciju s dizajnerima (Figma).",
+  "jobs-fina-4": "Ručno testirao web stranice u različitim preglednicima i mobilnim uređajima kako bi se osigurala kompatibilnost i responzivnost.",
+  "jobs-fina-5": "Pisao sam moderan, učinkovit i održiv kod u .NET razvojnoj okolini koristeći Blazor, Razor Pages, JavaScript i SQL."
 }

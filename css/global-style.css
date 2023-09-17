@@ -95,26 +95,31 @@
 
 /* CUSTOM SELECT */
 
-.palette-select-wrapper {
+.palette-select-wrapper,
+.language-select-wrapper {
   position: relative;
   display: inline-block;
   user-select: none;
 }
-.palette-select-wrapper select {
+.palette-select-wrapper select,
+.language-select-wrapper select {
   display: none;
 }
-.palette-select {
+.palette-select,
+.language-select {
   position: relative;
   display: inline-block;
   padding: 0;
 }
-.palette-select-trigger {
+.palette-select-trigger,
+.language-select-trigger {
   display: block;
   width: fit-content;
   padding: 1rem 3.5rem 1rem 1.25rem;
   color: var(--black);
 }
-.palette-select-trigger:after {
+.palette-select-trigger:after,
+.language-select-trigger:after {
   position: absolute;
   display: block;
   content: "";
@@ -129,12 +134,14 @@
   transition: all 0.4s ease-in-out;
   transform-origin: 50% 0;
 }
-.palette-select.opened .palette-select-trigger:after {
+.palette-select.opened .palette-select-trigger:after,
+.language-select.opened .language-select-trigger:after {
   margin-top: 3px;
   transform: rotate(-135deg) translateY(-50%);
 }
-.palette-options {
-  width: 220px;
+.palette-options,
+.language-options {
+  width: 240px;
   position: absolute;
   display: block;
   top: 100%;
@@ -154,13 +161,15 @@
   pointer-events: none;
   transform: translateY(-15px);
 }
-.palette-select.opened .palette-options {
+.palette-select.opened .palette-options,
+.language-select.opened .language-options {
   opacity: 1;
   visibility: visible;
   pointer-events: all;
   transform: translateY(0);
 }
-.palette-options:before {
+.palette-options:before,
+.language-options:before {
   position: absolute;
   display: block;
   content: "";
@@ -178,7 +187,8 @@
 .option-hover:before {
   background: #f9f9f9;
 }
-.palette-option {
+.palette-option,
+.language-option {
   position: relative;
   display: block;
   padding: 0 22px;
@@ -189,15 +199,19 @@
   cursor: pointer;
   transition: all 0.4s ease-in-out;
 }
-.palette-option:first-of-type {
+.palette-option:first-of-type,
+.language-option:first-of-type {
   border-radius: 4px 4px 0 0;
 }
-.palette-option:last-of-type {
+.palette-option:last-of-type,
+.language-option:last-of-type {
   border-bottom: 0;
   border-radius: 0 0 4px 4px;
 }
 .palette-option:hover,
-.palette-option.selection {
+.palette-selection,
+.language-option:hover,
+.language-selection {
   background: rgba(0, 0, 0, 0.08);
 }
 

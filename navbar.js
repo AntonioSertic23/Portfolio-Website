@@ -18,43 +18,43 @@ const setTheme = (theme) => (document.documentElement.className = theme);
 
 /* CUSTOM DROPDOWN */
 
-$(".custom-select").each(function () {
+$(".palette-select").each(function () {
   var classes = $(this).attr("class");
   var template = '<div class="' + classes + '">';
-  template += '<span class="custom-select-trigger">' + $(this).attr("placeholder") + "</span>";
-  template += '<div class="custom-options">';
+  template += '<span class="palette-select-trigger">' + $(this).attr("placeholder") + "</span>";
+  template += '<div class="palette-options">';
   $(this)
     .find("option")
     .each(function () {
-      template += '<span class="custom-option ' + $(this).attr("class") + '" data-value="' + $(this).attr("value") + '">' + $(this).html() + "</span>";
+      template += '<span class="palette-option ' + $(this).attr("class") + '" data-value="' + $(this).attr("value") + '">' + $(this).html() + "</span>";
     });
   template += "</div></div>";
 
-  $(this).wrap('<div class="custom-select-wrapper"></div>');
+  $(this).wrap('<div class="palette-select-wrapper"></div>');
   $(this).hide();
   $(this).after(template);
 });
-$(".custom-option:first-of-type").hover(
+$(".palette-option:first-of-type").hover(
   function () {
-    $(this).parents(".custom-options").addClass("option-hover");
+    $(this).parents(".palette-options").addClass("option-hover");
   },
   function () {
-    $(this).parents(".custom-options").removeClass("option-hover");
+    $(this).parents(".palette-options").removeClass("option-hover");
   }
 );
-$(".custom-select-trigger").on("click", function () {
+$(".palette-select-trigger").on("click", function () {
   $("html").one("click", function () {
-    $(".custom-select").removeClass("opened");
+    $(".palette-select").removeClass("opened");
   });
-  $(this).parents(".custom-select").toggleClass("opened");
+  $(this).parents(".palette-select").toggleClass("opened");
   event.stopPropagation();
 });
-$(".custom-option").on("click", function () {
-  $(this).parents(".custom-select-wrapper").find("select").val($(this).data("value"));
-  $(this).parents(".custom-options").find(".custom-option").removeClass("selection");
+$(".palette-option").on("click", function () {
+  $(this).parents(".palette-select-wrapper").find("select").val($(this).data("value"));
+  $(this).parents(".palette-options").find(".palette-option").removeClass("selection");
   $(this).addClass("selection");
-  $(this).parents(".custom-select").removeClass("opened");
-  $(this).parents(".custom-select").find(".custom-select-trigger").text($(this).text());
+  $(this).parents(".palette-select").removeClass("opened");
+  $(this).parents(".palette-select").find(".palette-select-trigger").text($(this).text());
 
   setTheme($(this).data("value"));
   localStorage.setItem("theme", $(this).data("value"));
@@ -64,11 +64,11 @@ function getTheme() {
   const theme = localStorage.getItem("theme");
   if (theme) {
     setTheme(theme);
-    $(".custom-select-wrapper").find("select").val(theme);
-    $(".custom-options").find(`[data-value='${theme}']`).addClass("selection");
-    $(".custom-select").find(".custom-select-trigger").text($(".selection").first().text());
+    $(".palette-select-wrapper").find("select").val(theme);
+    $(".palette-options").find(`[data-value='${theme}']`).addClass("selection");
+    $(".palette-select").find(".palette-select-trigger").text($(".selection").first().text());
   } else {
-    $(".custom-options").find("span").first().addClass("selection");
+    $(".palette-options").find("span").first().addClass("selection");
   }
 }
 

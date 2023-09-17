@@ -16,22 +16,28 @@
     <nav id="navbar">
       <ul>
         <li>
-          <a href="/#aboutme-section">O Meni</a>
+          <a href="/#aboutme-section" data-localization-key="menu-about-me"></a>
         </li>
         <li>
-          <a href="/#jobs-section">Iskustvo</a>
+          <a href="/#jobs-section" data-localization-key="menu-experience"></a>
         </li>
         <li>
-          <a href="/#projects-section">Projekti</a>
+          <a href="/#projects-section" data-localization-key="menu-projects"></a>
         </li>
         <li>
-          <a href="/#contact-section">Kontakt</a>
+          <a href="/#contact-section" data-localization-key="menu-contact"></a>
         </li>
         <li>
-          <select name="sources" id="sources" class="custom-select sources action-button-link" placeholder="Izaberi temu">
-            <option value="theme1">Tiha Oaza</option>
-            <option value="theme2">Tropska Vedrina</option>
-            <option value="theme3">Nježna Neutralnost</option>
+          <select class="palette-select action-button-link" placeholder="Theme">
+            <option value="theme1">Quiet Oasis</option>
+            <option value="theme2">Tropical Cheerfulness</option>
+            <option value="theme3">Gentle Neutrality</option>
+          </select>
+        </li>
+        <li>
+          <select class="language-select action-button-link" placeholder="Language" id="change-language">
+            <option value="en">English</option>
+            <option value="hr">Hrvatski</option>
           </select>
         </li>
       </ul>
@@ -46,22 +52,28 @@
     <aside class="sidebar">
       <ul>
         <li>
-          <a href="/#aboutme-section">O Meni</a>
+          <a href="/#aboutme-section" data-localization-key="menu-about-me"></a>
         </li>
         <li>
-          <a href="/#jobs-section">Iskustvo</a>
+          <a href="/#jobs-section" data-localization-key="menu-experience"></a>
         </li>
         <li>
-          <a href="/#projects-section">Projekti</a>
+          <a href="/#projects-section" data-localization-key="menu-projects"></a>
         </li>
         <li>
-          <a href="/#contact-section">Kontakt</a>
+          <a href="/#contact-section" data-localization-key="menu-contact"></a>
         </li>
         <li>
-          <select name="sources" id="sources" class="custom-select sources action-button-link" placeholder="Izaberi temu">
-            <option value="theme1">Tiha Oaza</option>
-            <option value="theme2">Tropska Vedrina</option>
-            <option value="theme3">Nježna Neutralnost</option>
+          <select class="palette-select action-button-link" placeholder="Theme">
+            <option value="theme1">Quiet Oasis</option>
+            <option value="theme2">Tropical Cheerfulness</option>
+            <option value="theme3">Gentle Neutrality</option>
+          </select>
+        </li>
+        <li>
+          <select class="language-select action-button-link" placeholder="Language" id="change-language-sidebar">
+            <option value="en">English</option>
+            <option value="hr">Hrvatski</option>
           </select>
         </li>
       </ul>
@@ -71,34 +83,9 @@
       <section class="single-project-section">
         <p class="heading">Tasty Trap</p>
 
-        <div class="project-description">
-          <p>Projekt Tasty Trap je nastao na fakultetu kao projekt za konstrukcijske vježbe iz predmeta <b>CMS sustavi</b>.</p>
-          <p>Tema projekta je bila kreirati wordpress temu za fast food koristeći custom post type-ove, taksonomije i custom meta box-ove.</p>
-          <p>
-            Stranica prikazuje sva naučena znanja o korištenju
-            <b>Wordpress</b> tehnologijom koja koristi <b>PHP</b> programski jezik i <b>MySQL</b> za bazu podataka.
-          </p>
-          <p><b>Administrativno sučelje</b></p>
-          <ul class="unordered-list">
-            <li>cpt <b>Meni</b> sadrži cpt <b>Hrana</b> i cpt <b>Piće</b> povezanih preko custom meta box-ova</li>
-            <li>cpt <b>Hrana</b> i <b>Piće</b> imaju svoje custom meta box-ove koji su nutritivne vrijednosti te se u prikazu menija one zbrajaju</li>
-            <li>tu su još <b>Zaposlenik</b>, <b>Restoran</b> i <b>Vijest</b> cpt-ovi sa svojim custom meta box-ovima</li>
-            <li>svaki cpt također ima i svoju jedinstvenu taksonomiju</li>
-            <li>korišten je i plugin <b>MetaSlider</b>, za prikaz zaposlenika u obliku slidera</li>
-          </ul>
-          <p><b>Na stranici je moguće:</b></p>
-          <ul class="unordered-list">
-            <li>pregledati menije, njihovu hranu i pića</li>
-            <li>pregledati hranu sortiranu po taksonomiji</li>
-            <li>pregledati pića sortirana po taksonomiji</li>
-            <li>pregledati vijesti</li>
-            <li>pregledati istaknute zaposlenike i njihove priče</li>
-            <li>pronaći lokacije na karti</li>
-            <li>pretražiti stranicu</li>
-          </ul>
-        </div>
+        <div class="project-description" data-localization-key="single-project-tasty-trap"></div>
 
-        <a href="https://github.com/AntonioSertic23/Tasty-Trap" target="_blank" class="action-button-link">Github</a>
+        <a href="https://github.com/AntonioSertic23/Tasty-Trap" target="_blank" class="action-button-link">GitHub</a>
 
         <div class="image-gallery">
           <div class="card">
@@ -181,7 +168,7 @@
     </div>
 
     <footer>
-      <p>Dizajnirao i izgradio Antonio Sertić</p>
+      <p data-localization-key="footer"></p>
     </footer>
 
     <!-- The Modal -->

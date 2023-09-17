@@ -16,22 +16,28 @@
     <nav id="navbar">
       <ul>
         <li>
-          <a href="/#aboutme-section">O Meni</a>
+          <a href="/#aboutme-section" data-localization-key="menu-about-me"></a>
         </li>
         <li>
-          <a href="/#jobs-section">Iskustvo</a>
+          <a href="/#jobs-section" data-localization-key="menu-experience"></a>
         </li>
         <li>
-          <a href="/#projects-section">Projekti</a>
+          <a href="/#projects-section" data-localization-key="menu-projects"></a>
         </li>
         <li>
-          <a href="/#contact-section">Kontakt</a>
+          <a href="/#contact-section" data-localization-key="menu-contact"></a>
         </li>
         <li>
-          <select name="sources" id="sources" class="custom-select sources action-button-link" placeholder="Izaberi temu">
-            <option value="theme1">Tiha Oaza</option>
-            <option value="theme2">Tropska Vedrina</option>
-            <option value="theme3">Nježna Neutralnost</option>
+          <select class="palette-select action-button-link" placeholder="Theme">
+            <option value="theme1">Quiet Oasis</option>
+            <option value="theme2">Tropical Cheerfulness</option>
+            <option value="theme3">Gentle Neutrality</option>
+          </select>
+        </li>
+        <li>
+          <select class="language-select action-button-link" placeholder="Language" id="change-language">
+            <option value="en">English</option>
+            <option value="hr">Hrvatski</option>
           </select>
         </li>
       </ul>
@@ -46,22 +52,28 @@
     <aside class="sidebar">
       <ul>
         <li>
-          <a href="/#aboutme-section">O Meni</a>
+          <a href="/#aboutme-section" data-localization-key="menu-about-me"></a>
         </li>
         <li>
-          <a href="/#jobs-section">Iskustvo</a>
+          <a href="/#jobs-section" data-localization-key="menu-experience"></a>
         </li>
         <li>
-          <a href="/#projects-section">Projekti</a>
+          <a href="/#projects-section" data-localization-key="menu-projects"></a>
         </li>
         <li>
-          <a href="/#contact-section">Kontakt</a>
+          <a href="/#contact-section" data-localization-key="menu-contact"></a>
         </li>
         <li>
-          <select name="sources" id="sources" class="custom-select sources action-button-link" placeholder="Izaberi temu">
-            <option value="theme1">Tiha Oaza</option>
-            <option value="theme2">Tropska Vedrina</option>
-            <option value="theme3">Nježna Neutralnost</option>
+          <select class="palette-select action-button-link" placeholder="Theme">
+            <option value="theme1">Quiet Oasis</option>
+            <option value="theme2">Tropical Cheerfulness</option>
+            <option value="theme3">Gentle Neutrality</option>
+          </select>
+        </li>
+        <li>
+          <select class="language-select action-button-link" placeholder="Language" id="change-language-sidebar">
+            <option value="en">English</option>
+            <option value="hr">Hrvatski</option>
           </select>
         </li>
       </ul>
@@ -71,27 +83,7 @@
       <section class="single-project-section">
         <p class="heading">Gastrotop</p>
 
-        <div class="project-description">
-          <p>Stranica Gastrotop je rađena za vrijeme studentskih dana za fakultet kao dio velikog projekta.</p>
-          <p>
-            Cilj projekta je poboljšati dostupnost edukacije u području POTROŠAČKOG TRŽIŠTA POSEBNIH OGRANIČIVANJA PREHRANE kroz razne programe obuke, studentske radionice, panel diskusije i
-            edukacije.
-          </p>
-          <p>Stranica je rađena u <b>Wordpress</b> tehnologiji uz korištenje raznih <b>plugin-ova</b> kao što su:</p>
-          <ul class="unordered-list">
-            <li>Duplicator</li>
-            <li>Envira Gallery</li>
-            <li>Smooth Back To Top Button</li>
-            <li>Tabs Responsive</li>
-            <li>wpDataTables - Tables & Table Charts</li>
-            <li>Elementor</li>
-          </ul>
-          <p>Stranica je puna objava s raznih događanja u Mađarskoj i Hrvatskoj, stoga sadrži prijevod na Hrvatski,Mađarski i Engleski jezik za koji se koristio <b>Polylang</b> plugin.</p>
-          <p>
-            Stranica je hostana na Netlify-u te ju se može posjetiti
-            <a href="http://gastrotop.hr/" class="link">preko sljedećeg linka</a>.
-          </p>
-        </div>
+        <div class="project-description" data-localization-key="single-project-gastrotop"></div>
 
         <div class="image-gallery">
           <div class="card">
@@ -114,7 +106,7 @@
     </div>
 
     <footer>
-      <p>Dizajnirao i izgradio Antonio Sertić</p>
+      <p data-localization-key="footer"></p>
     </footer>
 
     <!-- The Modal -->

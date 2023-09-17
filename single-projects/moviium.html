@@ -16,22 +16,28 @@
     <nav id="navbar">
       <ul>
         <li>
-          <a href="/#aboutme-section">O Meni</a>
+          <a href="/#aboutme-section" data-localization-key="menu-about-me"></a>
         </li>
         <li>
-          <a href="/#jobs-section">Iskustvo</a>
+          <a href="/#jobs-section" data-localization-key="menu-experience"></a>
         </li>
         <li>
-          <a href="/#projects-section">Projekti</a>
+          <a href="/#projects-section" data-localization-key="menu-projects"></a>
         </li>
         <li>
-          <a href="/#contact-section">Kontakt</a>
+          <a href="/#contact-section" data-localization-key="menu-contact"></a>
         </li>
         <li>
-          <select name="sources" id="sources" class="custom-select sources action-button-link" placeholder="Izaberi temu">
-            <option value="theme1">Tiha Oaza</option>
-            <option value="theme2">Tropska Vedrina</option>
-            <option value="theme3">Nježna Neutralnost</option>
+          <select class="palette-select action-button-link" placeholder="Theme">
+            <option value="theme1">Quiet Oasis</option>
+            <option value="theme2">Tropical Cheerfulness</option>
+            <option value="theme3">Gentle Neutrality</option>
+          </select>
+        </li>
+        <li>
+          <select class="language-select action-button-link" placeholder="Language" id="change-language">
+            <option value="en">English</option>
+            <option value="hr">Hrvatski</option>
           </select>
         </li>
       </ul>
@@ -46,22 +52,28 @@
     <aside class="sidebar">
       <ul>
         <li>
-          <a href="/#aboutme-section">O Meni</a>
+          <a href="/#aboutme-section" data-localization-key="menu-about-me"></a>
         </li>
         <li>
-          <a href="/#jobs-section">Iskustvo</a>
+          <a href="/#jobs-section" data-localization-key="menu-experience"></a>
         </li>
         <li>
-          <a href="/#projects-section">Projekti</a>
+          <a href="/#projects-section" data-localization-key="menu-projects"></a>
         </li>
         <li>
-          <a href="/#contact-section">Kontakt</a>
+          <a href="/#contact-section" data-localization-key="menu-contact"></a>
         </li>
         <li>
-          <select name="sources" id="sources" class="custom-select sources action-button-link" placeholder="Izaberi temu">
-            <option value="theme1">Tiha Oaza</option>
-            <option value="theme2">Tropska Vedrina</option>
-            <option value="theme3">Nježna Neutralnost</option>
+          <select class="palette-select action-button-link" placeholder="Theme">
+            <option value="theme1">Quiet Oasis</option>
+            <option value="theme2">Tropical Cheerfulness</option>
+            <option value="theme3">Gentle Neutrality</option>
+          </select>
+        </li>
+        <li>
+          <select class="language-select action-button-link" placeholder="Language" id="change-language-sidebar">
+            <option value="en">English</option>
+            <option value="hr">Hrvatski</option>
           </select>
         </li>
       </ul>
@@ -71,29 +83,9 @@
       <section class="single-project-section">
         <p class="heading">Moviium</p>
 
-        <div class="project-description">
-          <p>Izrada stranice Moviium mi je bila dodijeljena kao prvi projekt nakon zaposlenja kako bi stekao znanja u radu sa Anularom i kreiranju API-ja.</p>
-          <p>Tema projekta je bila napraviti kopiju prijašnje vlastite aplikacije s fakulteta "Filmovi" samo u Angularu i s pripadajućim api-jem za obradu podataka i komunikaciju s bazom podataka.</p>
-          <p>
-            Za izradu stranice korišten je <b>Angular</b> koji koristi <b>Bootstrap</b> za dizajn. Za izradu api-ja korišten je <b>ASP.NET Core Web API</b> koji koristi <b>Swagger</b> za prikaz
-            kreiranih kontrolera. Za bazu podataka korišten je <b>Microsoft SQL Server</b>.
-          </p>
-          <p>
-            Aplikacija sadrži prijavu i registraciju uz potrebne provjere unesenih parametara, a za dohvaćanje filmova i njihovih podataka koristi se
-            <a class="link" target="_blank" href="https://www.omdbapi.com/">OMDb API</a>.
-          </p>
-          <p><b>Nakon uspješne prijave, u aplikaciji je moguće:</b></p>
-          <ol class="ordered-list">
-            <li>pretražiti filmove po nazivu</li>
-            <li>pogledati detalje pojedinog filma</li>
-            <li>dodavanje filmova u svoju listu uz dodjelu vlastite ocjene</li>
-            <li>pogledati svoju listu filmova</li>
-            <li>ažurirati dodijeljene ocjene</li>
-            <li>uklanjanje filmova iz svoje liste</li>
-          </ol>
-        </div>
+        <div class="project-description" data-localization-key="single-project-moviium"></div>
 
-        <a href="https://github.com/AntonioSertic23/Moviium" target="_blank" class="action-button-link">Github</a>
+        <a href="https://github.com/AntonioSertic23/Moviium" target="_blank" class="action-button-link">GitHub</a>
 
         <div class="image-gallery">
           <div class="card">
@@ -122,7 +114,7 @@
     </div>
 
     <footer>
-      <p>Dizajnirao i izgradio Antonio Sertić</p>
+      <p data-localization-key="footer"></p>
     </footer>
 
     <!-- The Modal -->

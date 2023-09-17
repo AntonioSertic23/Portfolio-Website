@@ -16,22 +16,28 @@
     <nav id="navbar">
       <ul>
         <li>
-          <a href="/#aboutme-section">O Meni</a>
+          <a href="/#aboutme-section" data-localization-key="menu-about-me"></a>
         </li>
         <li>
-          <a href="/#jobs-section">Iskustvo</a>
+          <a href="/#jobs-section" data-localization-key="menu-experience"></a>
         </li>
         <li>
-          <a href="/#projects-section">Projekti</a>
+          <a href="/#projects-section" data-localization-key="menu-projects"></a>
         </li>
         <li>
-          <a href="/#contact-section">Kontakt</a>
+          <a href="/#contact-section" data-localization-key="menu-contact"></a>
         </li>
         <li>
-          <select name="sources" id="sources" class="custom-select sources action-button-link" placeholder="Izaberi temu">
-            <option value="theme1">Tiha Oaza</option>
-            <option value="theme2">Tropska Vedrina</option>
-            <option value="theme3">Nježna Neutralnost</option>
+          <select class="palette-select action-button-link" placeholder="Theme">
+            <option value="theme1">Quiet Oasis</option>
+            <option value="theme2">Tropical Cheerfulness</option>
+            <option value="theme3">Gentle Neutrality</option>
+          </select>
+        </li>
+        <li>
+          <select class="language-select action-button-link" placeholder="Language" id="change-language">
+            <option value="en">English</option>
+            <option value="hr">Hrvatski</option>
           </select>
         </li>
       </ul>
@@ -46,22 +52,28 @@
     <aside class="sidebar">
       <ul>
         <li>
-          <a href="/#aboutme-section">O Meni</a>
+          <a href="/#aboutme-section" data-localization-key="menu-about-me"></a>
         </li>
         <li>
-          <a href="/#jobs-section">Iskustvo</a>
+          <a href="/#jobs-section" data-localization-key="menu-experience"></a>
         </li>
         <li>
-          <a href="/#projects-section">Projekti</a>
+          <a href="/#projects-section" data-localization-key="menu-projects"></a>
         </li>
         <li>
-          <a href="/#contact-section">Kontakt</a>
+          <a href="/#contact-section" data-localization-key="menu-contact"></a>
         </li>
         <li>
-          <select name="sources" id="sources" class="custom-select sources action-button-link" placeholder="Izaberi temu">
-            <option value="theme1">Tiha Oaza</option>
-            <option value="theme2">Tropska Vedrina</option>
-            <option value="theme3">Nježna Neutralnost</option>
+          <select class="palette-select action-button-link" placeholder="Theme">
+            <option value="theme1">Quiet Oasis</option>
+            <option value="theme2">Tropical Cheerfulness</option>
+            <option value="theme3">Gentle Neutrality</option>
+          </select>
+        </li>
+        <li>
+          <select class="language-select action-button-link" placeholder="Language" id="change-language-sidebar">
+            <option value="en">English</option>
+            <option value="hr">Hrvatski</option>
           </select>
         </li>
       </ul>
@@ -71,36 +83,11 @@
       <section class="single-project-section">
         <p class="heading">Digipedia</p>
 
-        <div class="project-description">
-          <p>
-            Projekt Digipedia je nastao na fakultetu kao projekt za konstrukcijske vježbe iz predmeta
-            <b>Web programiranje na strani poslužitelja</b> i <b>Skriptni programski jezici</b>.
-          </p>
-          <p>
-            Tema projekta je bila kreirati program koji će služiti kao informativni portal nalik Wikipedi-i s autorizacijom korisnika. Program treba sadržavati kategorije, članke i podčlanke koji su
-            dostupni svima te administrativno sučelje za admina pomoću kojeg će moći upravljati svime na stranici.
-          </p>
-          <p>
-            Stranica prikazuje sva naučena znanja o sljedećim web tehnologijama:
-            <b>AngularJs v1.6.9</b> uz <b>jQuery 3.2.1</b>, <b>PHP 7</b> i korišten je <b>Bootstrap 3.3.7</b> za dizajn. A za bazu se koristio <b>MySQL</b>.
-          </p>
-          <p><b>Stranica sadrži 3 vrste pregleda:</b></p>
-          <ol class="ordered-list">
-            <li>Za običnog gosta stranice koji može pristupiti svim člancima na stranici te mu je sve <i>read-only</i>.</li>
-            <li>
-              Za prijavljenog korisnika koji može dodavati članke i podčlanke, te dati ocjenu svim člancima. Isto tako ima svu kontrolu nad svojim člancima i podčlancima jer ih može uređivati i
-              brisati.
-            </li>
-            <li>
-              Za prijavljenog admina koji može upravljati svim korisnicima, kategorijama i člancima, znači dodavati, uređivati i brisati ih. Također ima i uvid u povijest uređivanja članaka gdje može
-              vidjeti tko je kada i koji članak uređivao.
-            </li>
-          </ol>
-        </div>
+        <div class="project-description" data-localization-key="single-project-digipedia"></div>
 
-        <a href="https://github.com/AntonioSertic23/Digipedia" target="_blank" class="action-button-link">Github</a>
+        <a href="https://github.com/AntonioSertic23/Digipedia" target="_blank" class="action-button-link">GitHub</a>
 
-        <p class="image-gallery-subheading">Neprijavljeni korisnik</p>
+        <p class="image-gallery-subheading" data-localization-key="single-project-ghost"></p>
         <div class="image-gallery">
           <div class="card">
             <img class="modal-target" src="../assets/projects/digipedia/1.png" alt="" />
@@ -116,7 +103,7 @@
           </div>
         </div>
 
-        <p class="image-gallery-subheading">Prijavljeni obični korisnik</p>
+        <p class="image-gallery-subheading" data-localization-key="single-project-loggedin"></p>
         <div class="image-gallery">
           <div class="card">
             <img class="modal-target" src="../assets/projects/digipedia/5.png" alt="" />
@@ -125,7 +112,7 @@
             <img class="modal-target" src="../assets/projects/digipedia/6.png" alt="" />
           </div>
         </div>
-        <p class="image-gallery-subheading">Prijavljeni admin</p>
+        <p class="image-gallery-subheading" data-localization-key="single-project-admin"></p>
         <div class="image-gallery">
           <div class="card">
             <img class="modal-target" src="../assets/projects/digipedia/7.png" alt="" />
@@ -168,7 +155,7 @@
     </div>
 
     <footer>
-      <p>Dizajnirao i izgradio Antonio Sertić</p>
+      <p data-localization-key="footer"></p>
     </footer>
 
     <!-- The Modal -->

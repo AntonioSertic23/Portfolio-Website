@@ -16,22 +16,28 @@
     <nav id="navbar">
       <ul>
         <li>
-          <a href="/#aboutme-section">O Meni</a>
+          <a href="/#aboutme-section" data-localization-key="menu-about-me"></a>
         </li>
         <li>
-          <a href="/#jobs-section">Iskustvo</a>
+          <a href="/#jobs-section" data-localization-key="menu-experience"></a>
         </li>
         <li>
-          <a href="/#projects-section">Projekti</a>
+          <a href="/#projects-section" data-localization-key="menu-projects"></a>
         </li>
         <li>
-          <a href="/#contact-section">Kontakt</a>
+          <a href="/#contact-section" data-localization-key="menu-contact"></a>
         </li>
         <li>
-          <select name="sources" id="sources" class="custom-select sources action-button-link" placeholder="Izaberi temu">
-            <option value="theme1">Tiha Oaza</option>
-            <option value="theme2">Tropska Vedrina</option>
-            <option value="theme3">Nježna Neutralnost</option>
+          <select class="palette-select action-button-link" placeholder="Theme">
+            <option value="theme1">Quiet Oasis</option>
+            <option value="theme2">Tropical Cheerfulness</option>
+            <option value="theme3">Gentle Neutrality</option>
+          </select>
+        </li>
+        <li>
+          <select class="language-select action-button-link" placeholder="Language" id="change-language">
+            <option value="en">English</option>
+            <option value="hr">Hrvatski</option>
           </select>
         </li>
       </ul>
@@ -46,22 +52,28 @@
     <aside class="sidebar">
       <ul>
         <li>
-          <a href="/#aboutme-section">O Meni</a>
+          <a href="/#aboutme-section" data-localization-key="menu-about-me"></a>
         </li>
         <li>
-          <a href="/#jobs-section">Iskustvo</a>
+          <a href="/#jobs-section" data-localization-key="menu-experience"></a>
         </li>
         <li>
-          <a href="/#projects-section">Projekti</a>
+          <a href="/#projects-section" data-localization-key="menu-projects"></a>
         </li>
         <li>
-          <a href="/#contact-section">Kontakt</a>
+          <a href="/#contact-section" data-localization-key="menu-contact"></a>
         </li>
         <li>
-          <select name="sources" id="sources" class="custom-select sources action-button-link" placeholder="Izaberi temu">
-            <option value="theme1">Tiha Oaza</option>
-            <option value="theme2">Tropska Vedrina</option>
-            <option value="theme3">Nježna Neutralnost</option>
+          <select class="palette-select action-button-link" placeholder="Theme">
+            <option value="theme1">Quiet Oasis</option>
+            <option value="theme2">Tropical Cheerfulness</option>
+            <option value="theme3">Gentle Neutrality</option>
+          </select>
+        </li>
+        <li>
+          <select class="language-select action-button-link" placeholder="Language" id="change-language-sidebar">
+            <option value="en">English</option>
+            <option value="hr">Hrvatski</option>
           </select>
         </li>
       </ul>
@@ -71,26 +83,9 @@
       <section class="single-project-section">
         <p class="heading">Svaštaonica Za Bebe</p>
 
-        <div class="project-description">
-          <p>
-            Stranica Svaštaonica Za Bebe je mali strastveni projekt preko kojega sam želio usavršiti znanje Vue.js-a te pokazati svoju kreativnost. Isto tako kreirana je za potrebe klijenta u svrhu
-            lijepog prikaza svih njegovih proizvoda na jednome mjestu.
-          </p>
-          <p>
-            Stranica je rađena kao <b>Single Page Application</b> te su se za izradu stranice koristile sljedeće tehnologije: <b>HTML</b>, <b>CSS</b> uz <b>Bootstrap 5.0.2.</b>, te je od JavaScript
-            frameworka izabran najnoviji <b>Vue.js 3</b> uz <b>Composition API</b>. Stranica je osim desktop uređaja prilagođena i mobilnim uređajima.
-          </p>
-          <p>
-            Dizajn stranice je popraćen modernim web dizajn pravilima kao što su skaliranje fonta, razmaci između elemenata i tekstova i razne druge stvari. Sadrži dosta interaktivnih
-            <i>hover</i> efekata koji ujedno i nisu previše "napadni". Izgledom podsjeća na web trgovinu s dodatkom vlastite kreativnosti i <i>nečeg novog</i>.
-          </p>
-          <p>
-            Stranica je hostana na Netlify-u te ju se može posjetiti
-            <a href="https://svastaonicazabebe.netlify.app" class="link">preko sljedećeg linka</a>.
-          </p>
-        </div>
+        <div class="project-description" data-localization-key="single-project-svastaonica-za-bebe"></div>
 
-        <a href="https://github.com/AntonioSertic23/Svastaonica-Za-Bebace" target="_blank" class="action-button-link">Github</a>
+        <a href="https://github.com/AntonioSertic23/Svastaonica-Za-Bebace" target="_blank" class="action-button-link">GitHub</a>
 
         <div class="image-gallery">
           <div class="card">
@@ -131,7 +126,7 @@
     </div>
 
     <footer>
-      <p>Dizajnirao i izgradio Antonio Sertić</p>
+      <p data-localization-key="footer"></p>
     </footer>
 
     <!-- The Modal -->

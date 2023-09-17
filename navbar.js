@@ -80,7 +80,7 @@ const localizationData = {};
 
 async function loadLocalizationData(language) {
   try {
-    const response = await fetch(`./assets/languages/${language}.json`);
+    const response = await fetch(`../assets/languages/${language}.json`);
     const data = await response.json();
     localizationData[language] = data;
   } catch (error) {

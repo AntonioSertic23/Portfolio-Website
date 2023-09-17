@@ -16,22 +16,28 @@
     <nav id="navbar">
       <ul>
         <li>
-          <a href="/#aboutme-section">O Meni</a>
+          <a href="/#aboutme-section" data-localization-key="menu-about-me"></a>
         </li>
         <li>
-          <a href="/#jobs-section">Iskustvo</a>
+          <a href="/#jobs-section" data-localization-key="menu-experience"></a>
         </li>
         <li>
-          <a href="/#projects-section">Projekti</a>
+          <a href="/#projects-section" data-localization-key="menu-projects"></a>
         </li>
         <li>
-          <a href="/#contact-section">Kontakt</a>
+          <a href="/#contact-section" data-localization-key="menu-contact"></a>
         </li>
         <li>
-          <select name="sources" id="sources" class="custom-select sources action-button-link" placeholder="Izaberi temu">
-            <option value="theme1">Tiha Oaza</option>
-            <option value="theme2">Tropska Vedrina</option>
-            <option value="theme3">Nježna Neutralnost</option>
+          <select class="palette-select action-button-link" placeholder="Theme">
+            <option value="theme1">Quiet Oasis</option>
+            <option value="theme2">Tropical Cheerfulness</option>
+            <option value="theme3">Gentle Neutrality</option>
+          </select>
+        </li>
+        <li>
+          <select class="language-select action-button-link" placeholder="Language" id="change-language">
+            <option value="en">English</option>
+            <option value="hr">Hrvatski</option>
           </select>
         </li>
       </ul>
@@ -46,22 +52,28 @@
     <aside class="sidebar">
       <ul>
         <li>
-          <a href="/#aboutme-section">O Meni</a>
+          <a href="/#aboutme-section" data-localization-key="menu-about-me"></a>
         </li>
         <li>
-          <a href="/#jobs-section">Iskustvo</a>
+          <a href="/#jobs-section" data-localization-key="menu-experience"></a>
         </li>
         <li>
-          <a href="/#projects-section">Projekti</a>
+          <a href="/#projects-section" data-localization-key="menu-projects"></a>
         </li>
         <li>
-          <a href="/#contact-section">Kontakt</a>
+          <a href="/#contact-section" data-localization-key="menu-contact"></a>
         </li>
         <li>
-          <select name="sources" id="sources" class="custom-select sources action-button-link" placeholder="Izaberi temu">
-            <option value="theme1">Tiha Oaza</option>
-            <option value="theme2">Tropska Vedrina</option>
-            <option value="theme3">Nježna Neutralnost</option>
+          <select class="palette-select action-button-link" placeholder="Theme">
+            <option value="theme1">Quiet Oasis</option>
+            <option value="theme2">Tropical Cheerfulness</option>
+            <option value="theme3">Gentle Neutrality</option>
+          </select>
+        </li>
+        <li>
+          <select class="language-select action-button-link" placeholder="Language" id="change-language-sidebar">
+            <option value="en">English</option>
+            <option value="hr">Hrvatski</option>
           </select>
         </li>
       </ul>
@@ -69,15 +81,15 @@
 
     <div class="container">
       <section class="archive-section">
-        <p class="heading">Moji projekti</p>
-        <p class="subheading">Popis svih projekata na kojima sam radio</p>
+        <p class="heading" data-localization-key="archive-heading"></p>
+        <p class="subheading" data-localization-key="archive-subheading"></p>
         <table>
           <thead>
             <tr>
-              <th>Godina</th>
-              <th>Naziv</th>
-              <th class="madeat">Mjesto</th>
-              <th class="tech">Tehnologije</th>
+              <th data-localization-key="archive-table-year"></th>
+              <th data-localization-key="archive-table-name"></th>
+              <th class="madeat" data-localization-key="archive-table-place"></th>
+              <th class="tech" data-localization-key="archive-table-tech"></th>
               <th>Link</th>
             </tr>
           </thead>
@@ -104,7 +116,7 @@
             <tr onclick="window.location='./single-projects/gastrotop.html';">
               <td class="year">2022</td>
               <td class="name">Gastrotop</td>
-              <td class="madeat">Sveučilište</td>
+              <td class="madeat" data-localization-key="university"></td>
               <td class="tech">Wordpress - Polylang</td>
               <td class="links">
                 <a href="http://gastrotop.hr/"><img src="./assets/images/link.png" alt="" /></a>
@@ -113,7 +125,7 @@
             <tr onclick="window.location='./single-projects/smart-villages.html';">
               <td class="year">2021</td>
               <td class="name">Smart Villages</td>
-              <td class="madeat">Sveučilište</td>
+              <td class="madeat" data-localization-key="university"></td>
               <td class="tech">Blazor - EF Core - SignalR - MudBlazor - MS SQL Server</td>
               <td class="links">
                 <a href="https://github.com/AntonioSertic23/Smart-Villages"><img src="./assets/images/github.png" alt="" /></a>
@@ -122,7 +134,7 @@
             <tr onclick="window.location='./single-projects/seriium.html';">
               <td class="year">2020</td>
               <td class="name">Seriium</td>
-              <td class="madeat">Sveučilište</td>
+              <td class="madeat" data-localization-key="university"></td>
               <td class="tech">Android Studio - Java - Firebase</td>
               <td class="links">
                 <a href="https://github.com/AntonioSertic23/Seriium"><img src="./assets/images/github.png" alt="" /></a>
@@ -131,7 +143,7 @@
             <tr onclick="window.location='./single-projects/cinema-mon-amour.html';">
               <td class="year">2020</td>
               <td class="name">Cinema Mon Amour</td>
-              <td class="madeat">Sveučilište</td>
+              <td class="madeat" data-localization-key="university"></td>
               <td class="tech">Android Studio - Java - Firebase</td>
               <td class="links">
                 <a href="https://github.com/AntonioSertic23/Cinema-Mon-Amour"><img src="./assets/images/github.png" alt="" /></a>
@@ -140,7 +152,7 @@
             <tr onclick="window.location='./single-projects/tasty-trap.html';">
               <td class="year">2020</td>
               <td class="name">Tasty Tap</td>
-              <td class="madeat">Sveučilište</td>
+              <td class="madeat" data-localization-key="university"></td>
               <td class="tech">Wordpress - PHP - MySQL</td>
               <td class="links">
                 <a href="https://github.com/AntonioSertic23/Tasty-Trap"><img src="./assets/images/github.png" alt="" /></a>
@@ -149,7 +161,7 @@
             <tr onclick="window.location='./single-projects/achilles-gym.html';">
               <td class="year">2020</td>
               <td class="name">Achilles Gym</td>
-              <td class="madeat">Sveučilište</td>
+              <td class="madeat" data-localization-key="university"></td>
               <td class="tech">Wordpress - PHP - MySQL</td>
               <td class="links">
                 <a href="https://github.com/AntonioSertic23/Achilles-Gym"><img src="./assets/images/github.png" alt="" /></a>
@@ -167,7 +179,7 @@
             <tr onclick="window.location='./single-projects/digipedia.html';">
               <td class="year">2020</td>
               <td class="name">Digipedia</td>
-              <td class="madeat">Sveučilište</td>
+              <td class="madeat" data-localization-key="university"></td>
               <td class="tech">AngularJS - PHP - MySQL</td>
               <td class="links">
                 <a href="https://github.com/AntonioSertic23/Digipedia"><img src="./assets/images/github.png" alt="" /></a>
@@ -176,7 +188,7 @@
             <tr onclick="window.location='./single-projects/zadaci.html';">
               <td class="year">2020</td>
               <td class="name">Zadaci</td>
-              <td class="madeat">Sveučilište</td>
+              <td class="madeat" data-localization-key="university"></td>
               <td class="tech">AngularJS - PHP - MySQL</td>
               <td class="links">
                 <a href="https://github.com/AntonioSertic23/Zadaci"><img src="./assets/images/github.png" alt="" /></a>
@@ -185,7 +197,7 @@
             <tr onclick="window.location='./single-projects/filmovi.html';">
               <td class="year">2019</td>
               <td class="name">Filmovi</td>
-              <td class="madeat">Sveučilište</td>
+              <td class="madeat" data-localization-key="university"></td>
               <td class="tech">Windows Forms - SQL</td>
               <td class="links">
                 <a href="https://github.com/AntonioSertic23/Filmovi"><img src="./assets/images/github.png" alt="" /></a>
@@ -194,7 +206,7 @@
             <tr onclick="window.location='./single-projects/hoteli.html';">
               <td class="year">2019</td>
               <td class="name">Hoteli</td>
-              <td class="madeat">Sveučilište</td>
+              <td class="madeat" data-localization-key="university"></td>
               <td class="tech">JavaScript - Firebase</td>
               <td class="links">
                 <a href="https://github.com/AntonioSertic23/Hoteli"><img src="./assets/images/github.png" alt="" /></a>
@@ -206,7 +218,7 @@
     </div>
 
     <footer>
-      <p>Dizajnirao i izgradio Antonio Sertić</p>
+      <p data-localization-key="footer"></p>
     </footer>
 
     <script src="../navbar.js"></script>

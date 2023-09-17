@@ -11,8 +11,8 @@
 
   "aboutme-heading": "About Me",
   "aboutme-text-1": "Hello, my name is Antonio, I come from a smaller town called Đurđenovac, and I love creating interesting and challenging applications.",
-  "aboutme-text-2": "In 2018, I began my Computer Science journey with a specialization in Software Engineering at the <a target='_blank' href='https://vuv.hr'>Polytechnic in Virovitica</a>.",
-  "aboutme-text-3": "During my time at the Polytechnic, I acquired knowledge in programming desktop, web, mobile, and CMS applications of varying complexity. I worked with various programming technologies, languages, and frameworks:",
+  "aboutme-text-2": "In 2018, I began my Computer Science journey with a specialization in Software Engineering at the <a target='_blank' href='https://vuv.hr'>University in Virovitica</a>.",
+  "aboutme-text-3": "During my time at the University, I acquired knowledge in programming desktop, web, mobile, and CMS applications of varying complexity. I worked with various programming technologies, languages, and frameworks:",
   "aboutme-text-4": "I completed my student internship during my second year of study by attending the Frontend Academy organized by <a target='_blank' href='https://factory.dev'>Factory</a>.",
   "aboutme-text-5": "At the beginning of my third year, I joined <a target='_blank' href='https://www.fina.hr'>Fina</a> as a programmer, also in Virovitica, where I continued to work for the next two years after completing my studies.",
   "aboutme-text-6": "I have many interests, so I spend my free time in various ways. I read books, play basketball, watch movies and series, and engage in social games.",
@@ -40,7 +40,7 @@
 
   "more-projects-heading": "Other noteworthy projects",
   "more-projects-subheading": "View archive",
-  "more-projects-1": "A website created for the Polytechnic as the official website of the Gastrotop project. <br /><br />The site was built using Wordpress technology and incorporated various plugins.",
+  "more-projects-1": "A website created for the University as the official website of the Gastrotop project. <br /><br />The site was built using Wordpress technology and incorporated various plugins.",
   "more-projects-2": "Mobile application created during college as a project for construction exercises in the Mobile Application Programming course. <br /><br />The application is used for tracking movie records.",
   "more-projects-3": "Project developed at college as a project for construction exercises in the CMS Systems course. <br /><br />The project's theme was to create a WordPress theme for a fast food restaurant.",
   "more-projects-4": "Project developed at college as a project for construction exercises in the CMS Systems course. <br /><br />The project's theme was to create a WordPress theme for a gym.",
@@ -56,5 +56,25 @@
   "contact-text": "Open to new opportunities and challenges, my inbox is always open. Whether you have a question or just want to say hello, I'll make sure to respond!",
   "contact-getintouch": "Get in touch",
 
-  "footer": "Designed and built by Antonio Sertić"
+  "footer": "Designed and built by Antonio Sertić",
+
+  "archive-heading": "My Projects",
+  "archive-subheading": "List of all the projects I've worked on",
+  "archive-table-year": "Year",
+  "archive-table-name": "Name",
+  "archive-table-place": "Location",
+  "archive-table-tech": "Technologies",
+  "university": "University",
+
+  "single-project-svastaonica-za-bebe": "<p>The 'Svaštaonica Za Bebe' website is a small passion project through which I wanted to enhance my knowledge of Vue.js and showcase my creativity. It was also created for a client to beautifully display all of their products in one place.</p><p>The website is built as a <b>Single Page Application</b>, utilizing the following technologies: <b>HTML</b>, <b>CSS</b> with <b>Bootstrap 5.0.2</b>, and the latest <b>Vue.js 3</b> with the <b>Composition API</b>. The site is responsive, adapting to both desktop and mobile devices.</p><p>The design of the website follows modern web design principles, including font scaling, spacing between elements and text, and various other aspects. It incorporates numerous interactive <i>hover</i> effects that are not overly intrusive. Its appearance resembles that of an online store with added creativity and something new.</p><p>The website is hosted on Netlify and can be visited <a href='https://svastaonicazabebe.netlify.app' class='link'>through the following link</a>.</p>",
+
+  "single-project-pink-panther": "<p>The Fast Food Pink Panther Crikvenica website is a medium-sized, passion project through which I wanted to start learning Vue.js and showcase my creativity. It was also created based on the client's need for redesigning an existing website.</p><p>The website is built as a <b>Single Page Application</b>, using the following technologies: <b>HTML</b>, <b>CSS</b> with <b>Bootstrap 5.0.2</b>, and the latest <b>Vue.js 3</b> with the <b>Composition API</b>. It also utilizes <b>Leaflat</b>, a JavaScript library for interactive maps, and it's worth mentioning that <b>Vue I18n</b>, an internationalization plugin for Vue.js, is implemented. The site was originally designed for mobile devices but was later adapted for desktop and tablet use as well.</p><p>The design of the website adheres to modern web design principles, including font scaling, spacing between elements and text, and various other aspects. Its appearance resembles that of a restaurant's website more than a fast-food site, which was intentional to align with their specific culture.</p><p>A personalized style guide was also created for the website to facilitate the learning of style guide development. The style guide can be downloaded by clicking on the following button.</p>",
+  "before-redesign": "Before redesign",
+  "after-redesign": "After redesign",
+
+  "single-project-smart-villages": "<p>The Smart Villages web application is a larger project that I completed entirely independently at college. The project was submitted as my final thesis and was treated as such from the beginning. It involved designing the application, developing all its functionalities, and designing the database.</p><p>The purpose of the application is to allow sellers to add their local products to a 'Marketplace' where customers can then place orders. After a product is marked as delivered, the customer can rate and comment on it. The application also integrates real-time messaging between customers and sellers.</p><p>The application is built as a <b>Single Page Application</b> using the following technologies: <b>Blazor - WebAssembly</b> in ASP.NET Core, <b>Entity Framework Core</b> for database creation and migrations, <b>SignalR</b> for real-time notifications (messages), <b>MudBlazor</b> - Blazor Component Library for design, and <b>Microsoft SQL Server</b> for database management.</p><p><!-- Write about the app and API architecture here if needed. --></p><p>The application includes a straightforward <i>sign-up/registration</i> process that requires email verification. It also features <i>real-time messaging</i> with read/unread options.</p>",
+
+  "single-project-seriium": "<p>The Seriium mobile application was created at college as a project for construction exercises in the <b>Mobile Application Programming</b> course.</p><p>The application is designed for tracking TV series, allowing users to keep track of where they left off.</p><p>The app includes <i>sign-in and registration</i> using <b>Firebase</b>, with email verification.</p><p><b>When signed in, users can:</b></p><ol class='ordered-list'><li>View their list of series</li><li>Search for series</li><li>View details of individual series</li><li>Add and remove series from their list</li><li>Mark and unmark watched seasons and episodes</li></ol><p>Additionally, there is detailed <i>statistics</i> showing the total time spent watching series, the total number of series, seasons, and episodes watched, as well as the top two genres.</p><p>Users have access to their profile where they can update all their information.</p><p>The project was developed in Android Studio, using <b>Java</b> as the programming language, along with a <b>Firebase</b> database. Knowledge of various Android development aspects was applied, including activities, adapters, fragments, listeners, model creation, and network communication.</p><p>For listing series, seasons, and episodes, a <b>RecyclerView</b> was used, and for fetching series data, <b>Retrofit</b> was employed, connecting to the <a class='link' href='https://www.episodate.com/api'>EPISODATE API</a> for data retrieval.</p>",
+  "sketches": "Sketches",
+  "final-version": "Final Version"
 }

@@ -16,6 +16,10 @@ My Portfolio Website includes the following features:
 
 4. **Contact:** Contact information, including email and social media links, for potential employers or collaborators to reach out to me.
 
+5. **Color Palette Selection:** Added the ability to change pre-existing color palettes to suit personal preferences.
+
+6. **Language Selection:** Implemented a language switcher to allow users to toggle between Croatian and English translations of the page.
+
 ## Technical Details
 
 The website was built using pure HTML, CSS, JavaScript, and jQuery. It utilizes modern web design techniques to ensure a responsive and visually appealing layout across various devices and screen sizes.

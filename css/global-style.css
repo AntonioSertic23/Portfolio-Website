@@ -35,8 +35,8 @@
   --action-variant: #ffb685;
 }
 
-:root.theme2 {
-  /* THEME 3 - https://coolors.co/palette/386641-6a994e-a7c957-f2e8cf-bc4749 */
+/* :root.theme2 {
+  THEME 3 - https://coolors.co/palette/386641-6a994e-a7c957-f2e8cf-bc4749
   --primary: #386641;
   --secondary: #6a994e;
   --secondary-variant: #a7c957;
@@ -44,9 +44,9 @@
   --background: #f2e8cf;
   --action: #bc4749;
   --action-variant: #963638;
-}
+} */
 
-:root.theme3 {
+:root.theme2 {
   /* THEME 2 - https://coolors.co/palette/463f3a-8a817c-bcb8b1-f4f3ee-e0afa0 */
   --primary: #463f3a;
   --secondary: #8a817c;
@@ -55,6 +55,17 @@
   --background: #f4f3ee;
   --action: #e0afa0;
   --action-variant: #d28a74;
+}
+
+:root.theme3 {
+  /* THEME 4 - https://coolors.co/palette/f8f9fa-e9ecef-dee2e6-ced4da-adb5bd-6c757d-495057-343a40-212529 */
+  --primary: #212529;
+  --secondary: #495057;
+  --secondary-variant: #ced4da;
+  --secondary-variant-variant: #adb5bd;
+  --background: #f8f9fa;
+  --action: #ced4da;
+  --action-variant: #adb5bd;
 }
 
 * {

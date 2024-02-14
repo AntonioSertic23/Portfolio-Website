@@ -80,19 +80,27 @@ getTheme();
 
 const localizationData = {};
 
-const loadLocalizationData = async (language) => {
-  try {
-    const response = await fetch(`../assets/languages/${language}.json`);
-    const data = await response.json();
-    localizationData[language] = data;
-  } catch (error) {
-    console.error(`Error loading localization data for ${language}: ${error}`);
-  }
+const loadLocalizationData = (language) => {
+  return new Promise((resolve, reject) => {
+    fetch(`../assets/languages/${language}.json`)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`Error loading localization data for ${language}: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then((data) => {
+        localizationData[language] = data;
+        resolve();
+      })
+      .catch((error) => {
+        reject(`Error loading localization data for ${language}: ${error}`);
+      });
+  });
 };
 
-const updateLocalization = async (language) => {
+const updateLocalization = (language) => {
   const elementsToUpdate = document.querySelectorAll("[data-localization-key]");
-
   elementsToUpdate.forEach((element) => {
     const key = element.getAttribute("data-localization-key");
     if (localizationData[language] && localizationData[language][key]) {
@@ -101,26 +109,30 @@ const updateLocalization = async (language) => {
   });
 };
 
-loadLocalizationData("hr");
+const setLanguage = (language) => {
+  localStorage.setItem("language", language);
+  updateLocalization(language);
+  $(".language-select-wrapper").find("select").val(language);
+  $(".language-options").find(`[data-value='${language}']`).addClass("language-selection");
+  $(".language-select").find(".language-select-trigger").text($(".language-selection").first().text());
+};
 
-loadLocalizationData("en").then(() => {
-  console.log("a");
-  const theme = localStorage.getItem("language");
-  if (theme) {
-    updateLocalization(theme);
-    $(".language-select-wrapper").find("select").val(theme);
-    $(".language-options").find(`[data-value='${theme}']`).addClass("language-selection");
-    $(".language-select").find(".language-select-trigger").text($(".language-selection").first().text());
-  } else {
-    $(".language-options").find("span").first().addClass("language-selection");
-    updateLocalization("en");
-  }
-});
+Promise.all([loadLocalizationData("hr"), loadLocalizationData("en")])
+  .then(() => {
+    const savedLanguage = localStorage.getItem("language");
+    if (savedLanguage && localizationData[savedLanguage]) {
+      setLanguage(savedLanguage);
+    } else {
+      setLanguage("en");
+    }
+  })
+  .catch((error) => {
+    console.error(error);
+  });
 
 /* LANGUAGE DROPDOWN */
 
 $(".language-select").each(function () {
-  console.log("b");
   const classes = $(this).attr("class");
   let template = `<div class="${classes}">`;
   template += `<span class="language-select-trigger">${$(this).attr("placeholder")}</span>`;

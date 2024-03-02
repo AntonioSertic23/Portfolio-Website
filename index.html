@@ -32,15 +32,15 @@
         </li>
         <li>
           <select class="palette-select action-button-link" placeholder="Theme">
-            <option value="theme1">Quiet Oasis</option>
-            <option value="theme2">Gentle Neutrality</option>
-            <option value="theme3">Urban Landscape</option>
+            <option value="theme-1" data-localization-key="theme-1"></option>
+            <option value="theme-2" data-localization-key="theme-2"></option>
+            <option value="theme-3" data-localization-key="theme-3"></option>
           </select>
         </li>
         <li>
           <select class="language-select action-button-link" placeholder="Language" id="change-language">
             <option value="en">English</option>
-            <option value="hr">Hrvatski</option>
+            <option value="hr">Croatian</option>
           </select>
         </li>
       </ul>
@@ -68,15 +68,15 @@
         </li>
         <li>
           <select class="palette-select action-button-link" placeholder="Theme">
-            <option value="theme1">Quiet Oasis</option>
-            <option value="theme2">Gentle Neutrality</option>
-            <option value="theme3">Urban Landscape</option>
+            <option value="theme-1" data-localization-key="theme-1"></option>
+            <option value="theme-2" data-localization-key="theme-2"></option>
+            <option value="theme-3" data-localization-key="theme-3"></option>
           </select>
         </li>
         <li>
           <select class="language-select action-button-link" placeholder="Language" id="change-language-sidebar">
             <option value="en">English</option>
-            <option value="hr">Hrvatski</option>
+            <option value="hr">Croatian</option>
           </select>
         </li>
       </ul>
@@ -546,25 +546,33 @@
     </footer>
 
     <!-- TODO: Add translation to the text inside the modal and better organize the elements. -->
-    <div id="myModal" class="modal">
+    <div id="resumeModal" class="modal">
       <div class="modal-content">
         <div class="modal-header">
+          <h2 data-localization-key="resume-modal-1"></h2>
           <span class="close">&times;</span>
-          <h2>Konfiguracija otvaranja životopisa</h2>
         </div>
         <div class="modal-body">
-          <p>Odaberite jezik u kojem želite otvoriti životopis:</p>
-          <button class="action-button-link">En</button>
-          <button class="action-button-link">Hr</button>
-          <p>Odaberite temu u kojoj želite otvoriti životopis:</p>
-          <button class="action-button-link">1</button>
-          <button class="action-button-link">2</button>
-          <button class="action-button-link">3</button>
-          <button class="action-button-link">4</button>
+          <p data-localization-key="resume-modal-2"></p>
+          <div class="radio-group">
+            <input type="radio" id="language_english" name="language" value="eng" checked />
+            <label for="language_english">English</label><br />
+            <input type="radio" id="language_croatian" name="language" value="cro" />
+            <label for="language_croatian">Croatian</label><br />
+          </div>
+          <p data-localization-key="resume-modal-3"></p>
+          <div class="radio-group">
+            <input type="radio" id="theme_quiet_oasis" name="theme" value="qo" checked />
+            <label for="theme_quiet_oasis" data-localization-key="theme-1"></label><br />
+            <input type="radio" id="theme_gentle_neutrality" name="theme" value="gn" />
+            <label for="theme_gentle_neutrality" data-localization-key="theme-2"></label><br />
+            <input type="radio" id="theme_urban_landscape" name="theme" value="ul" />
+            <label for="theme_urban_landscape" data-localization-key="theme-3"></label><br />
+          </div>
         </div>
         <div class="modal-footer">
-          <button class="action-button-link" id="btnCancel">Zatvori</button>
-          <button class="action-button-link" id="btnOk">Otvori</button>
+          <button class="action-button-link" id="cancelModal" data-localization-key="resume-modal-4"></button>
+          <button class="action-button-link" id="openResume" data-localization-key="resume-modal-5"></button>
         </div>
       </div>
     </div>

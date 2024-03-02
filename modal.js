@@ -13,3 +13,5 @@ $("#modal").click(function (e) {
     this.style.display = "none";
   }
 });
+
+// TODO: It needs to be determined whether to re-enable the modal on all single project pages for images by adding `<script defer src="../modal.js"></script>` or to create a large slider.

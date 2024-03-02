@@ -6,7 +6,7 @@ window.onscroll = () => {
   if (prevScrollpos > currentScrollPos) {
     $("#navbar").css({ top: "0" });
   } else {
-    $("#navbar").css({ top: "-88px" });
+    $("#navbar").css({ top: "-116px" });
   }
   prevScrollpos = currentScrollPos;
 };
@@ -22,10 +22,11 @@ $(".palette-select").each(function () {
   let template = `<div class="${classes}">`;
   template += `<span class="palette-select-trigger">${$(this).attr("placeholder")}</span>`;
   template += '<div class="palette-options">';
+  let counter = 0;
   $(this)
     .find("option")
     .each(function () {
-      template += `<span class="palette-option ${$(this).attr("class")}" data-value="${$(this).attr("value")}">${$(this).html()}</span>`;
+      template += `<span class="palette-option ${$(this).attr("class")}" data-value="${$(this).attr("value")}" data-localization-key="${$(this).attr("value")}">${$(this).html()}</span>`;
     });
   template += "</div></div>";
 
@@ -56,7 +57,7 @@ $(".palette-option").on("click", function () {
   $(this).parents(".palette-options").find(".palette-option").removeClass("palette-selection");
   $(this).addClass("palette-selection");
   $(this).parents(".palette-select").removeClass("opened");
-  $(this).parents(".palette-select").find(".palette-select-trigger").text($(this).text());
+  $(this).parents(".palette-select").find(".palette-select-trigger").text($(this).text()).attr("data-localization-key", $(this).data("value"));
 
   setTheme($(this).data("value"));
   localStorage.setItem("theme", $(this).data("value"));
@@ -68,7 +69,7 @@ const getTheme = () => {
     setTheme(theme);
     $(".palette-select-wrapper").find("select").val(theme);
     $(".palette-options").find(`[data-value='${theme}']`).addClass("palette-selection");
-    $(".palette-select").find(".palette-select-trigger").text($(".palette-selection").first().text());
+    $(".palette-select").find(".palette-select-trigger").text($(".palette-selection").first().text()).attr("data-localization-key", theme);
   } else {
     $(".palette-options").find("span").first().addClass("palette-selection");
   }

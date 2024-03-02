@@ -90,7 +90,7 @@
         <p class="paragraph2" data-localization-key="hero-3"></p>
         <div class="links">
           <a href="https://github.com/AntonioSertic23" target="_blank" class="action-button-link main">GitHub</a>
-          <a href="./assets/CV - Antonio Sertić.pdf" target="_blank" class="action-button-link" data-localization-key="hero-4"></a>
+          <a id="open_resume_btn" target="_blank" class="action-button-link" data-localization-key="hero-4"></a>
         </div>
         <div id="aboutme-section"></div>
       </section>
@@ -544,5 +544,29 @@
     <footer>
       <p data-localization-key="footer"></p>
     </footer>
+
+    <!-- TODO: Add translation to the text inside the modal and better organize the elements. -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Konfiguracija otvaranja životopisa</h2>
+        </div>
+        <div class="modal-body">
+          <p>Odaberite jezik u kojem želite otvoriti životopis:</p>
+          <button class="action-button-link">En</button>
+          <button class="action-button-link">Hr</button>
+          <p>Odaberite temu u kojoj želite otvoriti životopis:</p>
+          <button class="action-button-link">1</button>
+          <button class="action-button-link">2</button>
+          <button class="action-button-link">3</button>
+          <button class="action-button-link">4</button>
+        </div>
+        <div class="modal-footer">
+          <button class="action-button-link" id="btnCancel">Zatvori</button>
+          <button class="action-button-link" id="btnOk">Otvori</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

@@ -189,3 +189,13 @@
 .swiper-pagination {
   margin-bottom: -50px;
 }
+
+.horizontal .swiper-slide {
+  display: flex;
+}
+
+.horizontal .swiper-slide img {
+  width: 300px !important;
+  height: 600px !important;
+  object-fit: contain !important;
+}

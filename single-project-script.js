@@ -15,8 +15,8 @@ const swiper = new Swiper(".swiper", {
   centeredSlides: true,
   loop: true,
   autoplay: {
-    delay: 2500,
-    disableOnInteraction: true,
+    delay: 22000,
+    disableOnInteraction: false,
   },
   pagination: {
     el: ".swiper-pagination",
@@ -27,3 +27,5 @@ const swiper = new Swiper(".swiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+// TODO: Add a slider to each single project.

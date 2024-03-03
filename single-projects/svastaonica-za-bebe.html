@@ -14,6 +14,9 @@
     <script defer src="../navbar.js"></script>
     <script defer src="../script.js"></script>
     <script defer src="../sidebar.js"></script>
+    <script defer src="../assets/swiper-11.0.7/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="../assets/swiper-11.0.7/swiper-bundle.min.css" />
+    <script defer src="../single-project-script.js"></script>
   </head>
   <body>
     <nav id="navbar">
@@ -32,15 +35,15 @@
         </li>
         <li>
           <select class="palette-select action-button-link" placeholder="Theme">
-            <option value="theme1">Quiet Oasis</option>
-            <option value="theme2">Gentle Neutrality</option>
-            <option value="theme3">Urban Landscape</option>
+            <option value="theme-1" data-localization-key="theme-1"></option>
+            <option value="theme-2" data-localization-key="theme-2"></option>
+            <option value="theme-3" data-localization-key="theme-3"></option>
           </select>
         </li>
         <li>
           <select class="language-select action-button-link" placeholder="Language" id="change-language">
             <option value="en">English</option>
-            <option value="hr">Hrvatski</option>
+            <option value="hr">Croatian</option>
           </select>
         </li>
       </ul>
@@ -68,15 +71,15 @@
         </li>
         <li>
           <select class="palette-select action-button-link" placeholder="Theme">
-            <option value="theme1">Quiet Oasis</option>
-            <option value="theme2">Gentle Neutrality</option>
-            <option value="theme3">Urban Landscape</option>
+            <option value="theme-1" data-localization-key="theme-1"></option>
+            <option value="theme-2" data-localization-key="theme-2"></option>
+            <option value="theme-3" data-localization-key="theme-3"></option>
           </select>
         </li>
         <li>
           <select class="language-select action-button-link" placeholder="Language" id="change-language-sidebar">
             <option value="en">English</option>
-            <option value="hr">Hrvatski</option>
+            <option value="hr">Croatian</option>
           </select>
         </li>
       </ul>
@@ -90,40 +93,65 @@
 
         <a href="https://github.com/AntonioSertic23/Svastaonica-Za-Bebace" target="_blank" class="action-button-link">GitHub</a>
 
-        <div class="image-gallery">
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/svastaonica-za-bebe/1.png" alt="" />
+        <div class="slider-container">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img src="../assets/projects/svastaonica-za-bebe/1.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/svastaonica-za-bebe/2.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/svastaonica-za-bebe/3.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/svastaonica-za-bebe/1.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/svastaonica-za-bebe/2.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/svastaonica-za-bebe/3.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/svastaonica-za-bebe/4.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/svastaonica-za-bebe/5.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/svastaonica-za-bebe/6.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/svastaonica-za-bebe/7.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/svastaonica-za-bebe/8.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/svastaonica-za-bebe/9.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/svastaonica-za-bebe/10.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/svastaonica-za-bebe/11.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/svastaonica-za-bebe/12.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/svastaonica-za-bebe/13.png" alt="" />
+              </div>
+            </div>
           </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/svastaonica-za-bebe/2.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/svastaonica-za-bebe/3.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/svastaonica-za-bebe/4.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/svastaonica-za-bebe/5.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/svastaonica-za-bebe/6.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/svastaonica-za-bebe/7.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/svastaonica-za-bebe/8.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/svastaonica-za-bebe/9.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/svastaonica-za-bebe/10.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/svastaonica-za-bebe/11.png" alt="" />
-          </div>
+
+          <div class="swiper-pagination"></div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
         </div>
       </section>
     </div>
@@ -131,11 +159,5 @@
     <footer>
       <p data-localization-key="footer"></p>
     </footer>
-
-    <!-- The Modal -->
-    <div id="modal" class="modal">
-      <span id="modal-close" class="modal-close">&times;</span>
-      <img id="modal-content" class="modal-content" />
-    </div>
   </body>
 </html>

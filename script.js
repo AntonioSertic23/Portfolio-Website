@@ -46,5 +46,3 @@ $("#openResume").click(() => {
   window.open(`./assets/resumes/CV-Antonio_Sertić-${selectedLanguage}_${selectedTheme}.pdf`, "_blank");
   modal.css("display", "none");
 });
-
-// TODO: Create a resume in all possible formats.

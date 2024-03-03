@@ -9,6 +9,7 @@
   --gray: #808080;
   --lightgray: #b5b5b5;
   --white: #ffffff;
+  --mask: rgba(0, 0, 0, 0.5);
 
   /* font size - Major Third */
   --xxxlarge: 80px;
@@ -24,7 +25,7 @@
 }
 
 :root,
-:root.theme1 {
+:root.theme-1 {
   /* THEME 1 - https://coolors.co/palette/555b6e-89b0ae-bee3db-faf9f9-ffd6ba */
   --primary: #555b6e;
   --secondary: #89b0ae;
@@ -46,7 +47,7 @@
   --action-variant: #963638;
 } */
 
-:root.theme2 {
+:root.theme-2 {
   /* THEME 2 - https://coolors.co/palette/463f3a-8a817c-bcb8b1-f4f3ee-e0afa0 */
   --primary: #463f3a;
   --secondary: #8a817c;
@@ -57,7 +58,7 @@
   --action-variant: #d28a74;
 }
 
-:root.theme3 {
+:root.theme-3 {
   /* THEME 4 - https://coolors.co/palette/f8f9fa-e9ecef-dee2e6-ced4da-adb5bd-6c757d-495057-343a40-212529 */
   --primary: #212529;
   --secondary: #495057;

@@ -127,66 +127,65 @@
   }
 }
 
-/* MODAL */
+/* SLIDER */
 
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgba(0, 0, 0, 0.8); /* Black w/ opacity */
+.slider-container {
+  position: relative;
+  width: 120%;
+  margin-left: -10%;
+  margin-top: 20px;
 }
-/* Modal Content (image) */
-.modal-content {
-  margin: auto;
-  display: block;
-  max-width: 80%;
-  max-height: 85vh;
-  opacity: 1 !important;
+
+.swiper {
+  width: 100%;
+  height: 100%;
   border-radius: 5px;
 }
-/* Add Animation */
-.modal-content {
-  -webkit-animation-name: zoom;
-  -webkit-animation-duration: 0.6s;
-  animation-name: zoom;
-  animation-duration: 0.6s;
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-@-webkit-keyframes zoom {
-  from {
-    -webkit-atransform: scale(0);
-  }
-  to {
-    -webkit-transform: scale(1);
-  }
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-@keyframes zoom {
-  from {
-    transform: scale(0);
-  }
-  to {
-    transform: scale(1);
-  }
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--action-variant) !important;
 }
-/* The Close Button */
-.modal-close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: var(--background);
-  font-size: var(--large);
-  font-weight: bold;
-  transition: 0.3s;
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: var(--secondary) !important;
 }
-.modal-close:hover,
-.modal-close:focus {
-  color: var(--secondary);
-  text-decoration: none;
-  cursor: pointer;
+
+.swiper-pagination-bullet-active {
+  background: var(--primary) !important;
+}
+
+.swiper-pagination-bullet {
+  background: var(--gray) !important;
+  width: 14px !important;
+  height: 14px !important;
+  margin: 0 6px !important;
+}
+
+.swiper-button-prev {
+  margin-left: -70px;
+}
+
+.swiper-button-next {
+  margin-right: -70px;
+}
+
+.swiper-pagination {
+  margin-bottom: -50px;
 }

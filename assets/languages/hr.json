@@ -4,6 +4,10 @@
   "menu-projects": "Projekti",
   "menu-contact": "Kontakt",
 
+  "theme-1": "Mirna Oaza",
+  "theme-2": "Blaga Neutralnost",
+  "theme-3": "Urbani Krajolik",
+
   "hero-1": "Pozdrav, zovem se",
   "hero-2": "Kreativni full stack web developer.",
   "hero-3": "Strastveni sam i kreativni softverski inženjer specijaliziran za izgradnju (i povremeno dizajniranje) full stack web aplikacija. Trenutačno sam usredotočen na razvoj aplikacija u Infigo IS.",
@@ -66,6 +70,12 @@
   "archive-table-place": "Mjesto",
   "archive-table-tech": "Tehnologije",
   "university": "Sveučilište",
+
+  "resume-modal-1": "Konfiguracija za otvaranje životopisa",
+  "resume-modal-2": "Odaberite jezik:",
+  "resume-modal-3": "Odaberite temu:",
+  "resume-modal-4": "Zatvori",
+  "resume-modal-5": "Otvori",
 
   "single-project-svastaonica-za-bebe": "<p>Stranica Svaštaonica Za Bebe je mali strastveni projekt preko kojega sam želio usavršiti znanje Vue.js-a te pokazati svoju kreativnost. Isto tako kreirana je za potrebe klijenta u svrhu lijepog prikaza svih njegovih proizvoda na jednome mjestu.</p><p>Stranica je rađena kao <b>Single Page Application</b> te su se za izradu stranice koristile sljedeće tehnologije: <b>HTML</b>, <b>CSS</b> uz <b>Bootstrap 5.0.2.</b>, te je od JavaScript frameworka izabran najnoviji <b>Vue.js 3</b> uz <b>Composition API</b>. Stranica je osim desktop uređaja prilagođena i mobilnim uređajima.</p><p> Dizajn stranice je popraćen modernim web dizajn pravilima kao što su skaliranje fonta, razmaci između elemenata i tekstova i razne druge stvari. Sadrži dosta interaktivnih <i>hover</i> efekata koji ujedno i nisu previše ''napadni''. Izgledom podsjeća na web trgovinu s dodatkom vlastite kreativnosti i <i>nečeg novog</i>.</p><p> Stranica je hostana na Netlify-u te ju se može posjetiti <a href='https://svastaonicazabebe.netlify.app' class='link'>preko sljedećeg linka</a>.</p>",
 

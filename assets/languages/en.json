@@ -4,6 +4,10 @@
   "menu-projects": "Projects",
   "menu-contact": "Contact",
 
+  "theme-1": "Quiet Oasis",
+  "theme-2": "Gentle Neutrality",
+  "theme-3": "Urban Landscape",
+
   "hero-1": "Hello, my name is",
   "hero-2": "A creative full stack web developer.",
   "hero-3": "I am a passionate and creative software engineer specialized in building (and occasionally designing) full stack web applications. Currently, I am focused on developing applications at Infigo IS.",
@@ -65,6 +69,12 @@
   "archive-table-place": "Location",
   "archive-table-tech": "Technologies",
   "university": "University",
+
+  "resume-modal-1": "Configuration for opening the resume",
+  "resume-modal-2": "Select language:",
+  "resume-modal-3": "Select theme:",
+  "resume-modal-4": "Close",
+  "resume-modal-5": "Open",
 
   "single-project-svastaonica-za-bebe": "<p>The 'Svaštaonica Za Bebe' website is a small passion project through which I wanted to enhance my knowledge of Vue.js and showcase my creativity. It was also created for a client to beautifully display all of their products in one place.</p><p>The website is built as a <b>Single Page Application</b>, utilizing the following technologies: <b>HTML</b>, <b>CSS</b> with <b>Bootstrap 5.0.2</b>, and the latest <b>Vue.js 3</b> with the <b>Composition API</b>. The site is responsive, adapting to both desktop and mobile devices.</p><p>The design of the website follows modern web design principles, including font scaling, spacing between elements and text, and various other aspects. It incorporates numerous interactive <i>hover</i> effects that are not overly intrusive. Its appearance resembles that of an online store with added creativity and something new.</p><p>The website is hosted on Netlify and can be visited <a href='https://svastaonicazabebe.netlify.app' class='link'>through the following link</a>.</p>",
 

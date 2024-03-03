@@ -689,3 +689,93 @@
     font-size: var(--xxsmall);
   }
 }
+
+/* TODO: Move the new code to a better location within this file and adjust the existing styles to ensure consistency. */
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 10px 0;
+  font-size: var(--xsmall);
+  color: var(--primary);
+}
+.modal-content {
+  background-color: var(--background);
+  border-radius: 5px;
+  margin: 200px auto;
+  padding: 30px;
+  width: 500px;
+}
+.close {
+  color: var(--primary);
+  font-size: var(--medium);
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: var(--secondary);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-body {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.modal-body p {
+  font-size: var(--xxsmall);
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: end;
+}
+.modal-footer .action-button-link {
+  padding: 0.5rem 1rem;
+}
+.modal-footer #openResume {
+  border-color: var(--action-variant);
+  background-color: var(--action-variant);
+  margin-left: 1rem;
+}
+.modal-footer #openResume:hover {
+  border-color: var(--secondary-variant-variant);
+  background-color: var(--secondary-variant-variant);
+  margin-left: 1rem;
+}
+
+.radio-group {
+  display: flex;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+input[type="radio"] {
+  display: none;
+}
+input[type="radio"] + label {
+  cursor: pointer;
+  padding: 10px 15px;
+  border: 1px solid var(--lightgray);
+  border-radius: 4px;
+  margin-right: 10px;
+}
+input[type="radio"]:checked + label {
+  background-color: var(--secondary-variant);
+  border-color: var(--secondary-variant);
+  border-color: var(--secondary-variant-variant);
+  box-shadow: 2px 2px 3px var(--gray);
+}

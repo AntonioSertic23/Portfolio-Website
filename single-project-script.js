@@ -27,5 +27,3 @@ const swiper = new Swiper(".swiper", {
     prevEl: ".swiper-button-prev",
   },
 });
-
-// TODO: Add a slider to each single project.

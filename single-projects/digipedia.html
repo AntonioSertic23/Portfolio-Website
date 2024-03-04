@@ -10,10 +10,13 @@
     <link rel="stylesheet" href="../reset.css" />
     <link rel="stylesheet" href="../css/global-style.css" />
     <link rel="stylesheet" href="../css/single-project-style.css" />
+    <link rel="stylesheet" href="../assets/swiper-11.0.7/swiper-bundle.min.css" />
+    <script defer src="../assets/swiper-11.0.7/swiper-bundle.min.js"></script>
     <script defer src="../assets/jquery-3.6.4.min.js"></script>
     <script defer src="../navbar.js"></script>
     <script defer src="../script.js"></script>
     <script defer src="../sidebar.js"></script>
+    <script defer src="../single-project-script.js"></script>
   </head>
   <body>
     <nav id="navbar">
@@ -32,15 +35,15 @@
         </li>
         <li>
           <select class="palette-select action-button-link" placeholder="Theme">
-            <option value="theme1">Quiet Oasis</option>
-            <option value="theme2">Gentle Neutrality</option>
-            <option value="theme3">Urban Landscape</option>
+            <option value="theme-1" data-localization-key="theme-1"></option>
+            <option value="theme-2" data-localization-key="theme-2"></option>
+            <option value="theme-3" data-localization-key="theme-3"></option>
           </select>
         </li>
         <li>
           <select class="language-select action-button-link" placeholder="Language" id="change-language">
             <option value="en">English</option>
-            <option value="hr">Hrvatski</option>
+            <option value="hr">Croatian</option>
           </select>
         </li>
       </ul>
@@ -68,15 +71,15 @@
         </li>
         <li>
           <select class="palette-select action-button-link" placeholder="Theme">
-            <option value="theme1">Quiet Oasis</option>
-            <option value="theme2">Gentle Neutrality</option>
-            <option value="theme3">Urban Landscape</option>
+            <option value="theme-1" data-localization-key="theme-1"></option>
+            <option value="theme-2" data-localization-key="theme-2"></option>
+            <option value="theme-3" data-localization-key="theme-3"></option>
           </select>
         </li>
         <li>
-          <select class="language-select action-button-link" placeholder="Language" id="change-language-sidebar">
+          <select class="language-select action-button-link" placeholder="Language" id="change-language">
             <option value="en">English</option>
-            <option value="hr">Hrvatski</option>
+            <option value="hr">Croatian</option>
           </select>
         </li>
       </ul>
@@ -90,69 +93,45 @@
 
         <a href="https://github.com/AntonioSertic23/Digipedia" target="_blank" class="action-button-link">GitHub</a>
 
-        <p class="image-gallery-subheading" data-localization-key="single-project-ghost"></p>
-        <div class="image-gallery">
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/digipedia/1.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/digipedia/2.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/digipedia/3.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/digipedia/4.png" alt="" />
-          </div>
-        </div>
+        <p class="image-gallery-subheading" data-localization-key="single-project-ghost-loggedin-admin"></p>
 
-        <p class="image-gallery-subheading" data-localization-key="single-project-loggedin"></p>
-        <div class="image-gallery">
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/digipedia/5.png" alt="" />
+        <div class="slider-container">
+          <div class="swiper">
+            <div class="swiper-wrapper slider-precise precise-size-560">
+              <div class="swiper-slide">
+                <img src="../assets/projects/digipedia/1.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/digipedia/2.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/digipedia/5.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/digipedia/6.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/digipedia/7.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/digipedia/10.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/digipedia/12.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/digipedia/14.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/digipedia/16.png" alt="" />
+              </div>
+            </div>
           </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/digipedia/6.png" alt="" />
-          </div>
-        </div>
-        <p class="image-gallery-subheading" data-localization-key="single-project-admin"></p>
-        <div class="image-gallery">
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/digipedia/7.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/digipedia/8.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/digipedia/9.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/digipedia/10.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/digipedia/11.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/digipedia/12.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/digipedia/13.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/digipedia/14.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/digipedia/15.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/digipedia/16.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/digipedia/17.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/digipedia/18.png" alt="" />
-          </div>
+
+          <div class="swiper-pagination"></div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
         </div>
       </section>
     </div>
@@ -160,11 +139,5 @@
     <footer>
       <p data-localization-key="footer"></p>
     </footer>
-
-    <!-- The Modal -->
-    <div id="modal" class="modal">
-      <span id="modal-close" class="modal-close">&times;</span>
-      <img id="modal-content" class="modal-content" />
-    </div>
   </body>
 </html>

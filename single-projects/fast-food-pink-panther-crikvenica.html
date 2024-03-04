@@ -10,10 +10,13 @@
     <link rel="stylesheet" href="../reset.css" />
     <link rel="stylesheet" href="../css/global-style.css" />
     <link rel="stylesheet" href="../css/single-project-style.css" />
+    <link rel="stylesheet" href="../assets/swiper-11.0.7/swiper-bundle.min.css" />
+    <script defer src="../assets/swiper-11.0.7/swiper-bundle.min.js"></script>
     <script defer src="../assets/jquery-3.6.4.min.js"></script>
     <script defer src="../navbar.js"></script>
     <script defer src="../script.js"></script>
     <script defer src="../sidebar.js"></script>
+    <script defer src="../single-project-script.js"></script>
   </head>
   <body>
     <nav id="navbar">
@@ -32,15 +35,15 @@
         </li>
         <li>
           <select class="palette-select action-button-link" placeholder="Theme">
-            <option value="theme1">Quiet Oasis</option>
-            <option value="theme2">Gentle Neutrality</option>
-            <option value="theme3">Urban Landscape</option>
+            <option value="theme-1" data-localization-key="theme-1"></option>
+            <option value="theme-2" data-localization-key="theme-2"></option>
+            <option value="theme-3" data-localization-key="theme-3"></option>
           </select>
         </li>
         <li>
           <select class="language-select action-button-link" placeholder="Language" id="change-language">
             <option value="en">English</option>
-            <option value="hr">Hrvatski</option>
+            <option value="hr">Croatian</option>
           </select>
         </li>
       </ul>
@@ -68,15 +71,15 @@
         </li>
         <li>
           <select class="palette-select action-button-link" placeholder="Theme">
-            <option value="theme1">Quiet Oasis</option>
-            <option value="theme2">Gentle Neutrality</option>
-            <option value="theme3">Urban Landscape</option>
+            <option value="theme-1" data-localization-key="theme-1"></option>
+            <option value="theme-2" data-localization-key="theme-2"></option>
+            <option value="theme-3" data-localization-key="theme-3"></option>
           </select>
         </li>
         <li>
-          <select class="language-select action-button-link" placeholder="Language" id="change-language-sidebar">
+          <select class="language-select action-button-link" placeholder="Language" id="change-language">
             <option value="en">English</option>
-            <option value="hr">Hrvatski</option>
+            <option value="hr">Croatian</option>
           </select>
         </li>
       </ul>
@@ -94,54 +97,61 @@
           <a class="action-button-link">Style Guide</a>
         </div>
 
-        <p class="image-gallery-subheading" data-localization-key="before-redesign"></p>
-        <div class="image-gallery">
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/fast-food-pink-panther-crikvenica/1.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/fast-food-pink-panther-crikvenica/13.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/fast-food-pink-panther-crikvenica/2.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/fast-food-pink-panther-crikvenica/3.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/fast-food-pink-panther-crikvenica/14.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/fast-food-pink-panther-crikvenica/4.png" alt="" />
-          </div>
-        </div>
+        <p class="image-gallery-subheading" data-localization-key="before-and-after-redesign"></p>
 
-        <p class="image-gallery-subheading" data-localization-key="after-redesign"></p>
-        <div class="image-gallery">
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/fast-food-pink-panther-crikvenica/5.png" alt="" />
+        <div class="slider-container">
+          <div class="swiper">
+            <div class="swiper-wrapper slider-precise precise-size-700">
+              <div class="swiper-slide">
+                <img src="../assets/projects/fast-food-pink-panther-crikvenica/1.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/fast-food-pink-panther-crikvenica/13.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/fast-food-pink-panther-crikvenica/2.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/fast-food-pink-panther-crikvenica/3.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/fast-food-pink-panther-crikvenica/14.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/fast-food-pink-panther-crikvenica/4.png" alt="" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/projects/fast-food-pink-panther-crikvenica/5.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/fast-food-pink-panther-crikvenica/6.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/fast-food-pink-panther-crikvenica/7.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/fast-food-pink-panther-crikvenica/8.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/fast-food-pink-panther-crikvenica/9.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/fast-food-pink-panther-crikvenica/10.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/fast-food-pink-panther-crikvenica/11.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/projects/fast-food-pink-panther-crikvenica/12.png" alt="" />
+              </div>
+            </div>
           </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/fast-food-pink-panther-crikvenica/6.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/fast-food-pink-panther-crikvenica/7.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/fast-food-pink-panther-crikvenica/8.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/fast-food-pink-panther-crikvenica/9.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/fast-food-pink-panther-crikvenica/10.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/fast-food-pink-panther-crikvenica/11.png" alt="" />
-          </div>
-          <div class="card">
-            <img class="modal-target" src="../assets/projects/fast-food-pink-panther-crikvenica/12.png" alt="" />
-          </div>
+
+          <div class="swiper-pagination"></div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
         </div>
       </section>
     </div>
@@ -149,11 +159,5 @@
     <footer>
       <p data-localization-key="footer"></p>
     </footer>
-
-    <!-- The Modal -->
-    <div id="modal" class="modal">
-      <span id="modal-close" class="modal-close">&times;</span>
-      <img id="modal-content" class="modal-content" />
-    </div>
   </body>
 </html>

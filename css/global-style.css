@@ -441,3 +441,9 @@ footer {
 .inherit-background {
   background-color: inherit !important;
 }
+
+/* OTHER */
+
+.lazy-img {
+  filter: blur(10px);
+}

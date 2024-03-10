@@ -6,6 +6,8 @@
 
 My Portfolio Website is a personal project showcasing my skills, projects, and achievements. This website is built using HTML, CSS, JavaScript, and jQuery, and it serves as a digital resume and a showcase of my work in the field of web development.
 
+TODO: Dodati da sam uključio biblioteku dodatnu za slajder
+
 ## Features
 
 My Portfolio Website includes the following features:

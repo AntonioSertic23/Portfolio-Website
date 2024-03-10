@@ -46,3 +46,31 @@ $("#openResume").click(() => {
   window.open(`./assets/resumes/CV-Antonio_Sertić-${selectedLanguage}_${selectedTheme}.pdf`, "_blank");
   modal.css("display", "none");
 });
+
+// Lazy loading images
+
+const imgTargets = $("img[data-src]");
+
+const loadImg = function (entries, observer) {
+  entries.forEach((entry) => {
+    if (!entry.isIntersecting) return;
+
+    const $img = $(entry.target);
+    $img.attr("src", $img.attr("data-src"));
+
+    $img.on("load", function () {
+      $img.removeClass("lazy-img");
+    });
+
+    observer.unobserve(entry.target);
+  });
+};
+
+const imgObserver = new IntersectionObserver(loadImg, {
+  root: null,
+  threshold: 0,
+});
+
+imgTargets.each(function () {
+  imgObserver.observe(this);
+});

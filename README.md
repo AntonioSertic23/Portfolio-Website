@@ -24,9 +24,11 @@ My Portfolio Website includes the following features:
 
 ## Technical Details
 
-The website was built using pure HTML, CSS, JavaScript, and jQuery. It utilizes modern web design techniques to ensure a responsive and visually appealing layout across various devices and screen sizes.
+The website was built using pure HTML, CSS, JavaScript, and jQuery. Additionally, it utilizes the Swiper library for sliders, enhancing the user experience with smooth and interactive content transitions.
 
-[![My Skills](https://skills.thijs.gg/icons?i=html,css,js)](https://skills.thijs.gg)
+This implementation incorporates modern web design techniques to ensure a responsive and visually appealing layout across various devices and screen sizes.
+
+[![My Skills](https://skills.thijs.gg/icons?i=html,css,js,jquery)](https://skills.thijs.gg)
 
 ## Installation and Usage
 

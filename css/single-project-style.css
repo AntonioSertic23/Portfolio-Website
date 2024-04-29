@@ -24,6 +24,10 @@
   padding-left: 40px;
   position: relative;
 }
+.single-project-section .ordered-list .unordered-list {
+  padding-left: 40px;
+  position: relative;
+}
 .single-project-section .ordered-list li:before {
   position: absolute;
   left: 0;

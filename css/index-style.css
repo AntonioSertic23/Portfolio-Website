@@ -1,5 +1,13 @@
 /* INDEX.HTML */
 
+.section {
+  transition: transform 1s, opacity 1s;
+}
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
+
 /* HERO SECTION */
 
 .hero-section {
@@ -473,7 +481,7 @@
 }
 
 .more-projects-section .show-full-box {
-  height: 1233px;
+  height: 1727px;
 }
 
 .more-projects-section .box .project {
@@ -511,6 +519,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 15px;
+  min-height: 76px;
 }
 
 .more-projects-section .box .project .header .name {

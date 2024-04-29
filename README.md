@@ -28,7 +28,7 @@ The website was built using pure HTML, CSS, JavaScript, and jQuery. Additionally
 
 This implementation incorporates modern web design techniques to ensure a responsive and visually appealing layout across various devices and screen sizes.
 
-[![My Skills](https://skills.thijs.gg/icons?i=html,css,js,jquery)](https://skills.thijs.gg)
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,jquery)](https://skillicons.dev)
 
 ## Installation and Usage
 

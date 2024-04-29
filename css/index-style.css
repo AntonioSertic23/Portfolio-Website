@@ -473,7 +473,7 @@
 }
 
 .more-projects-section .show-full-box {
-  height: 1233px;
+  height: 1727px;
 }
 
 .more-projects-section .box .project {
@@ -511,6 +511,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 15px;
+  min-height: 76px;
 }
 
 .more-projects-section .box .project .header .name {

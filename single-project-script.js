@@ -1,5 +1,8 @@
+// Select progress elements
 const progressCircle = document.querySelector(".autoplay-progress svg");
 const progressContent = document.querySelector(".autoplay-progress span");
+
+// Initialize Swiper slider
 const swiper = new Swiper(".swiper", {
   grabCursor: true,
   effect: "creative",

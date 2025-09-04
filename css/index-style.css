@@ -22,6 +22,10 @@
   max-width: 1000px;
 }
 
+.hero-section p a:hover {
+  text-decoration: underline;
+}
+
 .hero-section .paragraph1 {
   margin-bottom: 20px;
   color: var(--secondary);
@@ -242,6 +246,10 @@
   line-height: 1.3;
   margin-bottom: 15px;
   color: var(--secondary);
+}
+
+.jobs-section p a:hover {
+  text-decoration: underline;
 }
 
 .jobs-section .job .position {
@@ -590,43 +598,46 @@
 
 @media (max-width: 768px) {
   .more-projects-section .box {
-    height: 414px;
+    height: 390px;
   }
   .more-projects-section .show-full-box {
-    height: 2087px;
+    height: 2500px;
   }
 }
 
 @media (max-width: 678px) {
   .more-projects-section .box {
-    height: 301px;
+    height: 290px;
   }
   .more-projects-section .show-full-box {
-    height: 2907px;
+    height: 3750px;
   }
 }
 
 @media (max-width: 576px) {
   .more-projects-section .box {
-    height: 301px;
+    height: 290px;
   }
   .more-projects-section .show-full-box {
-    height: 3303px;
+    height: 4050px;
   }
 }
 
 @media (max-width: 440px) {
   .more-projects-section .box {
-    height: 350px;
+    height: 320px;
   }
   .more-projects-section .show-full-box {
-    height: 3500px;
+    height: 4300px;
   }
 }
 
 @media (max-width: 360px) {
+  .more-projects-section .box {
+    height: 330px;
+  }
   .more-projects-section .show-full-box {
-    height: 3800px;
+    height: 4650px;
   }
 }
 

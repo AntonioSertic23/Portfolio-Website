@@ -1,3 +1,13 @@
+// Close the sidebar and reset related UI effects
+function closeSidebar() {
+  $("#toggleBtn").removeClass("open");
+  $(".sidebar").removeClass("show-sidebar");
+  $(".container").removeClass("blur-effect");
+  $("body").removeClass("disable-scroll");
+  $("nav").removeClass("inherit-background");
+}
+
+// Toggle sidebar and UI effects when the toggle button is clicked
 $("#toggleBtn").click(function () {
   $(this).toggleClass("open");
   $(".sidebar").toggleClass("show-sidebar");
@@ -6,18 +16,5 @@ $("#toggleBtn").click(function () {
   $("nav").toggleClass("inherit-background");
 });
 
-$(".container").click(function () {
-  $("#toggleBtn").removeClass("open");
-  $(".sidebar").removeClass("show-sidebar");
-  $(".container").removeClass("blur-effect");
-  $("body").removeClass("disable-scroll");
-  $("nav").removeClass("inherit-background");
-});
-
-$(".sidebar a").click(function () {
-  $("#toggleBtn").removeClass("open");
-  $(".sidebar").removeClass("show-sidebar");
-  $(".container").removeClass("blur-effect");
-  $("body").removeClass("disable-scroll");
-  $("nav").removeClass("inherit-background");
-});
+// Close sidebar when clicking outside (container) or on a sidebar link
+$(".container, .sidebar a").click(closeSidebar);

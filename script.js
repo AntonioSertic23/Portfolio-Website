@@ -55,9 +55,8 @@ $(window).on("click", (event) => {
 // Open selected resume PDF
 $("#openResume").on("click", () => {
   const selectedLanguage = $('input[name="language"]:checked').val();
-  const selectedTheme = $('input[name="theme"]:checked').val();
 
-  window.open(`./assets/resumes/CV-Antonio_Sertić-${selectedLanguage}_${selectedTheme}.pdf`, "_blank");
+  window.open(`./assets/resumes/CV-Antonio_Sertic-${selectedLanguage}.pdf`, "_blank");
   closeModal();
 });
 

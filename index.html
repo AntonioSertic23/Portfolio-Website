@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,6 +6,12 @@
     <meta name="description" content="Free Web tutorials" />
     <meta name="author" content="John Doe" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Privacy-friendly analytics by Plausible -->
+    <script async src="https://plausible.io/js/pa-bQfKHhDC6zRBOeDOV7fJx.js"></script>
+    <script>
+      window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+      plausible.init()
+    </script>
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./css/global-style.css" />
@@ -38,7 +44,11 @@
           </select>
         </li>
         <li>
-          <select class="language-select action-button-link" placeholder="Language" id="change-language">
+          <select
+            class="language-select action-button-link"
+            placeholder="Language"
+            id="change-language"
+          >
             <option value="en">English</option>
             <option value="hr">Croatian</option>
           </select>
@@ -74,7 +84,11 @@
           </select>
         </li>
         <li>
-          <select class="language-select action-button-link" placeholder="Language" id="change-language-sidebar">
+          <select
+            class="language-select action-button-link"
+            placeholder="Language"
+            id="change-language-sidebar"
+          >
             <option value="en">English</option>
             <option value="hr">Croatian</option>
           </select>
@@ -90,8 +104,18 @@
         <p class="paragraph2" data-localization-key="hero-3"></p>
 
         <div class="links">
-          <a href="https://github.com/AntonioSertic23" target="_blank" class="action-button-link main">GitHub</a>
-          <a id="open_resume_btn" target="_blank" class="action-button-link" data-localization-key="hero-4"></a>
+          <a
+            href="https://github.com/AntonioSertic23"
+            target="_blank"
+            class="action-button-link main"
+            >GitHub</a
+          >
+          <a
+            id="open_resume_btn"
+            target="_blank"
+            class="action-button-link"
+            data-localization-key="hero-4"
+          ></a>
         </div>
         <div id="aboutme-section"></div>
       </section>
@@ -153,13 +177,23 @@
             <p data-localization-key="aboutme-text-5"></p>
             <p data-localization-key="aboutme-text-6"></p>
             <p data-localization-key="aboutme-text-7"></p>
+            <p data-localization-key="aboutme-text-8"></p>
           </div>
           <div class="right-side">
             <div class="image-box">
-              <img class="profile-picture lazy-img" src="./assets/images/my_picture-lazy.jpg" data-src="./assets/images/my_picture.jpg" alt="profile picture" />
+              <img
+                class="profile-picture lazy-img"
+                src="./assets/images/my_picture-lazy.jpg"
+                data-src="./assets/images/my_picture.jpg"
+                alt="profile picture"
+              />
             </div>
             <div class="linkedin-container">
-              <a href="https://www.linkedin.com/in/antoniosertic/" target="_blank"><img src="./assets/images/linkedin.png" />in/antoniosertic</a>
+              <a
+                href="https://www.linkedin.com/in/antoniosertic/"
+                target="_blank"
+                ><img src="./assets/images/linkedin.png" />in/antoniosertic</a
+              >
             </div>
           </div>
         </div>
@@ -169,6 +203,19 @@
       <section class="section jobs-section">
         <p class="heading" data-localization-key="jobs-heading"></p>
         <div class="box">
+          <div class="job">
+            <p class="position">
+              Product Owner
+              <span class="company">@ Infigo IS</span>
+            </p>
+            <p class="year" data-localization-key="jobs-po-1"></p>
+            <ul>
+              <li>
+                <p data-localization-key="jobs-po-2"></p>
+              </li>
+            </ul>
+          </div>
+
           <div class="job">
             <p class="position">
               Software Developer
@@ -233,28 +280,42 @@
           <div class="project">
             <div class="left-side">
               <div class="image-box">
-                <a href="single-projects/svastaonica-za-bebe.html">
-                  <img class="lazy-img" src="./assets/projects/svastaonica-za-bebe/mockup1-lazy.png" data-src="./assets/projects/svastaonica-za-bebe/mockup1.png" />
+                <a href="single-projects/nextup.html">
+                  <img
+                    class="lazy-img"
+                    src="./assets/projects/nextup/mockup1-lazy.png"
+                    data-src="./assets/projects/nextup/mockup1.png"
+                  />
                 </a>
               </div>
             </div>
             <div class="right-side">
               <p class="name" data-localization-key="projects-1-name"></p>
-              <p class="year">2023</p>
-              <p class="description" data-localization-key="projects-1-description"></p>
+              <p class="year">2025</p>
+              <p
+                class="description"
+                data-localization-key="projects-1-description"
+              ></p>
               <ul>
-                <li>Vue</li>
                 <li>JavaScript</li>
-                <li>Bootstrap</li>
+                <li>Supabase</li>
                 <li>Netlify</li>
+                <li>Trakt API</li>
               </ul>
               <div class="links">
-                <a class="action-button-link" href="single-projects/svastaonica-za-bebe.html" data-localization-key="more"></a>
+                <a
+                  class="action-button-link"
+                  href="single-projects/nextup.html"
+                  data-localization-key="more"
+                ></a>
 
                 <div class="right">
-                  <a class="link" target="_blank" href="https://github.com/AntonioSertic23/Svastaonica-Za-Bebe"><img src="./assets/images/github.png" alt="" /></a>
-
-                  <a class="link" target="_blank" href="https://svastaonicazabebe.netlify.app"><img src="./assets/images/link.png" alt="" /></a>
+                  <a
+                    class="link"
+                    target="_blank"
+                    href="https://github.com/AntonioSertic23/NextUp"
+                    ><img src="./assets/images/github.png" alt=""
+                  /></a>
                 </div>
               </div>
             </div>
@@ -263,25 +324,94 @@
           <div class="project">
             <div class="left-side">
               <div class="image-box">
-                <a href="single-projects/fast-food-pink-panther-crikvenica.html">
-                  <img class="lazy-img" src="./assets/projects/fast-food-pink-panther-crikvenica/mockup1-lazy.png" data-src="./assets/projects/fast-food-pink-panther-crikvenica/mockup1.png" />
+                <a href="single-projects/svastaonica-za-bebe.html">
+                  <img
+                    class="lazy-img"
+                    src="./assets/projects/svastaonica-za-bebe/mockup1-lazy.png"
+                    data-src="./assets/projects/svastaonica-za-bebe/mockup1.png"
+                  />
                 </a>
               </div>
             </div>
             <div class="right-side">
               <p class="name" data-localization-key="projects-2-name"></p>
+              <p class="year">2023</p>
+              <p
+                class="description"
+                data-localization-key="projects-2-description"
+              ></p>
+              <ul>
+                <li>Vue</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+                <li>Netlify</li>
+              </ul>
+              <div class="links">
+                <a
+                  class="action-button-link"
+                  href="single-projects/svastaonica-za-bebe.html"
+                  data-localization-key="more"
+                ></a>
+
+                <div class="right">
+                  <a
+                    class="link"
+                    target="_blank"
+                    href="https://github.com/AntonioSertic23/Svastaonica-Za-Bebe"
+                    ><img src="./assets/images/github.png" alt=""
+                  /></a>
+
+                  <a
+                    class="link"
+                    target="_blank"
+                    href="https://svastaonicazabebe.netlify.app"
+                    ><img src="./assets/images/link.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="left-side">
+              <div class="image-box">
+                <a
+                  href="single-projects/fast-food-pink-panther-crikvenica.html"
+                >
+                  <img
+                    class="lazy-img"
+                    src="./assets/projects/fast-food-pink-panther-crikvenica/mockup1-lazy.png"
+                    data-src="./assets/projects/fast-food-pink-panther-crikvenica/mockup1.png"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="right-side">
+              <p class="name" data-localization-key="projects-3-name"></p>
               <p class="year">2022</p>
-              <p class="description" data-localization-key="projects-2-description"></p>
+              <p
+                class="description"
+                data-localization-key="projects-3-description"
+              ></p>
               <ul>
                 <li>Vue</li>
                 <li>JavaScript</li>
                 <li>Bootstrap</li>
               </ul>
               <div class="links">
-                <a class="action-button-link" href="single-projects/fast-food-pink-panther-crikvenica.html" data-localization-key="more"></a>
+                <a
+                  class="action-button-link"
+                  href="single-projects/fast-food-pink-panther-crikvenica.html"
+                  data-localization-key="more"
+                ></a>
 
                 <div class="right">
-                  <a class="link" target="_blank" href="https://github.com/AntonioSertic23/Fast-Food-Pink-Panther-Crikvenica"><img src="./assets/images/github.png" alt="" /></a>
+                  <a
+                    class="link"
+                    target="_blank"
+                    href="https://github.com/AntonioSertic23/Fast-Food-Pink-Panther-Crikvenica"
+                    ><img src="./assets/images/github.png" alt=""
+                  /></a>
                 </div>
               </div>
             </div>
@@ -291,14 +421,21 @@
             <div class="left-side">
               <div class="image-box">
                 <a href="single-projects/smart-villages.html">
-                  <img class="lazy-img" src="./assets/projects/smart-villages/mockup1-lazy.jpg" data-src="./assets/projects/smart-villages/mockup1.jpg" />
+                  <img
+                    class="lazy-img"
+                    src="./assets/projects/smart-villages/mockup1-lazy.jpg"
+                    data-src="./assets/projects/smart-villages/mockup1.jpg"
+                  />
                 </a>
               </div>
             </div>
             <div class="right-side">
-              <p class="name" data-localization-key="projects-3-name"></p>
+              <p class="name" data-localization-key="projects-4-name"></p>
               <p class="year">2021</p>
-              <p class="description" data-localization-key="projects-3-description"></p>
+              <p
+                class="description"
+                data-localization-key="projects-4-description"
+              ></p>
               <ul>
                 <li>Blazor</li>
                 <li>EF Core</li>
@@ -307,10 +444,19 @@
                 <li>MS SQL Server</li>
               </ul>
               <div class="links">
-                <a class="action-button-link" href="single-projects/smart-villages.html" data-localization-key="more"></a>
+                <a
+                  class="action-button-link"
+                  href="single-projects/smart-villages.html"
+                  data-localization-key="more"
+                ></a>
 
                 <div class="right">
-                  <a class="link" target="_blank" href="https://github.com/AntonioSertic23/Smart-Villages"><img src="./assets/images/github.png" alt="" /></a>
+                  <a
+                    class="link"
+                    target="_blank"
+                    href="https://github.com/AntonioSertic23/Smart-Villages"
+                    ><img src="./assets/images/github.png" alt=""
+                  /></a>
                 </div>
               </div>
             </div>
@@ -320,24 +466,40 @@
             <div class="left-side">
               <div class="image-box">
                 <a href="single-projects/seriium.html">
-                  <img class="lazy-img" src="./assets/projects/seriium/mockup1-lazy.jpg" data-src="./assets/projects/seriium/mockup1.jpg" />
+                  <img
+                    class="lazy-img"
+                    src="./assets/projects/seriium/mockup1-lazy.jpg"
+                    data-src="./assets/projects/seriium/mockup1.jpg"
+                  />
                 </a>
               </div>
             </div>
             <div class="right-side">
-              <p class="name" data-localization-key="projects-4-name"></p>
+              <p class="name" data-localization-key="projects-5-name"></p>
               <p class="year">2020</p>
-              <p class="description" data-localization-key="projects-4-description"></p>
+              <p
+                class="description"
+                data-localization-key="projects-5-description"
+              ></p>
               <ul>
                 <li>Android Studio</li>
                 <li>Java</li>
                 <li>Firebase</li>
               </ul>
               <div class="links">
-                <a class="action-button-link" href="single-projects/seriium.html" data-localization-key="more"></a>
+                <a
+                  class="action-button-link"
+                  href="single-projects/seriium.html"
+                  data-localization-key="more"
+                ></a>
 
                 <div class="right">
-                  <a class="link" target="_blank" href="https://github.com/AntonioSertic23/Seriium"><img src="./assets/images/github.png" alt="" /></a>
+                  <a
+                    class="link"
+                    target="_blank"
+                    href="https://github.com/AntonioSertic23/Seriium"
+                    ><img src="./assets/images/github.png" alt=""
+                  /></a>
                 </div>
               </div>
             </div>
@@ -349,7 +511,11 @@
       <section class="section more-projects-section">
         <p class="heading" data-localization-key="more-projects-heading"></p>
         <div class="heading-box">
-          <a href="./archive.html" class="subheading" data-localization-key="more-projects-subheading"></a>
+          <a
+            href="./archive.html"
+            class="subheading"
+            data-localization-key="more-projects-subheading"
+          ></a>
         </div>
         <div class="box" id="box">
           <a href="single-projects/cinereserve-the-movie-seat-scheduler.html">
@@ -590,7 +756,12 @@
         </div>
 
         <div class="show-more">
-          <button class="action-button-link" id="show-more-btn" onclick="resizeBox()" data-localization-key="show-more"></button>
+          <button
+            class="action-button-link"
+            id="show-more-btn"
+            onclick="resizeBox()"
+            data-localization-key="show-more"
+          ></button>
         </div>
       </section>
 
@@ -600,7 +771,11 @@
           <p class="big-heading" data-localization-key="contact-subheading"></p>
           <p class="text" data-localization-key="contact-text"></p>
           <p class="email">sertic43@gmail.com</p>
-          <a class="action-button-link" href="mailto:sertic43@gmail.com" data-localization-key="contact-getintouch"></a>
+          <a
+            class="action-button-link"
+            href="mailto:sertic43@gmail.com"
+            data-localization-key="contact-getintouch"
+          ></a>
         </div>
       </section>
     </div>
@@ -618,15 +793,34 @@
         <div class="modal-body">
           <p data-localization-key="resume-modal-2"></p>
           <div class="radio-group">
-            <input type="radio" id="language_english" name="language" value="eng" checked />
+            <input
+              type="radio"
+              id="language_english"
+              name="language"
+              value="eng"
+              checked
+            />
             <label for="language_english">English</label><br />
-            <input type="radio" id="language_croatian" name="language" value="cro" />
+            <input
+              type="radio"
+              id="language_croatian"
+              name="language"
+              value="cro"
+            />
             <label for="language_croatian">Croatian</label><br />
           </div>
         </div>
         <div class="modal-footer">
-          <button class="action-button-link" id="cancelModal" data-localization-key="resume-modal-4"></button>
-          <button class="action-button-link" id="openResume" data-localization-key="resume-modal-5"></button>
+          <button
+            class="action-button-link"
+            id="cancelModal"
+            data-localization-key="resume-modal-4"
+          ></button>
+          <button
+            class="action-button-link"
+            id="openResume"
+            data-localization-key="resume-modal-5"
+          ></button>
         </div>
       </div>
     </div>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,14 +6,20 @@
     <meta name="description" content="Free Web tutorials" />
     <meta name="author" content="John Doe" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Privacy-friendly analytics by Plausible -->
+    <script async src="https://plausible.io/js/pa-bQfKHhDC6zRBOeDOV7fJx.js"></script>
+    <script>
+      window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+      plausible.init()
+    </script>
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./css/global-style.css" />
     <link rel="stylesheet" href="./css/archive-style.css" />
     <script src="./assets/jquery-3.6.4.min.js"></script>
-    <script defer src="../navbar.js"></script>
-    <script defer src="../sidebar.js"></script>
-    <script defer src="../archive.js"></script>
+    <script defer src="./navbar.js"></script>
+    <script defer src="./sidebar.js"></script>
+    <script defer src="./archive.js"></script>
   </head>
   <body>
     <nav id="navbar">
@@ -25,7 +31,10 @@
           <a href="/#jobs-section" data-localization-key="menu-experience"></a>
         </li>
         <li>
-          <a href="/#projects-section" data-localization-key="menu-projects"></a>
+          <a
+            href="/#projects-section"
+            data-localization-key="menu-projects"
+          ></a>
         </li>
         <li>
           <a href="/#contact-section" data-localization-key="menu-contact"></a>
@@ -38,7 +47,11 @@
           </select>
         </li>
         <li>
-          <select class="language-select action-button-link" placeholder="Language" id="change-language">
+          <select
+            class="language-select action-button-link"
+            placeholder="Language"
+            id="change-language"
+          >
             <option value="en">English</option>
             <option value="hr">Croatian</option>
           </select>
@@ -61,7 +74,10 @@
           <a href="/#jobs-section" data-localization-key="menu-experience"></a>
         </li>
         <li>
-          <a href="/#projects-section" data-localization-key="menu-projects"></a>
+          <a
+            href="/#projects-section"
+            data-localization-key="menu-projects"
+          ></a>
         </li>
         <li>
           <a href="/#contact-section" data-localization-key="menu-contact"></a>
@@ -74,7 +90,11 @@
           </select>
         </li>
         <li>
-          <select class="language-select action-button-link" placeholder="Language" id="change-language">
+          <select
+            class="language-select action-button-link"
+            placeholder="Language"
+            id="change-language"
+          >
             <option value="en">English</option>
             <option value="hr">Croatian</option>
           </select>
@@ -91,178 +111,302 @@
             <tr>
               <th data-localization-key="archive-table-year"></th>
               <th data-localization-key="archive-table-name"></th>
-              <th class="madeat" data-localization-key="archive-table-place"></th>
+              <th
+                class="madeat"
+                data-localization-key="archive-table-place"
+              ></th>
               <th class="tech" data-localization-key="archive-table-tech"></th>
               <th>Link</th>
             </tr>
           </thead>
           <tbody>
-            <tr onclick="window.location='./single-projects/cinereserve-the-movie-seat-scheduler.html';">
-              <td class="year">2024</td>
-              <td class="name">CineReserve The Movie Seat Scheduler</td>
-              <td class="madeat">—</td>
-              <td class="tech">JavaScript - HTML - CSS - Firebase</td>
+            <tr onclick="window.location = './single-projects/nextup.html'">
+              <td class="year">2025</td>
+              <td class="name">NextUp</td>
+              <td
+                class="madeat"
+                data-localization-key="archive-personal-project"
+              ></td>
+              <td class="tech">JavaScript - HTML - CSS - Supabase - Netlify</td>
               <td class="links">
-                <a onclick="openLink(event)" target="_blank" href="https://github.com/AntonioSertic23/CineReserve-The-Movie-Seat-Scheduler">
+                <a
+                  onclick="openLink(event)"
+                  target="_blank"
+                  href="https://github.com/AntonioSertic23/NextUp"
+                >
                   <img src="./assets/images/github.png" alt="" />
                 </a>
               </td>
             </tr>
 
-            <tr onclick="window.location='./single-projects/license-plate-math-game-analysis.html';">
+            <tr
+              onclick="
+                window.location =
+                  './single-projects/cinereserve-the-movie-seat-scheduler.html'
+              "
+            >
+              <td class="year">2024</td>
+              <td class="name">CineReserve The Movie Seat Scheduler</td>
+              <td
+                class="madeat"
+                data-localization-key="archive-personal-project"
+              ></td>
+              <td class="tech">JavaScript - HTML - CSS - Firebase</td>
+              <td class="links">
+                <a
+                  onclick="openLink(event)"
+                  target="_blank"
+                  href="https://github.com/AntonioSertic23/CineReserve-The-Movie-Seat-Scheduler"
+                >
+                  <img src="./assets/images/github.png" alt="" />
+                </a>
+              </td>
+            </tr>
+
+            <tr
+              onclick="
+                window.location =
+                  './single-projects/license-plate-math-game-analysis.html'
+              "
+            >
               <td class="year">2023</td>
               <td class="name">License Plate Math Game Analysis</td>
               <td class="madeat">Infigo</td>
               <td class="tech">Python - Splunk</td>
               <td class="links">
-                <a onclick="openLink(event)" target="_blank" href="https://github.com/AntonioSertic23/License-Plate-Math-Game-Analysis">
+                <a
+                  onclick="openLink(event)"
+                  target="_blank"
+                  href="https://github.com/AntonioSertic23/License-Plate-Math-Game-Analysis"
+                >
                   <img src="./assets/images/github.png" alt="" />
                 </a>
               </td>
             </tr>
 
-            <tr onclick="window.location='./single-projects/svastaonica-za-bebe.html';">
+            <tr
+              onclick="
+                window.location = './single-projects/svastaonica-za-bebe.html'
+              "
+            >
               <td class="year">2023</td>
               <td class="name">Svaštaonica Za Bebe</td>
-              <td class="madeat">—</td>
+              <td
+                class="madeat"
+                data-localization-key="archive-personal-project"
+              ></td>
               <td class="tech">Vue - JavaScript - Bootstrap - Netlify</td>
               <td class="links">
-                <a onclick="openLink(event)" target="_blank" href="https://github.com/AntonioSertic23/Svastaonica-Za-Bebe">
+                <a
+                  onclick="openLink(event)"
+                  target="_blank"
+                  href="https://github.com/AntonioSertic23/Svastaonica-Za-Bebe"
+                >
                   <img src="./assets/images/github.png" alt="" />
                 </a>
-                <a onclick="openLink(event)" target="_blank" href="https://svastaonicazabebe.netlify.app">
+                <a
+                  onclick="openLink(event)"
+                  target="_blank"
+                  href="https://svastaonicazabebe.netlify.app"
+                >
                   <img src="./assets/images/link.png" alt="" />
                 </a>
               </td>
             </tr>
-            <tr onclick="window.location='./single-projects/fast-food-pink-panther-crikvenica.html';">
+            <tr
+              onclick="
+                window.location =
+                  './single-projects/fast-food-pink-panther-crikvenica.html'
+              "
+            >
               <td class="year">2022</td>
               <td class="name">Fast Food Pink Panther Crikvenica</td>
-              <td class="madeat">—</td>
+              <td
+                class="madeat"
+                data-localization-key="archive-personal-project"
+              ></td>
               <td class="tech">Vue - JavaScript - Bootstrap</td>
               <td class="links">
-                <a href="https://github.com/AntonioSertic23/Fast-Food-Pink-Panther-Crikvenica">
+                <a
+                  href="https://github.com/AntonioSertic23/Fast-Food-Pink-Panther-Crikvenica"
+                >
                   <img src="./assets/images/github.png" alt="" />
                 </a>
               </td>
             </tr>
-            <tr onclick="window.location='./single-projects/gastrotop.html';">
+            <tr onclick="window.location = './single-projects/gastrotop.html'">
               <td class="year">2022</td>
               <td class="name">Gastrotop</td>
               <td class="madeat" data-localization-key="university"></td>
               <td class="tech">Wordpress - Polylang</td>
               <td class="links">
-                <a onclick="openLink(event)" target="_blank" href="http://gastrotop.hr/">
+                <a
+                  onclick="openLink(event)"
+                  target="_blank"
+                  href="http://gastrotop.hr/"
+                >
                   <img src="./assets/images/link.png" alt="" />
                 </a>
               </td>
             </tr>
-            <tr onclick="window.location='./single-projects/smart-villages.html';">
+            <tr
+              onclick="
+                window.location = './single-projects/smart-villages.html'
+              "
+            >
               <td class="year">2021</td>
               <td class="name">Smart Villages</td>
               <td class="madeat" data-localization-key="university"></td>
-              <td class="tech">Blazor - EF Core - SignalR - MudBlazor - MS SQL Server</td>
+              <td class="tech">
+                Blazor - EF Core - SignalR - MudBlazor - MS SQL Server
+              </td>
               <td class="links">
-                <a onclick="openLink(event)" target="_blank" href="https://github.com/AntonioSertic23/Smart-Villages">
+                <a
+                  onclick="openLink(event)"
+                  target="_blank"
+                  href="https://github.com/AntonioSertic23/Smart-Villages"
+                >
                   <img src="./assets/images/github.png" alt="" />
                 </a>
               </td>
             </tr>
-            <tr onclick="window.location='./single-projects/seriium.html';">
+            <tr onclick="window.location = './single-projects/seriium.html'">
               <td class="year">2020</td>
               <td class="name">Seriium</td>
               <td class="madeat" data-localization-key="university"></td>
               <td class="tech">Android Studio - Java - Firebase</td>
               <td class="links">
-                <a onclick="openLink(event)" target="_blank" href="https://github.com/AntonioSertic23/Seriium">
+                <a
+                  onclick="openLink(event)"
+                  target="_blank"
+                  href="https://github.com/AntonioSertic23/Seriium"
+                >
                   <img src="./assets/images/github.png" alt="" />
                 </a>
               </td>
             </tr>
-            <tr onclick="window.location='./single-projects/cinema-mon-amour.html';">
+            <tr
+              onclick="
+                window.location = './single-projects/cinema-mon-amour.html'
+              "
+            >
               <td class="year">2020</td>
               <td class="name">Cinema Mon Amour</td>
               <td class="madeat" data-localization-key="university"></td>
               <td class="tech">Android Studio - Java - Firebase</td>
               <td class="links">
-                <a onclick="openLink(event)" target="_blank" href="https://github.com/AntonioSertic23/Cinema-Mon-Amour">
+                <a
+                  onclick="openLink(event)"
+                  target="_blank"
+                  href="https://github.com/AntonioSertic23/Cinema-Mon-Amour"
+                >
                   <img src="./assets/images/github.png" alt="" />
                 </a>
               </td>
             </tr>
-            <tr onclick="window.location='./single-projects/tasty-trap.html';">
+            <tr onclick="window.location = './single-projects/tasty-trap.html'">
               <td class="year">2020</td>
               <td class="name">Tasty Tap</td>
               <td class="madeat" data-localization-key="university"></td>
               <td class="tech">Wordpress - PHP - MySQL</td>
               <td class="links">
-                <a onclick="openLink(event)" target="_blank" href="https://github.com/AntonioSertic23/Tasty-Trap">
+                <a
+                  onclick="openLink(event)"
+                  target="_blank"
+                  href="https://github.com/AntonioSertic23/Tasty-Trap"
+                >
                   <img src="./assets/images/github.png" alt="" />
                 </a>
               </td>
             </tr>
-            <tr onclick="window.location='./single-projects/achilles-gym.html';">
+            <tr
+              onclick="window.location = './single-projects/achilles-gym.html'"
+            >
               <td class="year">2020</td>
               <td class="name">Achilles Gym</td>
               <td class="madeat" data-localization-key="university"></td>
               <td class="tech">Wordpress - PHP - MySQL</td>
               <td class="links">
-                <a onclick="openLink(event)" target="_blank" href="https://github.com/AntonioSertic23/Achilles-Gym">
+                <a
+                  onclick="openLink(event)"
+                  target="_blank"
+                  href="https://github.com/AntonioSertic23/Achilles-Gym"
+                >
                   <img src="./assets/images/github.png" alt="" />
                 </a>
               </td>
             </tr>
-            <tr onclick="window.location='./single-projects/moviium.html';">
+            <tr onclick="window.location = './single-projects/moviium.html'">
               <td class="year">2020</td>
               <td class="name">Moviium</td>
               <td class="madeat">Fina</td>
               <td class="tech">Angular- Web API</td>
               <td class="links">
-                <a onclick="openLink(event)" target="_blank" href="https://github.com/AntonioSertic23/Moviium">
+                <a
+                  onclick="openLink(event)"
+                  target="_blank"
+                  href="https://github.com/AntonioSertic23/Moviium"
+                >
                   <img src="./assets/images/github.png" alt="" />
                 </a>
               </td>
             </tr>
-            <tr onclick="window.location='./single-projects/digipedia.html';">
+            <tr onclick="window.location = './single-projects/digipedia.html'">
               <td class="year">2020</td>
               <td class="name">Digipedia</td>
               <td class="madeat" data-localization-key="university"></td>
               <td class="tech">AngularJS - PHP - MySQL</td>
               <td class="links">
-                <a onclick="openLink(event)" target="_blank" href="https://github.com/AntonioSertic23/Digipedia">
+                <a
+                  onclick="openLink(event)"
+                  target="_blank"
+                  href="https://github.com/AntonioSertic23/Digipedia"
+                >
                   <img src="./assets/images/github.png" alt="" />
                 </a>
               </td>
             </tr>
-            <tr onclick="window.location='./single-projects/zadaci.html';">
+            <tr onclick="window.location = './single-projects/zadaci.html'">
               <td class="year">2020</td>
               <td class="name">Zadaci</td>
               <td class="madeat" data-localization-key="university"></td>
               <td class="tech">AngularJS - PHP - MySQL</td>
               <td class="links">
-                <a onclick="openLink(event)" target="_blank" href="https://github.com/AntonioSertic23/Zadaci">
+                <a
+                  onclick="openLink(event)"
+                  target="_blank"
+                  href="https://github.com/AntonioSertic23/Zadaci"
+                >
                   <img src="./assets/images/github.png" alt="" />
                 </a>
               </td>
             </tr>
-            <tr onclick="window.location='./single-projects/filmovi.html';">
+            <tr onclick="window.location = './single-projects/filmovi.html'">
               <td class="year">2019</td>
               <td class="name">Filmovi</td>
               <td class="madeat" data-localization-key="university"></td>
               <td class="tech">Windows Forms - SQL</td>
               <td class="links">
-                <a onclick="openLink(event)" target="_blank" href="https://github.com/AntonioSertic23/Filmovi">
+                <a
+                  onclick="openLink(event)"
+                  target="_blank"
+                  href="https://github.com/AntonioSertic23/Filmovi"
+                >
                   <img src="./assets/images/github.png" alt="" />
                 </a>
               </td>
             </tr>
-            <tr onclick="window.location='./single-projects/hoteli.html';">
+            <tr onclick="window.location = './single-projects/hoteli.html'">
               <td class="year">2019</td>
               <td class="name">Hoteli</td>
               <td class="madeat" data-localization-key="university"></td>
               <td class="tech">JavaScript - Firebase</td>
               <td class="links">
-                <a onclick="openLink(event)" target="_blank" href="https://github.com/AntonioSertic23/Hoteli">
+                <a
+                  onclick="openLink(event)"
+                  target="_blank"
+                  href="https://github.com/AntonioSertic23/Hoteli"
+                >
                   <img src="./assets/images/github.png" alt="" />
                 </a>
               </td>

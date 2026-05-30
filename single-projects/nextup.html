@@ -1,10 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="keywords" content="HTML, CSS, JavaScript" />
-    <meta name="description" content="Free Web tutorials" />
-    <meta name="author" content="John Doe" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, NextUp, Trakt, Trakt.tv, Supabase, Netlify, Netlify Functions, PWA, SPA, TV show tracker"
+    />
+    <meta
+      name="description"
+      content="NextUp — Vanilla JavaScript SPA & PWA for tracking TV shows, with Supabase, Netlify Functions and Trakt.tv API."
+    />
+    <meta name="author" content="Antonio Sertić" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Privacy-friendly analytics by Plausible -->
     <script async src="https://plausible.io/js/pa-bQfKHhDC6zRBOeDOV7fJx.js"></script>
@@ -12,11 +18,14 @@
       window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
       plausible.init()
     </script>
-    <title>Portfolio Website</title>
+    <title>NextUp — Portfolio</title>
     <link rel="stylesheet" href="../reset.css" />
     <link rel="stylesheet" href="../css/global-style.css" />
     <link rel="stylesheet" href="../css/single-project-style.css" />
-    <link rel="stylesheet" href="../assets/swiper-11.0.7/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="../assets/swiper-11.0.7/swiper-bundle.min.css"
+    />
     <script defer src="../assets/swiper-11.0.7/swiper-bundle.min.js"></script>
     <script defer src="../assets/jquery-3.6.4.min.js"></script>
     <script defer src="../navbar.js"></script>
@@ -34,7 +43,10 @@
           <a href="/#jobs-section" data-localization-key="menu-experience"></a>
         </li>
         <li>
-          <a href="/#projects-section" data-localization-key="menu-projects"></a>
+          <a
+            href="/#projects-section"
+            data-localization-key="menu-projects"
+          ></a>
         </li>
         <li>
           <a href="/#contact-section" data-localization-key="menu-contact"></a>
@@ -47,7 +59,11 @@
           </select>
         </li>
         <li>
-          <select class="language-select action-button-link" placeholder="Language" id="change-language">
+          <select
+            class="language-select action-button-link"
+            placeholder="Language"
+            id="change-language-sidebar"
+          >
             <option value="en">English</option>
             <option value="hr">Croatian</option>
           </select>
@@ -70,7 +86,10 @@
           <a href="/#jobs-section" data-localization-key="menu-experience"></a>
         </li>
         <li>
-          <a href="/#projects-section" data-localization-key="menu-projects"></a>
+          <a
+            href="/#projects-section"
+            data-localization-key="menu-projects"
+          ></a>
         </li>
         <li>
           <a href="/#contact-section" data-localization-key="menu-contact"></a>
@@ -83,7 +102,11 @@
           </select>
         </li>
         <li>
-          <select class="language-select action-button-link" placeholder="Language" id="change-language">
+          <select
+            class="language-select action-button-link"
+            placeholder="Language"
+            id="change-language-sidebar"
+          >
             <option value="en">English</option>
             <option value="hr">Croatian</option>
           </select>
@@ -93,35 +116,52 @@
 
     <div class="container">
       <section class="single-project-section">
-        <p class="heading">Moviium</p>
+        <p class="heading">NextUp</p>
 
-        <div class="project-description" data-localization-key="single-project-moviium"></div>
+        <div
+          class="project-description"
+          data-localization-key="single-project-nextup"
+        ></div>
 
-        <a href="https://github.com/AntonioSertic23/Moviium" target="_blank" class="action-button-link">GitHub</a>
+        <a
+          href="https://github.com/AntonioSertic23/NextUp"
+          target="_blank"
+          class="action-button-link"
+          >GitHub</a
+        >
 
         <div class="slider-container">
           <div class="swiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <img src="../assets/projects/moviium/1.png" alt="" />
+                <img
+                  src="../assets/projects/nextup/1.png"
+                  alt="NextUp home watchlist"
+                />
               </div>
               <div class="swiper-slide">
-                <img src="../assets/projects/moviium/2.png" alt="" />
+                <img
+                  src="../assets/projects/nextup/2.png"
+                  alt="NextUp My Shows — upcoming episodes and collection"
+                />
               </div>
               <div class="swiper-slide">
-                <img src="../assets/projects/moviium/3.png" alt="" />
+                <img
+                  src="../assets/projects/nextup/3.png"
+                  alt="NextUp Discover — search and Trakt carousels"
+                />
               </div>
               <div class="swiper-slide">
-                <img src="../assets/projects/moviium/4.png" alt="" />
+                <img
+                  src="../assets/projects/nextup/4.png"
+                  alt="NextUp show details with seasons and episodes"
+                />
               </div>
               <div class="swiper-slide">
-                <img src="../assets/projects/moviium/5.png" alt="" />
-              </div>
-              <div class="swiper-slide">
-                <img src="../assets/projects/moviium/6.png" alt="" />
-              </div>
-              <div class="swiper-slide">
-                <img src="../assets/projects/moviium/7.png" alt="" />
+                <img
+                  src="../assets/projects/nextup/5.png"
+                  alt="NextUp Statistics dashboard"
+                />
               </div>
             </div>
           </div>

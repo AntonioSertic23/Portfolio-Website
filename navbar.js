@@ -130,8 +130,12 @@ const localizationData = {};
  * @param {string} language - Language code ("en", "hr", ...).
  * @returns {Promise<void>} Resolves when data is loaded.
  */
+const localizationAssetsPrefix = window.location.pathname.includes("/single-projects/")
+  ? "../"
+  : "./";
+
 const loadLocalizationData = (language) =>
-  fetch(`../assets/languages/${language}.json`)
+  fetch(`${localizationAssetsPrefix}assets/languages/${language}.json`)
     .then((response) => {
       if (!response.ok) throw new Error(`Failed to load ${language} data`);
       return response.json();

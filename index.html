@@ -776,6 +776,10 @@
 
     <footer>
       <p data-localization-key="footer"></p>
+      <p class="visit-counter">
+        <span data-localization-key="visit-counter"></span>
+        <span id="visit-count">0</span>
+      </p>
     </footer>
 
     <div id="resumeModal" class="modal">
@@ -818,5 +822,14 @@
         </div>
       </div>
     </div>
+    <script>
+      (function () {
+        var key = "portfolio-visit-count";
+        var count = (parseInt(localStorage.getItem(key), 10) || 0) + 1;
+        localStorage.setItem(key, count);
+        var el = document.getElementById("visit-count");
+        if (el) el.textContent = count;
+      })();
+    </script>
   </body>
 </html>

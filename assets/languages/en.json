@@ -10,7 +10,7 @@
 
   "hero-1": "Hello, my name is",
   "hero-2": "A creative full stack web developer.",
-  "hero-3": "I am a passionate and creative software engineer specialized in building (and occasionally designing) full stack web applications. Currently, I am focused on developing applications at <a target='_blank' href='https://www.infigo.hr'>Infigo IS</a>.",
+  "hero-3": "I am a passionate and creative software engineer specialized in building (and occasionally designing) full stack web applications. Currently, I work as a Product Owner at <a target='_blank' href='https://www.infigo.hr'>Infigo IS</a>.",
   "hero-4": "Resume",
 
   "aboutme-heading": "About Me",
@@ -20,14 +20,18 @@
   "aboutme-text-4": "I completed my student internship in the second year of study by attending a frontend academy held by <a target='_blank' href='https://factory.dev'>Factory</a>.",
   "aboutme-text-5": "At the beginning of the third year, I got employed as a programmer at <a target='_blank' href='https://www.fina.hr'>Fina</a>, also in Virovitica, where I continued to work for the next two years after graduating.",
   "aboutme-text-6": "At the end of 2023, I made a decision to broaden my horizons, knowledge, and experiences, so I joined <a target='_blank' href='https://www.infigo.hr'>Infigo</a> in Zagreb as a software developer.",
-  "aboutme-text-7": "At the end of 2025, after gaining valuable hands-on experience in software development, I transitioned into a <b>Product Owner</b> role at Infigo, where I now focus on shaping product direction, working closely with stakeholders, and leveraging my technical background to make informed product decisions.",
+  "aboutme-text-7": "At the end of 2025 I moved into a <b>Product Owner</b> role at Infigo. I still rely on my engineering background, but my focus is now on product direction, priorities, and day-to-day work with the team and clients.",
   "aboutme-text-8": "Outside of work hours, I explore various interests and passions. I learn new technologies and continuously expand my knowledge of programming languages I already know. Additionally, I enjoy reading books, watching movies and series, but my greatest enjoyment comes from playing board games.",
 
   "jobs-heading": "Work Experience",
   "jobs-po-1": "December 2025 - Present",
-  "jobs-po-2": "Define product vision, roadmap, and priorities together with stakeholders, balancing business goals, user needs, and technical constraints.",
+  "jobs-po-2": "Set product priorities and the roadmap for <a target='_blank' href='https://www.infigo.hr/hr/softverski-proizvodi/compli/'>Compli</a> together with the team and clients.",
+  "jobs-po-3": "Balance business goals, user needs, and technical constraints when deciding what to build next.",
+  "jobs-po-4": "Break down and refine backlog items, clarify requirements, and keep delivery aligned with sprint goals.",
+  "jobs-po-5": "Write acceptance criteria and validate finished work before release.",
+  "jobs-po-6": "Work day to day with developers and clients, using a technical background to judge feasibility and catch risks early.",
 
-  "jobs-infigo-1": "October 2023 - November 2025",
+  "jobs-infigo-1": "October 2023 - Present",
   "jobs-infigo-2": "Worked in a dynamic environment on several larger applications simultaneously (up to 3 per sprint), created and tracked tickets, and coordinated tasks within the team.",
   "jobs-infigo-3": "Developed new functionalities and custom components using modern JavaScript experience.",
   "jobs-infigo-4": "Learned and used Python, Linux (Ubuntu), and Docker through daily work and internal software development.",
@@ -47,8 +51,8 @@
   "projects-heading": "My Projects",
   "projects-1-name": "NextUp",
   "projects-1-description": "A personal project built to keep track of the shows I watch, without relying on external platforms. It’s a simple, fast SPA in vanilla JavaScript, with Supabase handling data and optional Trakt.tv integration for metadata and syncing.",
-  "projects-2-name": "Svaštaonica Za Bebe",
-  "projects-2-description": "Small passion project where I expanded my Vue.js knowledge and showcased creativity. Created for a client as a product showcase site.",
+  "projects-2-name": "Svaštaonica",
+  "projects-2-description": "Client product catalog built as a Vue.js SPA. In 2026 I did a light redesign, added HR/EN localization, and a Decap CMS /admin for managing products.",
   "projects-3-name": "Fast Food Pink Panther Crikvenica",
   "projects-3-description": "Medium-sized Vue.js project initiated for client website redesign, showcasing creativity.",
   "projects-4-name": "Smart Villages",
@@ -69,6 +73,7 @@
   "more-projects-9": "Website created at college as a project for construction exercises in the Fundamentals of Web Programming course.<br /><br />The project's theme was chosen to address potential issues related to hotel chain management.",
   "more-projects-10": "The main goal of this project is to create a Python script that conducts a comprehensive analysis of license plates. The script calculates various statistics and details of the game, saving the results in a structured CSV file.",
   "more-projects-11": "Web application designed to manage movie theaters, allowing users to reserve seats for various movies.",
+  "more-projects-12": "Personal app for diagnosing Commander decks: health scores, concrete problems, cut and add suggestions, and tracking shared physical cards across lists.",
   "show-more": "Show More",
 
   "contact-heading": "Contact",
@@ -93,7 +98,9 @@
   "resume-modal-4": "Close",
   "resume-modal-5": "Open",
 
-  "single-project-svastaonica-za-bebe": "<p>The 'Svaštaonica Za Bebe' website is a small passion project through which I wanted to enhance my knowledge of Vue.js and showcase my creativity. It was also created for a client to beautifully display all of their products in one place.</p><p>The website is built as a <b>Single Page Application</b>, utilizing the following technologies: <b>HTML</b>, <b>CSS</b> with <b>Bootstrap 5.0.2</b>, and the latest <b>Vue.js 3</b> with the <b>Composition API</b>. The site is responsive, adapting to both desktop and mobile devices.</p><p>The design of the website follows modern web design principles, including font scaling, spacing between elements and text, and various other aspects. It incorporates numerous interactive <i>hover</i> effects that are not overly intrusive. Its appearance resembles that of an online store with added creativity and something new.</p><p>The website is hosted on Netlify and can be visited <a href='https://svastaonicazabebe.netlify.app' class='link' target='_blank'>through the following link</a>.</p>",
+  "single-project-svastaonica-za-bebe": "<p><b>Svaštaonica</b> is a passion project and client catalog for handmade products — a place to browse the full offer without a heavy e-commerce stack. I used it to practice <b>Vue.js</b> and ship something the client could actually use.</p><p>It is a <b>Single Page Application</b> on <b>Vite</b> with <b>Vue.js 3</b> (<b>Composition API</b>), <b>Vue Router</b>, and <b>Bootstrap 5</b>. The layout is responsive, with light hover interactions and a store-like browsing feel.</p><p><b>Main sections:</b></p><ul class='unordered-list'><li>Home with featured / best-selling products and short brand messages</li><li>Gallery with sorting and search</li><li>Product detail pages (images, specs, related items, lightbox)</li><li>Order flow, About, and Contact</li></ul><p>In <b>2026</b> I did a light redesign and maintenance pass: refreshed hero and UI sections, full <b>HR/EN</b> localization, and a <b>/admin</b> area on <b>Decap CMS</b> so products live as JSON under <code>src/content/products/</code> and can be edited without touching code. Production admin uses <b>GitHub OAuth</b> (repo write access); local CMS skips login via <code>decap-server</code>. I also dropped jQuery for scroll/slider/router polish and tightened gallery and product-page UX.</p><p>Hosted on Netlify: <a href='https://svastaonica.netlify.app' class='link' target='_blank'>svastaonica.netlify.app</a>.</p>",
+
+  "single-project-mtg-deck-doctor": "<p><b>MTG Deck Doctor</b> is a personal app for Commander players who run several decks and share expensive physical cards between them. It diagnoses lists, explains what is weak, suggests cuts and adds, and shows where overlapping staples live.</p><p>The goal was never to replace Archidekt, Scryfall, or EDHREC. The value is in analysis and practical inventory: a clear <b>DECK HEALTH</b> report, concrete problems instead of raw stats, and a first-class <b>Shared</b> view for physical-card conflicts.</p><p>Built with <b>Next.js</b> (App Router) and <b>TypeScript</b>, styled with <b>Tailwind CSS</b>. Card data comes from <b>Scryfall</b> only through Next.js API routes. Domain logic is covered with <b>Vitest</b> unit tests. Hosted on <b>Netlify</b> and installable as a <b>PWA</b>.</p><p>With <b>Supabase</b> configured, you sign in with email/password and decks sync to your account. Without those env vars the app falls back to browser <b>IndexedDB</b> (Local badge, no login).</p><p><b>On a deck page you get:</b></p><ul class='unordered-list'><li>Health scores for mana base, ramp, draw, interaction, removal, win conditions, curve, and synergy</li><li>Problems with severity, short explanations, and \"try adding\" suggestions</li><li>Cut / add recommendations and an explain-my-deck style overview</li><li>Table-ready tracking (brought / played counters)</li></ul><p><b>Typical flow:</b></p><ol class='ordered-list'><li>Import a plain-text decklist (Archidekt / Moxfield export works)</li><li>Open the deck and review health, problems, cuts, adds, and card images</li><li>Import another list and use <b>Shared</b> for overlapping staples and price filters</li><li>Replace a list, export JSON backups, or restore from file on Import</li></ol><p>Live site: <a href='https://mtgdeckdoctor.netlify.app' class='link' target='_blank'>mtgdeckdoctor.netlify.app</a>.</p>",
 
   "single-project-pink-panther": "<p>The Fast Food Pink Panther Crikvenica website is a medium-sized, passion project through which I wanted to start learning Vue.js and showcase my creativity. It was also created based on the client's need for redesigning an existing website.</p><p>The website is built as a <b>Single Page Application</b>, using the following technologies: <b>HTML</b>, <b>CSS</b> with <b>Bootstrap 5.0.2</b>, and the latest <b>Vue.js 3</b> with the <b>Composition API</b>. It also utilizes <b>Leaflat</b>, a JavaScript library for interactive maps, and it's worth mentioning that <b>Vue I18n</b>, an internationalization plugin for Vue.js, is implemented. The site was originally designed for mobile devices but was later adapted for desktop and tablet use as well.</p><p>The design of the website adheres to modern web design principles, including font scaling, spacing between elements and text, and various other aspects. Its appearance resembles that of a restaurant's website more than a fast-food site, which was intentional to align with their specific culture.</p><p>A personalized style guide was also created for the website to facilitate the learning of style guide development. The style guide can be downloaded by clicking on the following button.</p>",
   "before-and-after-redesign": "Before & After redesign",

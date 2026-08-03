@@ -1,22 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta
       name="keywords"
-      content="HTML, CSS, JavaScript, Vue, Bootstrap, Decap CMS, Netlify, Svaštaonica"
+      content="TypeScript, Next.js, Tailwind, Supabase, Scryfall, MTG, Commander, Magic The Gathering, Netlify, PWA"
     />
     <meta
       name="description"
-      content="Svaštaonica — Vue.js product catalog with HR/EN localization and Decap CMS admin."
+      content="MTG Deck Doctor — Next.js app for diagnosing Commander decks with health scores, cut/add suggestions, and shared card tracking."
     />
     <meta name="author" content="Antonio Sertić" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Svaštaonica — Portfolio</title>
+    <title>MTG Deck Doctor — Portfolio</title>
     <link rel="stylesheet" href="../reset.css" />
     <link rel="stylesheet" href="../css/global-style.css" />
     <link rel="stylesheet" href="../css/single-project-style.css" />
-    <link rel="stylesheet" href="../assets/swiper-11.0.7/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="../assets/swiper-11.0.7/swiper-bundle.min.css"
+    />
     <script defer src="../assets/swiper-11.0.7/swiper-bundle.min.js"></script>
     <script defer src="../assets/jquery-3.6.4.min.js"></script>
     <script defer src="../navbar.js"></script>
@@ -34,7 +37,10 @@
           <a href="/#jobs-section" data-localization-key="menu-experience"></a>
         </li>
         <li>
-          <a href="/#projects-section" data-localization-key="menu-projects"></a>
+          <a
+            href="/#projects-section"
+            data-localization-key="menu-projects"
+          ></a>
         </li>
         <li>
           <a href="/#contact-section" data-localization-key="menu-contact"></a>
@@ -47,7 +53,11 @@
           </select>
         </li>
         <li>
-          <select class="language-select action-button-link" placeholder="Language" id="change-language">
+          <select
+            class="language-select action-button-link"
+            placeholder="Language"
+            id="change-language"
+          >
             <option value="en">English</option>
             <option value="hr">Croatian</option>
           </select>
@@ -70,7 +80,10 @@
           <a href="/#jobs-section" data-localization-key="menu-experience"></a>
         </li>
         <li>
-          <a href="/#projects-section" data-localization-key="menu-projects"></a>
+          <a
+            href="/#projects-section"
+            data-localization-key="menu-projects"
+          ></a>
         </li>
         <li>
           <a href="/#contact-section" data-localization-key="menu-contact"></a>
@@ -83,7 +96,11 @@
           </select>
         </li>
         <li>
-          <select class="language-select action-button-link" placeholder="Language" id="change-language-sidebar">
+          <select
+            class="language-select action-button-link"
+            placeholder="Language"
+            id="change-language-sidebar"
+          >
             <option value="en">English</option>
             <option value="hr">Croatian</option>
           </select>
@@ -93,56 +110,100 @@
 
     <div class="container">
       <section class="single-project-section">
-        <p class="heading">Svaštaonica</p>
+        <p class="heading">MTG Deck Doctor</p>
 
-        <div class="project-description" data-localization-key="single-project-svastaonica-za-bebe"></div>
+        <div
+          class="project-description"
+          data-localization-key="single-project-mtg-deck-doctor"
+        ></div>
 
         <div class="links">
-          <a href="https://github.com/AntonioSertic23/Svastaonica" target="_blank" class="action-button-link">GitHub</a>
-          <a href="https://svastaonica.netlify.app" target="_blank" class="action-button-link">Live</a>
+          <a
+            href="https://github.com/AntonioSertic23/MTGDeckDoctor"
+            target="_blank"
+            class="action-button-link"
+            >GitHub</a
+          >
+          <a
+            href="https://mtgdeckdoctor.netlify.app"
+            target="_blank"
+            class="action-button-link"
+            >Live</a
+          >
         </div>
 
-        <div class="slider-container">
+        <div class="slider-container slider-precise">
           <div class="swiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <img src="../assets/projects/svastaonica-za-bebe/1.png" alt="" />
+                <img
+                  src="../assets/projects/mtg-deck-doctor/1.png"
+                  width="1920"
+                  height="920"
+                  loading="eager"
+                  decoding="async"
+                  alt="MTG Deck Doctor — home overview"
+                />
               </div>
               <div class="swiper-slide">
-                <img src="../assets/projects/svastaonica-za-bebe/2.png" alt="" />
+                <img
+                  src="../assets/projects/mtg-deck-doctor/2.png"
+                  width="1920"
+                  height="920"
+                  loading="lazy"
+                  decoding="async"
+                  alt="MTG Deck Doctor — decks library"
+                />
               </div>
               <div class="swiper-slide">
-                <img src="../assets/projects/svastaonica-za-bebe/3.png" alt="" />
+                <img
+                  src="../assets/projects/mtg-deck-doctor/3.png"
+                  width="1920"
+                  height="920"
+                  loading="lazy"
+                  decoding="async"
+                  alt="MTG Deck Doctor — deck diagnosis header and commander"
+                />
               </div>
               <div class="swiper-slide">
-                <img src="../assets/projects/svastaonica-za-bebe/4.png" alt="" />
+                <img
+                  src="../assets/projects/mtg-deck-doctor/4.png"
+                  width="1920"
+                  height="920"
+                  loading="lazy"
+                  decoding="async"
+                  alt="MTG Deck Doctor — health metrics"
+                />
               </div>
               <div class="swiper-slide">
-                <img src="../assets/projects/svastaonica-za-bebe/5.png" alt="" />
+                <img
+                  src="../assets/projects/mtg-deck-doctor/5.png"
+                  width="1920"
+                  height="920"
+                  loading="lazy"
+                  decoding="async"
+                  alt="MTG Deck Doctor — problems and suggestions"
+                />
               </div>
               <div class="swiper-slide">
-                <img src="../assets/projects/svastaonica-za-bebe/6.png" alt="" />
+                <img
+                  src="../assets/projects/mtg-deck-doctor/6.png"
+                  width="1920"
+                  height="920"
+                  loading="lazy"
+                  decoding="async"
+                  alt="MTG Deck Doctor — import decklist"
+                />
               </div>
               <div class="swiper-slide">
-                <img src="../assets/projects/svastaonica-za-bebe/7.png" alt="" />
-              </div>
-              <div class="swiper-slide">
-                <img src="../assets/projects/svastaonica-za-bebe/8.png" alt="" />
-              </div>
-              <div class="swiper-slide">
-                <img src="../assets/projects/svastaonica-za-bebe/9.png" alt="" />
-              </div>
-              <div class="swiper-slide">
-                <img src="../assets/projects/svastaonica-za-bebe/10.png" alt="" />
-              </div>
-              <div class="swiper-slide">
-                <img src="../assets/projects/svastaonica-za-bebe/11.png" alt="" />
-              </div>
-              <div class="swiper-slide">
-                <img src="../assets/projects/svastaonica-za-bebe/12.png" alt="" />
-              </div>
-              <div class="swiper-slide">
-                <img src="../assets/projects/svastaonica-za-bebe/13.png" alt="" />
+                <img
+                  src="../assets/projects/mtg-deck-doctor/7.png"
+                  width="1920"
+                  height="920"
+                  loading="lazy"
+                  decoding="async"
+                  alt="MTG Deck Doctor — shared cards"
+                />
               </div>
             </div>
           </div>

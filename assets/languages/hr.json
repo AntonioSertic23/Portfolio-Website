@@ -10,7 +10,7 @@
 
   "hero-1": "Pozdrav, zovem se",
   "hero-2": "Kreativni full stack web developer.",
-  "hero-3": "Strastveni sam i kreativni softverski inženjer specijaliziran za izgradnju (i povremeno dizajniranje) full stack web aplikacija. Trenutačno sam usredotočen na razvoj aplikacija u <a target='_blank' href='https://www.infigo.hr'>Infigo IS</a>.",
+  "hero-3": "Strastveni sam i kreativni softverski inženjer specijaliziran za izgradnju (i povremeno dizajniranje) full stack web aplikacija. Trenutačno radim kao Product Owner u <a target='_blank' href='https://www.infigo.hr'>Infigo IS</a>.",
   "hero-4": "Životopis",
 
   "aboutme-heading": "O meni",
@@ -21,14 +21,18 @@
   "aboutme-text-4": "Studentsku praksu sam odradio na drugoj godini studija, pohađanjem frontend akademije koju je održavao <a target='_blank' href='https://factory.dev'>Factory</a>.",
   "aboutme-text-5": "Početkom treće godine sam se zaposlio kao programer u <a target='_blank' href='https://www.fina.hr'>Fini</a>, također u Virovitici gdje sam nakon studiranja nastavio raditi naredne dvije godine.",
   "aboutme-text-6": "Krajem 2023. godine, donio sam odluku da proširim svoje vidike, znanja i iskustva te sam se pridružio <a target='_blank' href='https://www.infigo.hr'>Infigo-u</a> u Zagrebu kao softverski developer.",
-  "aboutme-text-7": "Krajem 2025. godine, nakon stečenog vrijednog iskustva u razvoju softvera, prešao sam na ulogu <b>Product Ownera</b> u Infigu, gdje se sada fokusiram na oblikovanje smjera proizvoda, blisku suradnju sa stakeholderima te korištenje tehničkog backgrounda za donošenje informiranih odluka o proizvodu.",
+  "aboutme-text-7": "Krajem 2025. prešao sam na ulogu <b>Product Ownera</b> u Infigu. I dalje se oslanjam na inženjersko iskustvo, ali fokus mi je sada na smjeru proizvoda, prioritetima te svakodnevnoj suradnji s timom i klijentima.",
   "aboutme-text-8": "Van radnog vremena, istražujem različite interese i strasti. Učim nove tehnologije i neprestano nadograđujem znanje iz programskih jezika koje već poznajem. Uz to, uživam u čitanju knjiga, gledanju filmova i serija, ali najviše uživam u igranju društvenih igara.",
 
   "jobs-heading": "Radno iskustvo",
   "jobs-po-1": "Prosinac 2025 - Danas",
-  "jobs-po-2": "Definiram viziju, mapu i prioritete proizvoda zajedno sa stakeholderima, balansirajući poslovne ciljeve, potrebe korisnika i tehnička ograničenja.",
+  "jobs-po-2": "Definiram prioritete i plan razvoja proizvoda <a target='_blank' href='https://www.infigo.hr/hr/softverski-proizvodi/compli/'>Compli</a> zajedno s timom i klijentima.",
+  "jobs-po-3": "Usklađujem poslovne ciljeve, potrebe korisnika i tehnička ograničenja pri odluci što ide u razvoj.",
+  "jobs-po-4": "Razrađujem i doradujem stavke u backlogu, pojašnjavam zahtjeve i držim isporuku usklađenom sa sprint ciljevima.",
+  "jobs-po-5": "Pišem acceptance criteria i provjeravam gotov rad prije isporuke.",
+  "jobs-po-6": "Svakodnevno surađujem s developerima i klijentima, koristeći tehničko iskustvo za procjenu izvedivosti i rano uočavanje rizika.",
 
-  "jobs-infigo-1": "Listopad 2023 - Studeni 2025",
+  "jobs-infigo-1": "Listopad 2023 - Danas",
   "jobs-infigo-2": "Radio u dinamičnom okruženju na nekoliko većih aplikacija istovremeno (do 3 po sprintevima), raspisivao i pratio tikete te koordinirao zadatke unutar tima.",
   "jobs-infigo-3": "Razvijao nove funkcionalnosti i custom komponente koristeći moderno JavaScript iskustvo.",
   "jobs-infigo-4": "Učio i koristio Python, Linux (Ubuntu) i Docker kroz svakodnevni rad i razvoj internog softvera.",
@@ -48,8 +52,8 @@
   "projects-heading": "Moji projekti",
   "projects-1-name": "NextUp",
   "projects-1-description": "Osobni projekt napravljen za praćenje serija koje gledam, bez oslanjanja na vanjske platforme. Jednostavna i brza SPA aplikacija u vanilla JavaScriptu, uz Supabase za upravljanje podacima i opcionalnu Trakt.tv integraciju za metapodatke i sinkronizaciju.",
-  "projects-2-name": "Svaštaonica Za Bebe",
-  "projects-2-description": "Mali strastveni projekt preko kojega sam proširio znanje Vue.js-a i pokazao svoju kreativnost. Kreirana je za potrebe klijenta kao mala ogledna stranica za prikaza svih proizvoda iz ponude.",
+  "projects-2-name": "Svaštaonica",
+  "projects-2-description": "Katalog proizvoda za klijenta, izrađen kao Vue.js SPA. Godine 2026. napravio sam manji redizajn, dodao HR/EN lokalizaciju i Decap CMS /admin za upravljanje proizvodima.",
   "projects-3-name": "Fast Food Pink Panther Crikvenica",
   "projects-3-description": "Srednje-velik, strastveni projekt preko kojega sam započeo izučavanje Vue.js-a i pokazao svoju kreativnost. Kreirana je iz potrebe klijenta za redizajnom postojeće stranice.",
   "projects-4-name": "Smart Villages",
@@ -70,6 +74,7 @@
   "more-projects-9": "Stranica nastala na faksu kao projekt za konstrukcijske vježbe za predmet Osnove Web Programiranja.<br /><br />Tema projekta je izabrana zbog rješavanja potencijalne problematike vođenja lanca hotela.",
   "more-projects-10": "Glavni cilj ovog projekta je stvoriti Python skriptu koja provodi sveobuhvatnu analizu registracijskih pločica. Skripta izračunava različite statistike i pojedinosti igre, sprema rezultate u strukturiranu CSV datoteku.",
   "more-projects-11": "Web aplikacija dizajnirana za upravljanje kinima, omogućavajući korisnicima rezervaciju sjedala za različite filmove.",
+  "more-projects-12": "Osobna aplikacija za dijagnostiku Commander špilova: health score, konkretni problemi, prijedlozi za izbacivanje i dodavanje karata te praćenje dijeljenih fizičkih karata kroz više lista.",
   "show-more": "Prikaži više",
 
   "contact-heading": "Kontakt",
@@ -94,7 +99,9 @@
   "resume-modal-4": "Zatvori",
   "resume-modal-5": "Otvori",
 
-  "single-project-svastaonica-za-bebe": "<p>Stranica Svaštaonica Za Bebe je mali strastveni projekt preko kojega sam želio usavršiti znanje Vue.js-a te pokazati svoju kreativnost. Isto tako kreirana je za potrebe klijenta u svrhu lijepog prikaza svih njegovih proizvoda na jednome mjestu.</p><p>Stranica je rađena kao <b>Single Page Application</b> te su se za izradu stranice koristile sljedeće tehnologije: <b>HTML</b>, <b>CSS</b> uz <b>Bootstrap 5.0.2.</b>, te je od JavaScript frameworka izabran najnoviji <b>Vue.js 3</b> uz <b>Composition API</b>. Stranica je osim desktop uređaja prilagođena i mobilnim uređajima.</p><p> Dizajn stranice je popraćen modernim web dizajn pravilima kao što su skaliranje fonta, razmaci između elemenata i tekstova i razne druge stvari. Sadrži dosta interaktivnih <i>hover</i> efekata koji ujedno i nisu previše ''napadni''. Izgledom podsjeća na web trgovinu s dodatkom vlastite kreativnosti i <i>nečeg novog</i>.</p><p> Stranica je hostana na Netlify-u te ju se može posjetiti <a href='https://svastaonicazabebe.netlify.app' class='link' target='_blank'>preko sljedećeg linka</a>.</p>",
+  "single-project-svastaonica-za-bebe": "<p><b>Svaštaonica</b> je strastveni projekt i klijentski katalog ručnih radova — mjesto za pregled cijele ponude bez teškog e-commerce stacka. Preko njega sam vježbao <b>Vue.js</b> i isporučio nešto što klijent stvarno može koristiti.</p><p>Rađena je kao <b>Single Page Application</b> na <b>Viteu</b> uz <b>Vue.js 3</b> (<b>Composition API</b>), <b>Vue Router</b> i <b>Bootstrap 5</b>. Sučelje je responzivno, s blagim hover interakcijama i dojmom male web trgovine.</p><p><b>Glavni dijelovi:</b></p><ul class='unordered-list'><li>Početna s istaknutim / najprodavanijim proizvodima i kratkim brand porukama</li><li>Galerija sa sortiranjem i pretragom</li><li>Stranice proizvoda (slike, specifikacije, srodni proizvodi, lightbox)</li><li>Tok narudžbe, O nama i Kontakt</li></ul><p>Godine <b>2026.</b> napravio sam manji redizajn i maintenance: osvježen hero i UI dijelovi, puna <b>HR/EN</b> lokalizacija te <b>/admin</b> na <b>Decap CMS</b>-u — proizvodi su JSON datoteke u <code>src/content/products/</code> i uređuju se bez diranja koda. U produkciji admin radi preko <b>GitHub OAuth</b> (write na repo); lokalno CMS preskače login uz <code>decap-server</code>. Maknuo sam i jQuery uz doradu scrolla/slidera/routera te poboljšao galeriju i product page UX.</p><p>Hostana na Netlifyu: <a href='https://svastaonica.netlify.app' class='link' target='_blank'>svastaonica.netlify.app</a>.</p>",
+
+  "single-project-mtg-deck-doctor": "<p><b>MTG Deck Doctor</b> je osobna aplikacija za Commander igrače koji drže više špilova i dijele skupe fizičke karte među njima. Dijagnosticira liste, objašnjava što šepa, predlaže cutove i adove te pokazuje gdje se staplei preklapaju.</p><p>Cilj nije bio zamijeniti Archidekt, Scryfall ili EDHREC. Vrijednost je u analizi i praktičnom inventoryju: jasan <b>DECK HEALTH</b> izvještaj, konkretni problemi umjesto suhih brojki te <b>Shared</b> pogled za konflikte fizičkih karata.</p><p>Rađena je u <b>Next.js</b>-u (App Router) i <b>TypeScriptu</b>, uz <b>Tailwind CSS</b>. Podaci o kartama dolaze sa <b>Scryfalla</b> isključivo preko Next.js API ruta. Domenska logika pokrivena je <b>Vitest</b> unit testovima. Hostana na <b>Netlifyu</b> i dostupna kao <b>PWA</b>.</p><p>Uz konfigurirani <b>Supabase</b> prijavljuješ se emailom/lozinkom i špilovi se sinkroniziraju na račun. Bez tih env varijabli aplikacija pada na <b>IndexedDB</b> u pregledniku (Local badge, bez logina).</p><p><b>Na stranici špila dobiješ:</b></p><ul class='unordered-list'><li>Health scoreove za mana base, ramp, draw, interaction, removal, win conditions, curve i synergy</li><li>Probleme s težinom, kratkim objašnjenjem i \"try adding\" prijedlozima</li><li>Prijedloge za cut / add te overview u stilu explain-my-deck</li><li>Table-ready praćenje (brought / played brojači)</li></ul><p><b>Tipičan tok:</b></p><ol class='ordered-list'><li>Uvezi plain-text decklistu (Archidekt / Moxfield export radi)</li><li>Otvori špil i pregledaj health, probleme, cutove, adove i slike karata</li><li>Uvezi još jednu listu i na <b>Shared</b> vidi preklapajuće staplee i filtere po cijeni</li><li>Zamijeni listu, exportaj JSON backup ili restoreaj s Import stranice</li></ol><p>Live: <a href='https://mtgdeckdoctor.netlify.app' class='link' target='_blank'>mtgdeckdoctor.netlify.app</a>.</p>",
 
   "single-project-pink-panther": "<p>Stranica Fast Food Pink Panther Crikvenica je srednje-velik, strastveni projekt preko kojega sam želio započet izučavanje Vue.js-a te pokazati svoju kreativnost. Isto tako kreirana je iz potrebe klijenta za redizajnom postojeće stranice.</p><p>Stranica je rađena kao <b>Single Page Application</b> te su se za izradu stranice koristile sljedeće tehnologije: <b>HTML</b>, <b>CSS</b> uz <b>Bootstrap 5.0.2.</b>, te je od JavaScript frameworka izabran najnoviji <b>Vue.js 3</b> uz <b>Composition API</b>. Korištena je i <b>Leaflat</b> - JavaScript biblioteka za interaktivne karte, a mora se spomenuti i da je implementiran <b>Vue I18n</b> - Internacionalizacijski plugin za Vue.js. Stranica je prvotno bila prilagođena samo mobilnim uređajima, ali je potom prilagođena i desktop uređajima te tabletima. <br /></p><p>Dizajn stranice je popraćen modernim web dizajn pravilima kao što su skaliranje fonta, razmaci između elemenata i tekstova i razne druge stvari. Izgledom više podsjeća na stranicu restorana prije nego fast fooda, ali to je ciljano jer je njihova kultura to jednostavno zahtijevala.</p><p>Za stranicu je također izrađen i personalizirani style guide iz želje za učenjem izrade istih. Style guide se može preuzeti klikom na sljedeći gumb.</p>",
   "before-and-after-redesign": "Prije & Nakon redizajna",
